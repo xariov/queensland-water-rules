@@ -1,11 +1,11 @@
 {
   "name": "Queensland Water Rules",
-  "short_name": "QLD Road Rules",
-  "description": "Practice the Queensland road rules with visual scenarios. Every question cites the rule it tests.",
+  "short_name": "QLD Water Rules",
+  "description": "Practice for the Queensland boat and PWC licence with visual scenarios. Every question cites the rule it tests.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f2f2ee",
-  "theme_color": "#5a9e4b",
+  "theme_color": "#1f4e79",
   "icons": [
     { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]

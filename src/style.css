@@ -163,7 +163,7 @@ header.page p {
 }
 
 .gate a {
-  color: #2e6fd8;
+  color: #2c5f8a;
 }
 
 .gate-accept {
@@ -234,7 +234,7 @@ header.page p {
 .coverage-fill {
   display: block;
   height: 100%;
-  background: #5a9e4b;
+  background: #1f4e79;
   border-radius: 999px;
 }
 
@@ -358,7 +358,7 @@ header.page p {
 .transport-option input {
   width: 1.05rem;
   height: 1.05rem;
-  accent-color: #2e6fd8;
+  accent-color: #2c5f8a;
   cursor: pointer;
 }
 
@@ -380,7 +380,7 @@ header.page p {
 
 .browse .search:focus {
   outline: none;
-  border-color: #2e6fd8;
+  border-color: #2c5f8a;
 }
 
 .tag-picker {
@@ -396,8 +396,8 @@ header.page p {
 
 .tag.selectable.selected {
   color: #fff;
-  background: #2e6fd8;
-  border-color: #2e6fd8;
+  background: #2c5f8a;
+  border-color: #2c5f8a;
 }
 
 .browse-count {
@@ -621,12 +621,12 @@ header.page p {
   border: 1px solid #ccc;
   border-radius: 999px;
   background: #fff;
-  color: #2e6fd8;
+  color: #2c5f8a;
   cursor: pointer;
 }
 
 .share-link:hover {
-  border-color: #2e6fd8;
+  border-color: #2c5f8a;
 }
 
 .quiz .tags {
@@ -651,8 +651,8 @@ button.tag {
 }
 
 .quiz button.tag:hover {
-  border-color: #2e6fd8;
-  color: #2e6fd8;
+  border-color: #2c5f8a;
+  color: #2c5f8a;
 }
 
 .quiz .question {
@@ -679,7 +679,7 @@ button.tag {
 }
 
 .option:hover:not(:disabled) {
-  border-color: #2e6fd8;
+  border-color: #2c5f8a;
   background: #f1f6ff;
 }
 
@@ -689,7 +689,7 @@ button.tag {
 }
 
 .option.correct {
-  border-color: #2e8b46;
+  border-color: #1e8a3c;
   background: #e9f7ec;
   opacity: 1;
 }
@@ -712,7 +712,7 @@ button.tag {
 }
 
 .verdict[data-result='correct'] {
-  color: #2e8b46;
+  color: #1e8a3c;
 }
 
 .verdict[data-result='wrong'] {
@@ -737,7 +737,7 @@ button.tag {
 }
 
 .citations a {
-  color: #2e6fd8;
+  color: #2c5f8a;
 }
 
 .actions {
@@ -758,7 +758,7 @@ button.tag {
   padding: 0.6rem 1.4rem;
   border: none;
   border-radius: 10px;
-  background: #2e6fd8;
+  background: #2c5f8a;
   color: #fff;
   cursor: pointer;
   margin-left: auto;

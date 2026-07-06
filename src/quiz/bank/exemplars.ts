@@ -252,10 +252,12 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'Both sidelights visible together means the vessel is pointing at you; the white masthead light above them tells you it is power-driven. Prepare for a head-on meeting and alter course to starboard.',
     citations: [colregsCitation('23', 'power-driven vessels underway'), colregsCitation('14', 'head-on situation')],
+    // Facing an approaching vessel, its port (red) light is on the
+    // viewer's right and its starboard (green) light on the viewer's left.
     scene: lightsScene('nl-power-lights', 'Masthead light over both sidelights, dead ahead', [
       { color: 'white', x: 50, y: 22, size: 'small' },
-      { color: 'red', x: 44, y: 31 },
-      { color: 'green', x: 56, y: 31 },
+      { color: 'green', x: 44, y: 31 },
+      { color: 'red', x: 56, y: 31 },
     ], 'powerboat'),
   },
   {
