@@ -25,8 +25,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Levels 100, 150 and 275 have collars",
-    "badge": "100+"
+    "label": "Lifejacket flotation collars"
    },
    "vessels": [],
    "id": "safety-collared-levels"
@@ -59,7 +58,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "No collar on a level 50",
+    "label": "Level 50 compared with level 100",
     "badge": "50"
    },
    "vessels": [],
@@ -93,7 +92,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Same buoyancy, less visible colours",
+    "label": "Level 50S special purpose lifejacket",
     "badge": "50S"
    },
    "vessels": [],
@@ -127,7 +126,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Level 50S: smooth waters only",
+    "label": "The level 50S lifejacket",
     "badge": "50S"
    },
    "vessels": [],
@@ -161,7 +160,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Level 50: not beyond partially smooth",
+    "label": "Where a level 50 is acceptable",
     "badge": "50"
    },
    "vessels": [],
@@ -195,8 +194,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Open waters need level 100 or higher",
-    "badge": "100+"
+    "label": "Lifejackets beyond partially smooth"
    },
    "vessels": [],
    "id": "safety-boat-open-waters-level"
@@ -229,8 +227,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "Collared jackets stay off PWC",
-    "badge": "L50"
+    "label": "Level 100 jackets on a PWC"
    },
    "vessels": [],
    "id": "safety-pwc-level-100-ban"
@@ -263,8 +260,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "AS 4758 only from 1 September 2025",
-    "badge": "4758"
+    "label": "Lifejacket rules from 1 September 2025"
    },
    "vessels": [],
    "id": "safety-as4758-only"
@@ -297,7 +293,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Service inflatables by the due date"
+    "label": "Caring for an inflatable lifejacket"
    },
    "vessels": [],
    "id": "safety-inflatable-servicing"
@@ -330,7 +326,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Fit by the marked body mass range"
+    "label": "Choosing a lifejacket for a child"
    },
    "vessels": [],
    "id": "safety-child-jacket-size"
@@ -363,8 +359,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Alone with children under 12",
-    "badge": "4.8 m"
+    "label": "Boating alone with a child"
    },
    "vessels": [],
    "id": "safety-alone-with-child"
@@ -397,7 +392,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Anchored boats are not underway"
+    "label": "Lifejackets while anchored at night"
    },
    "vessels": [],
    "id": "safety-anchored-at-night"
@@ -430,8 +425,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Children wear on any open boat",
-    "badge": "<12"
+    "label": "A child on a 6.5 m open boat"
    },
    "vessels": [],
    "id": "safety-children-any-length"
@@ -464,8 +458,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Open areas of cabin boats",
-    "badge": "<12"
+    "label": "Children on cabin boats"
    },
    "vessels": [],
    "id": "safety-cabin-boat-children"
@@ -498,8 +491,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Bar crossing, open boat of any length",
-    "badge": "1+"
+    "label": "Crossing a designated coastal bar"
    },
    "vessels": [],
    "id": "safety-bar-open-boat"
@@ -532,8 +524,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Open areas of cabin boats on bars",
-    "badge": "1+"
+    "label": "Lifejackets on a coastal bar crossing"
    },
    "vessels": [],
    "id": "safety-bar-cabin-boat"
@@ -566,7 +557,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Drifting still counts as underway"
+    "label": "Drifting while fishing alone"
    },
    "vessels": [],
    "id": "safety-drifting-counts"
@@ -599,7 +590,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Spot-lock counts as underway"
+    "label": "Holding position on spot-lock"
    },
    "vessels": [],
    "id": "safety-spot-lock-underway"
@@ -666,8 +657,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Kayaks and rafts on coastal bars",
-    "badge": "1+"
+    "label": "Sea kayaks on coastal bars"
    },
    "vessels": [],
    "id": "safety-kayak-bar-crossing"
@@ -700,8 +690,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Fines apply from 1 July 2025",
-    "badge": "$333"
+    "label": "Lifejacket wear laws from 1 July 2025"
    },
    "vessels": [],
    "id": "safety-wear-fines"
@@ -775,8 +764,7 @@
    "layout": {
     "kind": "card",
     "icon": "flare",
-    "label": "Beyond smooth waters flare kit",
-    "badge": "2+2"
+    "label": "Beyond smooth waters flare kit"
    },
    "vessels": [],
    "id": "safety-flare-kit"
@@ -805,8 +793,7 @@
    "layout": {
     "kind": "card",
     "icon": "flare",
-    "label": "Only in-date flares count",
-    "badge": "3 yr"
+    "label": "Only in-date flares count"
    },
    "vessels": [],
    "id": "safety-flare-expiry"
@@ -835,7 +822,7 @@
    "layout": {
     "kind": "card",
     "icon": "flare",
-    "label": "Red flares work day and night"
+    "label": "Choosing a flare after dark"
    },
    "vessels": [],
    "id": "safety-night-flare"
@@ -864,8 +851,7 @@
    "layout": {
     "kind": "card",
     "icon": "flare",
-    "label": "Red hand flare visibility",
-    "badge": "6 nm"
+    "label": "Red hand flare visibility"
    },
    "vessels": [],
    "id": "safety-red-flare-range"
@@ -894,7 +880,7 @@
    "layout": {
     "kind": "card",
     "icon": "vSheet",
-    "label": "Distress signal to aircraft and boats"
+    "label": "The V sheet"
    },
    "vessels": [],
    "id": "safety-v-sheet-meaning"
@@ -927,8 +913,7 @@
    "layout": {
     "kind": "card",
     "icon": "epirb",
-    "label": "Register with AMSA",
-    "badge": "2 yr"
+    "label": "EPIRB registration"
    },
    "vessels": [],
    "id": "safety-epirb-registration"
@@ -961,8 +946,7 @@
    "layout": {
     "kind": "card",
     "icon": "epirb",
-    "label": "Digital 406 MHz beacons only",
-    "badge": "406"
+    "label": "The EPIRB carriage requirement"
    },
    "vessels": [],
    "id": "safety-epirb-406"
@@ -995,7 +979,7 @@
    "layout": {
     "kind": "card",
     "icon": "epirb",
-    "label": "A worn PLB can cover a PWC",
+    "label": "PLB instead of an EPIRB on a PWC",
     "badge": "PLB"
    },
    "vessels": [],
@@ -1024,8 +1008,8 @@
    "title": "Signalling light after sunset",
    "layout": {
     "kind": "card",
-    "icon": "torch",
-    "label": "Carry a light sunset to sunrise"
+    "icon": "checklist",
+    "label": "Signalling equipment after sunset"
    },
    "vessels": [],
    "id": "safety-torch-at-night"
@@ -1058,7 +1042,7 @@
    "layout": {
     "kind": "card",
     "icon": "epirb",
-    "label": "Activate as a last resort"
+    "label": "When to activate the EPIRB"
    },
    "vessels": [],
    "id": "safety-epirb-last-resort"
@@ -1087,8 +1071,7 @@
    "layout": {
     "kind": "card",
     "icon": "fireExtinguisher",
-    "label": "Required on all boats over 5 m",
-    "badge": "5 m"
+    "label": "Fire fighting equipment"
    },
    "vessels": [],
    "id": "safety-fire-equipment-over-5m"
@@ -1151,7 +1134,7 @@
    "layout": {
     "kind": "card",
     "icon": "fireExtinguisher",
-    "label": "Aim at the base of the fire",
+    "label": "The PASS method",
     "badge": "PASS"
    },
    "vessels": [],
@@ -1181,7 +1164,7 @@
    "layout": {
     "kind": "card",
     "icon": "fuel",
-    "label": "Shut down before refuelling"
+    "label": "Before refuelling"
    },
    "vessels": [],
    "id": "safety-refuelling-before"
@@ -1239,7 +1222,7 @@
    "layout": {
     "kind": "card",
     "icon": "fuel",
-    "label": "Upright in a vented locker",
+    "label": "Storing LPG bottles on a boat",
     "badge": "LPG"
    },
    "vessels": [],
@@ -1269,7 +1252,7 @@
    "layout": {
     "kind": "card",
     "icon": "fuel",
-    "label": "LPG sinks into the bilge",
+    "label": "LPG on board",
     "badge": "LPG"
    },
    "vessels": [],
@@ -1303,7 +1286,7 @@
    "layout": {
     "kind": "card",
     "icon": "fireExtinguisher",
-    "label": "Keep the powder loose"
+    "label": "Dry powder extinguisher care"
    },
    "vessels": [],
    "id": "safety-powder-shake"
@@ -1336,8 +1319,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "V sheet and flares beyond smooth water",
-    "badge": "2+2"
+    "label": "Equipment for partially smooth waters"
    },
    "vessels": [],
    "id": "safety-partially-smooth-additions"
@@ -1369,9 +1351,8 @@
    "title": "Heading offshore adds an EPIRB",
    "layout": {
     "kind": "card",
-    "icon": "epirb",
-    "label": "Add an EPIRB offshore",
-    "badge": "2 nm"
+    "icon": "checklist",
+    "label": "Equipment for offshore trips"
    },
    "vessels": [],
    "id": "safety-open-waters-additions"
@@ -1404,8 +1385,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "PWC flare exemption near land",
-    "badge": "0.5nm"
+    "label": "PWC flare and V sheet exemption"
    },
    "vessels": [],
    "id": "safety-pwc-nearshore-exemption"
@@ -1434,8 +1414,7 @@
    "layout": {
     "kind": "card",
     "icon": "anchor",
-    "label": "Under 5 m in smooth waters",
-    "badge": "18 m"
+    "label": "Under 5 m in smooth waters"
    },
    "vessels": [],
    "id": "safety-anchor-smooth"
@@ -1464,8 +1443,7 @@
    "layout": {
     "kind": "card",
     "icon": "anchor",
-    "label": "Under 5 m beyond smooth waters",
-    "badge": "27 m"
+    "label": "Anchoring in partially smooth waters"
    },
    "vessels": [],
    "id": "safety-anchor-beyond-smooth"
@@ -1494,8 +1472,7 @@
    "layout": {
     "kind": "card",
     "icon": "anchor",
-    "label": "Chain between anchor and rope",
-    "badge": "2 m"
+    "label": "Chain between anchor and rope"
    },
    "vessels": [],
    "id": "safety-anchor-chain-length"
@@ -1524,7 +1501,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Bailer for boats under 5 m"
+    "label": "Bailing and pumping equipment"
    },
    "vessels": [],
    "id": "safety-bailing-small-boat"
@@ -1553,8 +1530,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Bilge pump from 5 m to under 8 m",
-    "badge": "45 L"
+    "label": "Pumping out a 6 m boat"
    },
    "vessels": [],
    "id": "safety-bilge-pump-6m"
@@ -1583,8 +1559,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Oars recommended under 6 m",
-    "badge": "6 m"
+    "label": "When to carry oars or paddles"
    },
    "vessels": [],
    "id": "safety-oars-under-6m"
@@ -1616,8 +1591,8 @@
    "title": "Required in all waters",
    "layout": {
     "kind": "card",
-    "icon": "lifejacket",
-    "label": "Lifejackets on all boats in all waters"
+    "icon": "checklist",
+    "label": "Safety equipment in all waters"
    },
    "vessels": [],
    "id": "safety-all-waters-lifejackets"

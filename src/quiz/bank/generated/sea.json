@@ -225,7 +225,7 @@
       "id": "clearance",
       "around": "cable",
       "radius": 55,
-      "label": "200 m"
+      "label": "keep clear"
      }
     ]
    },
@@ -332,7 +332,7 @@
    "layout": {
     "kind": "card",
     "icon": "anchor",
-    "label": "Danforth, plough, reef anchors"
+    "label": "Anchoring on sand and mud"
    },
    "vessels": [],
    "id": "sea-anchor-types"
@@ -361,7 +361,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Stow heavy gear low and central"
+    "label": "Loading a small open boat"
    },
    "vessels": [],
    "id": "sea-load-low-central"
@@ -420,8 +420,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Cut people carried by a third offshore",
-    "badge": "1/3"
+    "label": "People on board in rough waters"
    },
    "vessels": [],
    "id": "sea-capacity-rough-third"
@@ -638,7 +637,7 @@
    "layout": {
     "kind": "card",
     "icon": "weather",
-    "label": "Check forecasts before and during trips"
+    "label": "Weather planning for a day trip"
    },
    "vessels": [],
    "id": "sea-forecast-before-during"
@@ -696,8 +695,7 @@
    "layout": {
     "kind": "card",
     "icon": "weather",
-    "label": "Gusts above the forecast average",
-    "badge": "40%"
+    "label": "Gusts above the forecast average"
    },
    "vessels": [],
    "id": "sea-gusts-forty-percent"
@@ -726,8 +724,7 @@
    "layout": {
     "kind": "card",
     "icon": "weather",
-    "label": "Waves above the forecast height",
-    "badge": "2x"
+    "label": "Forecast seas and wave heights"
    },
    "vessels": [],
    "id": "sea-waves-twice-forecast"
@@ -756,7 +753,7 @@
    "layout": {
     "kind": "card",
     "icon": "weather",
-    "label": "Summer afternoon sea breeze"
+    "label": "Hot summer afternoon winds"
    },
    "vessels": [],
    "id": "sea-sea-breeze-afternoon"
@@ -843,7 +840,7 @@
    "layout": {
     "kind": "card",
     "icon": "weather",
-    "label": "If in doubt, do not go out"
+    "label": "Deciding whether to go out"
    },
    "vessels": [],
    "id": "sea-when-in-doubt"
@@ -872,7 +869,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Spring tides at full and new moon"
+    "label": "When spring tides occur"
    },
    "vessels": [],
    "id": "sea-springs-neaps"
@@ -901,7 +898,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Two highs and two lows most days"
+    "label": "Tides on the Queensland coast"
    },
    "vessels": [],
    "id": "sea-two-highs-two-lows"
@@ -930,8 +927,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Chart datum and real depth",
-    "badge": "LAT"
+    "label": "Chart datum and real depth"
    },
    "vessels": [],
    "id": "sea-chart-datum"
@@ -960,7 +956,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Tidal streams strongest at mid tide"
+    "label": "When tidal streams run fastest"
    },
    "vessels": [],
    "id": "sea-stream-mid-tide"
@@ -989,7 +985,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Cross near the top of the tide"
+    "label": "Timing a coastal bar crossing"
    },
    "vessels": [],
    "id": "sea-bar-safest-time"
@@ -1018,7 +1014,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Ebb tide against incoming swell"
+    "label": "Coastal bar conditions"
    },
    "vessels": [],
    "id": "sea-bar-worst-ebb"
@@ -1051,8 +1047,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Lifejackets on a designated bar",
-    "badge": "1+"
+    "label": "Lifejackets on a designated bar"
    },
    "vessels": [],
    "id": "sea-bar-lifejackets"
@@ -1110,7 +1105,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Watch the sets and pick a lull"
+    "label": "Heading out over the bar"
    },
    "vessels": [],
    "id": "sea-bar-wait-for-sets"
@@ -1139,7 +1134,7 @@
    "layout": {
     "kind": "card",
     "icon": "bar",
-    "label": "Ride the back of the wave coming in"
+    "label": "Bringing a planing boat in over a bar"
    },
    "vessels": [],
    "id": "sea-bar-coming-in"

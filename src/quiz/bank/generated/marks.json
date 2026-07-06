@@ -498,7 +498,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Direction of buoyage arrow"
+    "label": "Direction of buoyage"
    },
    "vessels": [],
    "id": "marks-buoyage-direction-arrow"
@@ -698,8 +698,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Port lateral mark light",
-    "badge": "Red"
+    "label": "Port lateral mark light"
    },
    "vessels": [],
    "id": "marks-lateral-light-rhythm"
@@ -1104,8 +1103,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "East cardinal light rhythm",
-    "badge": "3"
+    "label": "East cardinal light rhythm"
    },
    "vessels": [],
    "id": "marks-east-cardinal-light"
@@ -1191,7 +1189,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "West cardinal light rhythm",
+    "label": "Reading lit marks at night",
     "badge": "9"
    },
    "vessels": [],
@@ -1279,8 +1277,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Isolated danger mark light",
-    "badge": "2"
+    "label": "Isolated danger mark light"
    },
    "vessels": [],
    "id": "marks-isolated-danger-light"

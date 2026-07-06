@@ -21,7 +21,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Leave the plan with a reliable contact"
+    "label": "Voyage plans"
    },
    "vessels": [],
    "id": "prep-voyage-plan-contact"
@@ -50,7 +50,7 @@
    "layout": {
     "kind": "card",
     "icon": "radio",
-    "label": "Log on going out, log off coming back"
+    "label": "Logged on with marine rescue"
    },
    "vessels": [],
    "id": "prep-log-off-return"
@@ -79,7 +79,7 @@
    "layout": {
     "kind": "card",
     "icon": "radio",
-    "label": "Update your contact if plans change"
+    "label": "When your plans change on the water"
    },
    "vessels": [],
    "id": "prep-plans-change"
@@ -108,8 +108,7 @@
    "layout": {
     "kind": "card",
     "icon": "fuel",
-    "label": "Out, back, and reserve",
-    "badge": "1/3"
+    "label": "Fuel planning"
    },
    "vessels": [],
    "id": "prep-fuel-thirds"
@@ -138,7 +137,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Weather, battery, bungs, fuel, gear"
+    "label": "Checks before every trip"
    },
    "vessels": [],
    "id": "prep-predeparture-checks"
@@ -167,7 +166,7 @@
    "layout": {
     "kind": "card",
     "icon": "killSwitch",
-    "label": "Clip the lanyard to the driver"
+    "label": "The engine kill switch lanyard"
    },
    "vessels": [],
    "id": "prep-kill-switch"
@@ -196,7 +195,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Drive the water out, then fit the bung"
+    "label": "Forgot the bung"
    },
    "vessels": [],
    "id": "prep-forgot-bung"
@@ -225,7 +224,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Look for the telltale water stream"
+    "label": "Checking engine cooling at the ramp"
    },
    "vessels": [],
    "id": "prep-cooling-telltale"
@@ -254,7 +253,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifebuoy",
-    "label": "Shout, point, throw"
+    "label": "A passenger falls overboard"
    },
    "vessels": [],
    "id": "prep-overboard-first-actions"
@@ -283,7 +282,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifebuoy",
-    "label": "Turn the bow toward the person"
+    "label": "Person overboard at the helm"
    },
    "vessels": [],
    "id": "prep-overboard-helm"
@@ -358,7 +357,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifebuoy",
-    "label": "Stay with the boat, out of the water"
+    "label": "After a capsize"
    },
    "vessels": [],
    "id": "prep-capsize-hull"
@@ -387,7 +386,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Protect head, chest sides and groin"
+    "label": "Waiting for rescue in cold water"
    },
    "vessels": [],
    "id": "prep-help-position"
@@ -416,7 +415,7 @@
    "layout": {
     "kind": "card",
     "icon": "firstAid",
-    "label": "Gentle handling, gradual rewarming"
+    "label": "Cold water rescue first aid"
    },
    "vessels": [],
    "id": "prep-hypothermia-treatment"
@@ -445,7 +444,7 @@
    "layout": {
     "kind": "card",
     "icon": "firstAid",
-    "label": "Danger comes first"
+    "label": "The DRSABCD action plan"
    },
    "vessels": [],
    "id": "prep-drsabcd-order"
@@ -474,8 +473,7 @@
    "layout": {
     "kind": "card",
     "icon": "firstAid",
-    "label": "30 compressions, then 2 breaths",
-    "badge": "30:2"
+    "label": "CPR on an adult"
    },
    "vessels": [],
    "id": "prep-cpr-ratio"
@@ -503,8 +501,8 @@
    "title": "Engine breakdown at sea",
    "layout": {
     "kind": "card",
-    "icon": "anchor",
-    "label": "Anchor first to stop the drift"
+    "icon": "checklist",
+    "label": "Engine breakdown offshore"
    },
    "vessels": [],
    "id": "prep-engine-breakdown"
@@ -533,7 +531,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Stop and assess before acting"
+    "label": "Aground on a sandbank"
    },
    "vessels": [],
    "id": "prep-aground"
@@ -562,7 +560,7 @@
    "layout": {
     "kind": "card",
     "icon": "radio",
-    "label": "Pan pan: urgent, but not distress"
+    "label": "Choosing the right radio call"
    },
    "vessels": [],
    "id": "prep-pan-pan"
@@ -591,7 +589,7 @@
    "layout": {
     "kind": "card",
     "icon": "radio",
-    "label": "Securite: navigation and weather"
+    "label": "Securite calls"
    },
    "vessels": [],
    "id": "prep-securite"
@@ -620,8 +618,7 @@
    "layout": {
     "kind": "card",
     "icon": "radio",
-    "label": "Distress and calling: channel 16",
-    "badge": "CH 16"
+    "label": "Marine radio distress call"
    },
    "vessels": [],
    "id": "prep-vhf-16"
@@ -650,7 +647,7 @@
    "layout": {
     "kind": "card",
     "icon": "mayday",
-    "label": "Name, position, problem, people"
+    "label": "Making a mayday call"
    },
    "vessels": [],
    "id": "prep-mayday-contents"
@@ -683,7 +680,7 @@
    "layout": {
     "kind": "card",
     "icon": "epirb",
-    "label": "Distress only, never for a test"
+    "label": "Activating an EPIRB"
    },
    "vessels": [],
    "id": "prep-epirb-when"
@@ -712,7 +709,7 @@
    "layout": {
     "kind": "card",
     "icon": "epirb",
-    "label": "Leave it on and keep it with you"
+    "label": "EPIRB activated after sinking"
    },
    "vessels": [],
    "id": "prep-epirb-leave-on"
@@ -745,7 +742,7 @@
    "layout": {
     "kind": "card",
     "icon": "vSheet",
-    "label": "Spread it where aircraft can see it"
+    "label": "The V sheet distress signal"
    },
    "vessels": [],
    "id": "prep-v-sheet"
@@ -778,7 +775,7 @@
    "layout": {
     "kind": "card",
     "icon": "flare",
-    "label": "Smoke by day, red flares by night"
+    "label": "Choosing distress signals"
    },
    "vessels": [],
    "id": "prep-flares-day-night"
@@ -806,8 +803,8 @@
    "title": "The arm distress signal",
    "layout": {
     "kind": "card",
-    "icon": "mayday",
-    "label": "Arms raised and lowered means help"
+    "icon": "signalMirror",
+    "label": "Arm signals on the water"
    },
    "vessels": [],
    "id": "prep-arm-signal"
@@ -840,7 +837,7 @@
    "layout": {
     "kind": "card",
     "icon": "flare",
-    "label": "Assist or report it at once"
+    "label": "Sighting a distress flare"
    },
    "vessels": [],
    "id": "prep-see-distress"

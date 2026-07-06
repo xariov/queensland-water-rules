@@ -68,6 +68,17 @@ fuel, firstAid, torch, chart, divingFlag, skiFlag, checklist, weather,
 bar, licence, registration, alcohol, pwc, killSwitch, lifebuoy, mayday,
 signalMirror. `label` max 44 chars; `badge` max ~5 chars. Both optional.
 
+NO GIVEAWAYS: nothing visible in the scene may reveal facts that appear
+only in the answer. Labels and badges may restate facts the QUESTION
+already gives, or name the topic neutrally ("After a capsize", "Marine
+radio") - never the tested fact ("Stay with the boat", badge "CH 16" on
+a which-channel question). The same applies to distance ring labels (a
+ring labelled "30 m" is fine when the question says "within 30 metres"
+and asks the speed; wrong when the question asks the distance), to
+lightsView silhouettes on identify-the-vessel questions (use "none"),
+and to icons whose art contains answer text (the mayday icon spells
+MAYDAY - use the radio icon when asking which call to make).
+
 ### Open water (encounters, distance rules, anchoring)
 
 Coordinates: x east, y south, origin at frame center. Headings compass

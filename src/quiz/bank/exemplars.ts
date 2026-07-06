@@ -207,7 +207,7 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'Since 1 December 2024, a person boating alone (or only with children under 12) on an open boat under 4.8 metres must wear a lifejacket while underway, even in daylight. Drifting still counts as underway.',
     citations: [tomsrCitation('24', 'wearing lifejackets'), msqLifejackets],
-    scene: cardScene('lw-boating-alone', 'Lifejacket wear rules when boating alone', 'lifejacket', 'Boating alone, open boat under 4.8 m'),
+    scene: cardScene('lw-boating-alone', 'Lifejacket wear rules when boating alone', 'lifejacket', 'Boating alone in an open boat'),
   },
   {
     id: 'lt-level-pwc',
@@ -222,7 +222,7 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'PWC riders wear level 50 (or 50S in smooth waters only). Higher level jackets with collars are unsuitable for PWC riding and level 100 jackets must not be used on a PWC.',
     citations: [tomsrCitation('22', 'lifejackets to be carried'), msqPwc],
-    scene: cardScene('lt-level-pwc', 'PWC lifejacket level', 'pwc', 'PWC riders wear level 50', 'L50'),
+    scene: cardScene('lt-level-pwc', 'PWC lifejacket level', 'pwc', 'Lifejackets for PWC riding'),
   },
   {
     id: 'se-epirb-when',
@@ -237,7 +237,7 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'An EPIRB is required beyond smooth waters, beyond partially smooth waters, and any time you are more than 2 nautical miles from land. It must be a 406 MHz beacon registered with AMSA, and the registration renews every two years.',
     citations: [tomsrCitation('9', 'EPIRBs'), tomsrCitation('10', 'EPIRB registration')],
-    scene: cardScene('se-epirb-when', 'When an EPIRB is required', 'epirb', 'Beyond smooth waters or 2 nm from land', '2 nm'),
+    scene: cardScene('se-epirb-when', 'When an EPIRB is required', 'epirb'),
   },
   {
     id: 'nl-power-lights',
@@ -258,7 +258,7 @@ export const exemplarQuestions: Question[] = [
       { color: 'white', x: 50, y: 22, size: 'small' },
       { color: 'green', x: 44, y: 31 },
       { color: 'red', x: 56, y: 31 },
-    ], 'powerboat'),
+    ]),
   },
   {
     id: 'nl-anchored',
@@ -325,7 +325,7 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'A capsized hull is easier for rescuers to spot than a swimmer and keeps you out of the water, slowing hypothermia. Swimming for shore is usually farther than it looks and costs heat and energy.',
     citations: [msqSafetyEquipmentRef()],
-    scene: cardScene('em-capsize-stay', 'Capsize response', 'lifebuoy', 'Stay with the boat'),
+    scene: cardScene('em-capsize-stay', 'Capsize response', 'lifebuoy', 'After a capsize'),
   },
   {
     id: 'ds-mayday',
@@ -340,7 +340,7 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'Mayday is the distress call for grave and imminent danger to a vessel or life, made on VHF channel 16. Pan pan is for urgency without immediate danger; securite prefixes safety messages like weather warnings.',
     citations: [colregsCitation('Annex IV', 'distress signals')],
-    scene: cardScene('ds-mayday', 'The distress call', 'mayday', 'Grave and imminent danger', 'CH 16'),
+    scene: cardScene('ds-mayday', 'The distress call', 'radio', 'Calling for help'),
   },
   {
     id: 'lic-threshold',
@@ -355,7 +355,7 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'A recreational marine driver licence is required to operate a recreational boat with an engine over 4.5 kW. Registration has a different threshold: 3 kW. So some boats must be registered even though no licence is needed to drive them.',
     citations: [tomsrCitation('55', 'when a licence is required'), tomsrCitation('26', 'registration')],
-    scene: cardScene('lic-threshold', 'Licence threshold', 'licence', 'Licence needed over 4.5 kW', '4.5'),
+    scene: cardScene('lic-threshold', 'Licence threshold', 'licence'),
   },
   {
     id: 'reg-threshold',
@@ -370,7 +370,7 @@ export const exemplarQuestions: Question[] = [
     correctIndex: 0,
     explanation: 'Registration applies from 3 kW of propulsion power. Unpowered craft are exempt, and so is a tender operating within 2 nautical miles of its registered parent ship.',
     citations: [tomsrCitation('26', 'which ships must be registered')],
-    scene: cardScene('reg-threshold', 'Registration threshold', 'registration', 'Registered from 3 kW'),
+    scene: cardScene('reg-threshold', 'Registration threshold', 'registration'),
   },
 ];
 

@@ -32,7 +32,7 @@
       "id": "ring-60",
       "around": "B",
       "radius": 60,
-      "label": "60 m"
+      "label": "6 knots"
      }
     ]
    },
@@ -100,7 +100,7 @@
       "id": "ring-60",
       "around": "A",
       "radius": 60,
-      "label": "60 m"
+      "label": "6 knots"
      }
     ]
    },
@@ -250,7 +250,7 @@
        "y": 28
       },
       "radius": 60,
-      "label": "60 m"
+      "label": "6 knots"
      }
     ]
    },
@@ -361,8 +361,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "Freestyling near residential shores",
-    "badge": "200 m"
+    "label": "Freestyling near residential shores"
    },
    "vessels": [],
    "id": "pwctow-pwc-freestyle-shore"
@@ -395,7 +394,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "Donuts, figure eights, wake jumping"
+    "label": "Freestyling on a PWC"
    },
    "vessels": [],
    "id": "pwctow-pwc-freestyle-definition"
@@ -424,7 +423,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "No throttle means no steering"
+    "label": "Releasing the throttle on a PWC"
    },
    "vessels": [],
    "id": "pwctow-pwc-off-throttle"
@@ -453,8 +452,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "Coasting distance from full speed",
-    "badge": "80 m"
+    "label": "Coasting distance from full speed"
    },
    "vessels": [],
    "id": "pwctow-pwc-stopping-distance"
@@ -582,8 +580,7 @@
    "layout": {
     "kind": "card",
     "icon": "lifejacket",
-    "label": "Never level 100 on a PWC",
-    "badge": "L50"
+    "label": "Lifejackets for PWC riding"
    },
    "vessels": [],
    "id": "pwctow-pwc-level-hundred"
@@ -669,7 +666,7 @@
    "layout": {
     "kind": "card",
     "icon": "licence",
-    "label": "PWCL builds on the RMDL"
+    "label": "PWC licence prerequisites"
    },
    "vessels": [],
    "id": "pwctow-pwc-licence-prerequisite"
@@ -698,7 +695,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "Minimum water depth for the jet",
+    "label": "Riding a PWC in shallow water",
     "badge": "0.6 m"
    },
    "vessels": [],
@@ -732,8 +729,7 @@
    "layout": {
     "kind": "card",
     "icon": "skiFlag",
-    "label": "Observer required when towing",
-    "badge": "13+"
+    "label": "Towing a tube behind your boat"
    },
    "vessels": [],
    "id": "pwctow-tow-observer-required"
@@ -807,7 +803,7 @@
    "layout": {
     "kind": "card",
     "icon": "skiFlag",
-    "label": "Counting people while towing",
+    "label": "Boat capacity while towing",
     "badge": "4"
    },
    "vessels": [],
@@ -848,7 +844,7 @@
       "id": "ring-30",
       "around": "B",
       "radius": 30,
-      "label": "30 m"
+      "label": "keep clear"
      }
     ]
    },
@@ -898,7 +894,7 @@
    "layout": {
     "kind": "card",
     "icon": "skiFlag",
-    "label": "Agree signals before the tow"
+    "label": "Skier to boat communication"
    },
    "vessels": [],
    "id": "pwctow-tow-hand-signals"
@@ -979,7 +975,7 @@
    "layout": {
     "kind": "card",
     "icon": "skiFlag",
-    "label": "Ski circuits run anticlockwise"
+    "label": "Ski circuits in a river"
    },
    "vessels": [],
    "id": "pwctow-tow-anticlockwise"

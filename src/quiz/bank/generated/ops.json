@@ -25,7 +25,7 @@
    "layout": {
     "kind": "card",
     "icon": "licence",
-    "label": "Over 4.5 kW needs an RMDL",
+    "label": "Marine licence requirements",
     "badge": "5 kW"
    },
    "vessels": [],
@@ -55,8 +55,7 @@
    "layout": {
     "kind": "card",
     "icon": "licence",
-    "label": "Minimum licence age",
-    "badge": "16"
+    "label": "Minimum licence age"
    },
    "vessels": [],
    "id": "ops-lic-minimum-age"
@@ -85,8 +84,7 @@
    "layout": {
     "kind": "card",
     "icon": "licence",
-    "label": "Statement of competency validity",
-    "badge": "6 mo"
+    "label": "Statement of competency validity"
    },
    "vessels": [],
    "id": "ops-lic-competency-expiry"
@@ -119,7 +117,7 @@
    "layout": {
     "kind": "card",
     "icon": "licence",
-    "label": "Supervision by a licence holder"
+    "label": "Unlicensed adults driving a boat"
    },
    "vessels": [],
    "id": "ops-lic-supervised-operation"
@@ -152,7 +150,7 @@
    "layout": {
     "kind": "card",
     "icon": "pwc",
-    "label": "PWCL is issued to RMDL holders"
+    "label": "Getting a PWC licence"
    },
    "vessels": [],
    "id": "ops-lic-pwcl-prerequisite"
@@ -181,7 +179,7 @@
    "layout": {
     "kind": "card",
     "icon": "licence",
-    "label": "Marine licences never expire"
+    "label": "Marine licence expiry"
    },
    "vessels": [],
    "id": "ops-lic-never-expires"
@@ -210,7 +208,7 @@
    "layout": {
     "kind": "card",
     "icon": "licence",
-    "label": "Interstate licences are recognised"
+    "label": "Interstate marine licences"
    },
    "vessels": [],
    "id": "ops-lic-interstate-visitor"
@@ -239,7 +237,7 @@
    "layout": {
     "kind": "card",
     "icon": "skiFlag",
-    "label": "Towing requires a marine licence"
+    "label": "Driving while towing a skier"
    },
    "vessels": [],
    "id": "ops-lic-towing-skier"
@@ -268,8 +266,7 @@
    "layout": {
     "kind": "card",
     "icon": "registration",
-    "label": "Registration starts at 3 kW",
-    "badge": "3 kW"
+    "label": "Boat registration power threshold"
    },
    "vessels": [],
    "id": "ops-reg-power-threshold"
@@ -298,8 +295,7 @@
    "layout": {
     "kind": "card",
     "icon": "registration",
-    "label": "Tender exemption within 2 nm",
-    "badge": "2 nm"
+    "label": "Tenders to a registered boat"
    },
    "vessels": [],
    "id": "ops-reg-tender-exemption"
@@ -328,7 +324,7 @@
    "layout": {
     "kind": "card",
     "icon": "registration",
-    "label": "Unpowered craft are exempt"
+    "label": "Registration for unpowered craft"
    },
    "vessels": [],
    "id": "ops-reg-unpowered"
@@ -361,7 +357,7 @@
    "layout": {
     "kind": "card",
     "icon": "registration",
-    "label": "Visible, plain, contrasting colour"
+    "label": "Displaying registration symbols"
    },
    "vessels": [],
    "id": "ops-reg-symbols-display"
@@ -394,8 +390,7 @@
    "layout": {
     "kind": "card",
     "icon": "registration",
-    "label": "Symbol height on a planing boat",
-    "badge": "150"
+    "label": "Symbol height on a planing boat"
    },
    "vessels": [],
    "id": "ops-reg-planing-height"
@@ -428,8 +423,7 @@
    "layout": {
     "kind": "card",
     "icon": "registration",
-    "label": "Transfer of registration deadline",
-    "badge": "14 d"
+    "label": "Transfer of registration deadline"
    },
    "vessels": [],
    "id": "ops-reg-transfer-14-days"
@@ -675,7 +669,7 @@
       "id": "ring-30",
       "around": "B",
       "radius": 30,
-      "label": "30 m"
+      "label": "6 knots"
      }
     ]
    },
@@ -742,7 +736,7 @@
       "id": "ring-30",
       "around": "B",
       "radius": 30,
-      "label": "30 m"
+      "label": "6 knots"
      }
     ]
    },
@@ -910,7 +904,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Wash duty applies at any speed"
+    "label": "Wash and posted speed limits"
    },
    "vessels": [],
    "id": "ops-sd-wash-posted-limit"
@@ -1038,8 +1032,7 @@
    "layout": {
     "kind": "card",
     "icon": "alcohol",
-    "label": "Under 0.05 while in control",
-    "badge": "0.05"
+    "label": "Alcohol afloat"
    },
    "vessels": [],
    "id": "ops-al-limit"
@@ -1068,7 +1061,7 @@
    "layout": {
     "kind": "card",
     "icon": "alcohol",
-    "label": "Still in control at anchor",
+    "label": "Alcohol limits at anchor",
     "badge": "0.05"
    },
    "vessels": [],
@@ -1098,7 +1091,7 @@
    "layout": {
     "kind": "card",
     "icon": "alcohol",
-    "label": "Moored at a berth: not in control"
+    "label": "Alcohol limits at a marina berth"
    },
    "vessels": [],
    "id": "ops-al-marina-berth"
@@ -1127,7 +1120,7 @@
    "layout": {
     "kind": "card",
     "icon": "alcohol",
-    "label": "The master must stay under 0.05",
+    "label": "Alcohol afloat",
     "badge": "0.05"
    },
    "vessels": [],
@@ -1157,7 +1150,7 @@
    "layout": {
     "kind": "card",
     "icon": "alcohol",
-    "label": "Breath testing applies afloat"
+    "label": "Police breath tests and boating"
    },
    "vessels": [],
    "id": "ops-al-breath-test"
@@ -1287,8 +1280,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Marine incident report deadline",
-    "badge": "48 h"
+    "label": "Marine incident report deadline"
    },
    "vessels": [],
    "id": "ops-inc-48-hours"
@@ -1317,7 +1309,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Written report on form F3071"
+    "label": "Reporting a marine incident"
    },
    "vessels": [],
    "id": "ops-inc-written-form"
@@ -1346,7 +1338,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "The master lodges the report"
+    "label": "Reporting a marine incident"
    },
    "vessels": [],
    "id": "ops-inc-who-reports"
@@ -1375,7 +1367,7 @@
    "layout": {
     "kind": "card",
     "icon": "firstAid",
-    "label": "Injury incidents must be reported"
+    "label": "Injury aboard, boat undamaged"
    },
    "vessels": [],
    "id": "ops-inc-injury-no-damage"
@@ -1404,7 +1396,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Rivers, creeks, streams and lakes"
+    "label": "Smooth waters in Queensland"
    },
    "vessels": [],
    "id": "ops-wl-smooth-definition"
@@ -1433,7 +1425,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Sheltered bays listed by MSQ"
+    "label": "Partially smooth waters"
    },
    "vessels": [],
    "id": "ops-wl-partially-smooth"
@@ -1462,7 +1454,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Beyond the limits: open waters"
+    "label": "Beyond smooth and partially smooth limits"
    },
    "vessels": [],
    "id": "ops-wl-beyond"
@@ -1491,7 +1483,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Categories drive equipment lists"
+    "label": "Water limit categories"
    },
    "vessels": [],
    "id": "ops-wl-why-matter"
@@ -1520,7 +1512,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Rivers and creeks: smooth waters"
+    "label": "Rivers and creeks"
    },
    "vessels": [],
    "id": "ops-wl-river-category"
@@ -1549,7 +1541,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Moreton Bay: partially smooth"
+    "label": "Moreton Bay water limits"
    },
    "vessels": [],
    "id": "ops-wl-moreton-bay"
@@ -1578,7 +1570,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "The 0.5 nm smooth water strip",
+    "label": "The 0.5 nm line in partially smooth waters",
     "badge": "0.5"
    },
    "vessels": [],
@@ -1608,7 +1600,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "One trip, three water categories"
+    "label": "River, bay, then offshore"
    },
    "vessels": [],
    "id": "ops-wl-trip-categories"
@@ -1636,8 +1628,7 @@
    "title": "Reading the water limits maps",
    "layout": {
     "kind": "card",
-    "icon": "chart",
-    "label": "Reading the water limits maps"
+    "icon": "chart"
    },
    "vessels": [],
    "id": "ops-wl-find-boundaries"
@@ -1666,7 +1657,7 @@
    "layout": {
     "kind": "card",
     "icon": "chart",
-    "label": "Inside a breakwater: smooth"
+    "label": "Waters inside a breakwater"
    },
    "vessels": [],
    "id": "ops-wl-breakwater"

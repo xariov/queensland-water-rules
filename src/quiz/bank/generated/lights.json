@@ -74,7 +74,7 @@
    "title": "Masthead light and green sidelight crossing left to right",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "powerboat",
+    "silhouette": "none",
     "lights": [
      {
       "color": "white",
@@ -119,7 +119,7 @@
    "title": "Masthead light and red sidelight crossing right to left",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "powerboat",
+    "silhouette": "none",
     "lights": [
      {
       "color": "white",
@@ -164,7 +164,7 @@
    "title": "A single low white stern light seen from astern",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "powerboat",
+    "silhouette": "none",
     "lights": [
      {
       "color": "white",
@@ -203,7 +203,7 @@
    "title": "Both sidelights ahead with no masthead light",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "sailboat",
+    "silhouette": "none",
     "lights": [
      {
       "color": "green",
@@ -285,7 +285,7 @@
    "title": "Green over white above sidelights: a trawler head-on",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "ship",
+    "silhouette": "none",
     "lights": [
      {
       "color": "green",
@@ -341,7 +341,7 @@
    "title": "Red over white: a vessel fishing at night",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "powerboat",
+    "silhouette": "none",
     "lights": [
      {
       "color": "red",
@@ -387,7 +387,7 @@
    "title": "Two masthead lights and a red sidelight crossing right to left",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "ship",
+    "silhouette": "none",
     "lights": [
      {
       "color": "white",
@@ -434,7 +434,7 @@
    "title": "Two vertical masthead lights over both sidelights: a tug head-on",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "powerboat",
+    "silhouette": "none",
     "lights": [
      {
       "color": "white",
@@ -490,7 +490,7 @@
    "title": "A lone green sidelight with no masthead light",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "sailboat",
+    "silhouette": "none",
     "lights": [
      {
       "color": "green",
@@ -526,8 +526,7 @@
    "layout": {
     "kind": "card",
     "icon": "torch",
-    "label": "Powerboat under 12 m underway at night",
-    "badge": "12 m"
+    "label": "Your powerboat underway at night"
    },
    "vessels": [],
    "id": "lights-own-under-12"
@@ -619,7 +618,7 @@
    "layout": {
     "kind": "card",
     "icon": "torch",
-    "label": "Sunset to sunrise, and fog by day"
+    "label": "When navigation lights are required"
    },
    "vessels": [],
    "id": "lights-when-required"
@@ -858,8 +857,7 @@
    "layout": {
     "kind": "card",
     "icon": "weather",
-    "label": "Fog signals: power boat making way",
-    "badge": "2 min"
+    "label": "Fog signals: power boat making way"
    },
    "vessels": [],
    "id": "lights-fog-power-making-way"
@@ -955,8 +953,7 @@
    "layout": {
     "kind": "card",
     "icon": "divingFlag",
-    "label": "Code flag A",
-    "badge": "30 m"
+    "label": "Code flag A"
    },
    "vessels": [],
    "id": "lights-diving-flag-a"

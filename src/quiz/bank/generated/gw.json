@@ -1038,7 +1038,7 @@
    "layout": {
     "kind": "card",
     "icon": "checklist",
-    "label": "Power gives way to special vessels"
+    "label": "Give way rules for powerboats"
    },
    "vessels": [],
    "id": "gw-power-keeps-clear-list"
@@ -1172,7 +1172,7 @@
    "title": "Green over white above sidelights, dead ahead",
    "layout": {
     "kind": "lightsView",
-    "silhouette": "ship",
+    "silhouette": "none",
     "lights": [
      {
       "color": "green",
