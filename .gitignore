@@ -1,0 +1,4 @@
+node_modules/
+dist/
+source-material/
+*.local
