@@ -1,0 +1,1627 @@
+[
+ {
+  "id": "safety-collared-levels",
+  "topicId": "lifejacket-types",
+  "question": "Which AS 4758 lifejacket levels have a flotation collar designed to keep the wearer's head above water?",
+  "options": [
+   "Levels 100, 150 and 275.",
+   "Levels 50 and 50S.",
+   "Only level 275.",
+   "Every AS 4758 level has a collar."
+  ],
+  "explanation": "Level 100 and higher jackets have a collar to support the head, high visibility colours and reflective tape, which makes them the choice for offshore boating. Level 50 and 50S jackets have no collar and will not keep an unconscious person face up.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Lifejacket levels with a collar",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Levels 100, 150 and 275 have collars",
+    "badge": "100+"
+   },
+   "vessels": [],
+   "id": "safety-collared-levels"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-level-50-limitation",
+  "topicId": "lifejacket-types",
+  "question": "What is the key limitation of a level 50 lifejacket compared with a level 100?",
+  "options": [
+   "It has no collar, so it will not keep an unconscious person's face out of the water.",
+   "It provides no buoyancy for anyone over 40 kilograms.",
+   "It can only be worn by children under 12.",
+   "It cannot be used for waterskiing or PWC riding."
+  ],
+  "explanation": "A level 50 jacket gives real buoyancy in visible colours but has no head support, so it suits activities like waterskiing, PWC riding and sailing dinghies where the wearer is only briefly in the water and help is close.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Level 50 has no collar",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "No collar on a level 50",
+    "badge": "50"
+   },
+   "vessels": [],
+   "id": "safety-level-50-limitation"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-50s-visibility",
+  "topicId": "lifejacket-types",
+  "question": "How does a level 50S (special purpose) lifejacket differ from a standard level 50?",
+  "options": [
+   "It has the same buoyancy but comes in less visible colours, so it is harder to spot in a search.",
+   "It has twice the buoyancy of a level 50.",
+   "It adds a flotation collar to support the head.",
+   "It is approved for open waters where a level 50 is not."
+  ],
+  "explanation": "The S is for special purpose: level 50 buoyancy in low visibility colours, sometimes as a buoyancy wetsuit. That styling makes the wearer harder to find, which is why 50S is not recommended for general boating and only counts in smooth waters.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Level 50S special purpose jackets",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Same buoyancy, less visible colours",
+    "badge": "50S"
+   },
+   "vessels": [],
+   "id": "safety-50s-visibility"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-50s-waters",
+  "topicId": "lifejacket-types",
+  "question": "In which waters is a level 50S lifejacket acceptable on a boat?",
+  "options": [
+   "Smooth waters only.",
+   "Smooth and partially smooth waters.",
+   "All waters, including offshore.",
+   "None. Level 50S is only lawful on a PWC."
+  ],
+  "explanation": "On a boat in smooth waters, level 50S, 50 and 100 jackets all satisfy the requirement. Once you enter partially smooth waters the 50S stops counting, and beyond partially smooth waters only level 100 or higher will do.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Where a level 50S is acceptable",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Level 50S: smooth waters only",
+    "badge": "50S"
+   },
+   "vessels": [],
+   "id": "safety-50s-waters"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-level-50-waters",
+  "topicId": "lifejacket-types",
+  "question": "In which waters is a level 50 lifejacket acceptable on a boat?",
+  "options": [
+   "Smooth and partially smooth waters, but not beyond.",
+   "Smooth waters only.",
+   "All waters, including beyond partially smooth limits.",
+   "Partially smooth waters only."
+  ],
+  "explanation": "A level 50 satisfies the requirement on a boat in smooth and partially smooth waters. Beyond partially smooth waters a boat must carry level 100 or higher, because an offshore rescue can take hours and a collar keeps the head supported.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Where a level 50 is acceptable",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Level 50: not beyond partially smooth",
+    "badge": "50"
+   },
+   "vessels": [],
+   "id": "safety-level-50-waters"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-boat-open-waters-level",
+  "topicId": "lifejacket-types",
+  "question": "You are taking your boat beyond partially smooth waters. Which lifejackets meet the carriage requirement?",
+  "options": [
+   "Level 100 or higher only.",
+   "Level 50 or higher.",
+   "Level 50S or higher.",
+   "Any AS 4758 lifejacket of any level."
+  ],
+  "explanation": "Beyond partially smooth waters a boat must carry level 100, 150 or 275 jackets. Levels 50 and 50S do not count out there: they have no collar to keep an exhausted or unconscious person's face clear of the water.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Lifejacket level beyond partially smooth waters",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Open waters need level 100 or higher",
+    "badge": "100+"
+   },
+   "vessels": [],
+   "id": "safety-boat-open-waters-level"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-pwc-level-100-ban",
+  "topicId": "lifejacket-types",
+  "question": "Can you wear a collared level 100 lifejacket while riding a PWC in partially smooth waters?",
+  "options": [
+   "No. Level 100 collared jackets must not be used on a PWC; wear a level 50 instead.",
+   "Yes. Any level at or above 50 is acceptable on a PWC.",
+   "Yes, but only as the passenger rather than the driver.",
+   "Only if the jacket is an inflatable."
+  ],
+  "explanation": "PWC riders wear level 50, or level 50S in smooth waters only. Collared level 100 jackets are banned on PWC because the collar is dangerous in the high speed falls PWC riding involves.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "No collared jackets on a PWC",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "Collared jackets stay off PWC",
+    "badge": "L50"
+   },
+   "vessels": [],
+   "id": "safety-pwc-level-100-ban"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-as4758-only",
+  "topicId": "lifejacket-types",
+  "question": "Since 1 September 2025, which lifejackets satisfy Queensland carriage and wear requirements?",
+  "options": [
+   "Only jackets made to AS 4758 (levels 50S, 50, 100, 150 or 275).",
+   "AS 4758 jackets, plus old PFD Type 1, 2 or 3 jackets still in good condition.",
+   "Any jacket that floats and fits the wearer.",
+   "Only inflatable jackets serviced within the last year."
+  ],
+  "explanation": "The grace period for the old PFD Type 1, 2 and 3 jackets made to AS 1512, AS 1499 or AS 2260 ended on 1 September 2025. However good their condition, they no longer count; only AS 4758 level jackets satisfy the law.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "AS 4758 is the only accepted standard",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "AS 4758 only from 1 September 2025",
+    "badge": "4758"
+   },
+   "vessels": [],
+   "id": "safety-as4758-only"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-inflatable-servicing",
+  "topicId": "lifejacket-types",
+  "question": "What ongoing checks does an inflatable lifejacket need?",
+  "options": [
+   "Servicing on schedule, including the gas cylinder, and checking its service or expiry date.",
+   "None. Inflatables are maintenance free for their working life.",
+   "Only a fresh water rinse after each trip.",
+   "Replacement of the whole jacket every 12 months."
+  ],
+  "explanation": "Inflatables rely on a gas cylinder that must be serviced periodically, and like EPIRBs, flares and extinguishers they only count while in date. A pouch style inflatable must also be unpacked and worn ready around the neck whenever wearing is compulsory, such as a bar crossing.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Inflatable lifejacket servicing",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Service inflatables by the due date"
+   },
+   "vessels": [],
+   "id": "safety-inflatable-servicing"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-child-jacket-size",
+  "topicId": "lifejacket-types",
+  "question": "How should you choose a lifejacket for a child?",
+  "options": [
+   "By the body mass range marked on the jacket, fitted snugly.",
+   "Buy one a couple of sizes large so the child can grow into it.",
+   "Any adult jacket with the straps pulled tight is acceptable.",
+   "By the child's age rather than their weight."
+  ],
+  "explanation": "Every jacket is marked with the body mass range it suits, and the law requires a jacket of appropriate size for each person aged 1 and over. A loose or oversized jacket can slip up over a child's head in the water, which defeats the whole point.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Sizing a child's lifejacket",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Fit by the marked body mass range"
+   },
+   "vessels": [],
+   "id": "safety-child-jacket-size"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-alone-with-child",
+  "topicId": "lifejacket-wearing",
+  "question": "You and your 8 year old are the only people aboard your 4.3 metre open tinnie, underway in daylight. Who must wear a lifejacket?",
+  "options": [
+   "Both of you: you are the only person aged 12 or over aboard, and the child must wear one anyway.",
+   "Only the child.",
+   "Only you, as the skipper.",
+   "Nobody, because it is daytime."
+  ],
+  "explanation": "Being alone with children under 12 counts as boating alone. On an open boat under 4.8 metres underway in daylight, the lone person aged 12 or over must wear a lifejacket, and every child aged 1 to under 12 must wear one as well.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Alone with a child on a small open boat",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Alone with children under 12",
+    "badge": "4.8 m"
+   },
+   "vessels": [],
+   "id": "safety-alone-with-child"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-anchored-at-night",
+  "topicId": "lifejacket-wearing",
+  "question": "You anchor your 4.5 metre open boat after dark to fish. Must everyone keep wearing their lifejackets?",
+  "options": [
+   "No. The wear rule applies while underway, and an anchored boat is not underway.",
+   "Yes. At night lifejackets must stay on even at anchor.",
+   "Yes. On an open boat lifejackets must be worn at all times.",
+   "Only if you are more than 2 nautical miles from land."
+  ],
+  "explanation": "Underway means not anchored, moored or made fast to the shore, so the night wear rule pauses while you are anchored. The moment you haul the anchor, everyone aged 1 or older on an open boat under 4.8 metres must wear one again until sunrise.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Anchored at night in a small open boat",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Anchored boats are not underway"
+   },
+   "vessels": [],
+   "id": "safety-anchored-at-night"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-children-any-length",
+  "topicId": "lifejacket-wearing",
+  "question": "Your open boat is 6.5 metres long. Must your 9 year old wear a lifejacket while you are underway?",
+  "options": [
+   "Yes. On an open boat of any length, children aged 1 to under 12 must wear one underway.",
+   "No. The children's wear rule only applies to open boats under 4.8 metres.",
+   "No. Children only need to wear one at night.",
+   "Only when the boat is travelling faster than 10 knots."
+  ],
+  "explanation": "Since 1 December 2024 the children's wear rule covers open boats of every length; the old under 4.8 metre limit is gone. The under 4.8 metre threshold now only matters for the adult wear rules (boating alone and at night).",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Children on open boats of any length",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Children wear on any open boat",
+    "badge": "<12"
+   },
+   "vessels": [],
+   "id": "safety-children-any-length"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-cabin-boat-children",
+  "topicId": "lifejacket-wearing",
+  "question": "Your family cruiser has an enclosed cabin. Where must your 7 year old wear a lifejacket while the boat is underway?",
+  "options": [
+   "In the open areas of the boat, outside the cabin or deckhouse.",
+   "Everywhere on board, including inside the cabin.",
+   "Nowhere. Boats with cabins are exempt from the wear rules.",
+   "Only on the foredeck."
+  ],
+  "explanation": "On a ship that is not an open boat, every child aged 1 to under 12 must wear a lifejacket while occupying an open area underway. Inside the cabin or deckhouse the jacket can come off.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Children on boats with cabins",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Open areas of cabin boats",
+    "badge": "<12"
+   },
+   "vessels": [],
+   "id": "safety-cabin-boat-children"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-bar-open-boat",
+  "topicId": "lifejacket-wearing",
+  "question": "You are about to cross a designated coastal bar in a 5.5 metre open boat. Who must wear a lifejacket?",
+  "options": [
+   "Everyone aged 1 year or older, whatever the boat's length.",
+   "Only children, because the boat is over 4.8 metres.",
+   "Only people who cannot swim.",
+   "Nobody, if the bar looks calm on the day."
+  ],
+  "explanation": "Bar crossings are among the highest risk moments in coastal boating, so on an open boat of any length everyone aged 1 or older must wear a lifejacket. A pouch style inflatable must be unpacked and worn ready around the neck for the crossing.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Crossing a coastal bar in an open boat",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Bar crossing, open boat of any length",
+    "badge": "1+"
+   },
+   "vessels": [],
+   "id": "safety-bar-open-boat"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-bar-cabin-boat",
+  "topicId": "lifejacket-wearing",
+  "question": "You are crossing a designated coastal bar in a half cabin cruiser. Who must wear a lifejacket?",
+  "options": [
+   "Everyone aged 1 or older who is in an open area; people inside the cabin are exempt.",
+   "Nobody. The bar rule only covers open boats.",
+   "Only the skipper at the helm.",
+   "Everyone on board, including anyone inside the cabin."
+  ],
+  "explanation": "On ships other than open boats, the bar crossing rule applies to everyone aged 1 or older occupying an open area. Moving inside the cabin or deckhouse takes a person outside the wear requirement.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Crossing a coastal bar in a cabin boat",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Open areas of cabin boats on bars",
+    "badge": "1+"
+   },
+   "vessels": [],
+   "id": "safety-bar-cabin-boat"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-drifting-counts",
+  "topicId": "lifejacket-wearing",
+  "question": "You cut the engine and drift while fishing alone in your 4.4 metre open tinnie in daylight. Do you still have to wear your lifejacket?",
+  "options": [
+   "Yes. Drifting still counts as underway, so the wear rule still applies.",
+   "No. With the engine off, the boat is no longer underway.",
+   "Only if the drift takes you into open waters.",
+   "Only between sunset and sunrise."
+  ],
+  "explanation": "Underway means not anchored, moored or made fast to the shore; whether the engine is running is irrelevant. A drifting boat is underway, so the boating alone wear rule keeps applying.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Drifting with the engine off",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Drifting still counts as underway"
+   },
+   "vessels": [],
+   "id": "safety-drifting-counts"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-spot-lock-underway",
+  "topicId": "lifejacket-wearing",
+  "question": "You hold position over a snag using your electric motor's spot-lock (GPS hold). For the lifejacket wear rules, is your boat underway?",
+  "options": [
+   "Yes. Spot-lock is not anchoring, so the boat is still underway and the wear rules apply.",
+   "No. Holding a fixed position counts the same as being anchored.",
+   "No, provided the petrol engine is switched off.",
+   "Only if the boat moves faster than 2 knots."
+  ],
+  "explanation": "Only anchoring, mooring or making fast to the shore takes a boat out of underway. Electric spot-lock or GPS hold keeps the boat legally underway even though it is stationary, so any applicable wear rule keeps applying.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Spot-lock and the wear rules",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Spot-lock counts as underway"
+   },
+   "vessels": [],
+   "id": "safety-spot-lock-underway"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-infants-under-one",
+  "topicId": "lifejacket-wearing",
+  "question": "How do the lifejacket laws treat a baby under 12 months old?",
+  "options": [
+   "Infants under 1 fall outside the wear laws, and MSQ recommends they not travel on recreational boats.",
+   "They must wear a lifejacket like everyone else aged 1 and over.",
+   "They must wear a level 50 jacket at all times on the water.",
+   "They need a jacket only when crossing a coastal bar."
+  ],
+  "explanation": "Both the carriage and wear rules start at age 1. No lifejacket reliably fits an infant under 12 months, which is exactly why MSQ advises against taking them out on recreational boats at all.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Infants and the lifejacket laws",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Infants under 1 year",
+    "badge": "<1 yr"
+   },
+   "vessels": [],
+   "id": "safety-infants-under-one"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-kayak-bar-crossing",
+  "topicId": "lifejacket-wearing",
+  "question": "You plan to paddle a sea kayak across a designated coastal bar. Do the lifejacket wear rules apply to you?",
+  "options": [
+   "Yes. A gazette notice extends bar crossing wear rules to sea kayaks, rafts, rowboats, pedal boats and small sailboats.",
+   "No. The wear rules only apply to powered boats.",
+   "Only if the kayak is longer than 4.8 metres.",
+   "Only between sunset and sunrise."
+  ],
+  "explanation": "The bar crossing wear requirement is not limited to motorboats: a separate gazette notice extends it to small sailboats, pedal boats, rafts, rowboats, and sea or surf kayaks. On a bar, everyone aged 1 or older wears a lifejacket.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Paddlecraft on coastal bars",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Kayaks and rafts on coastal bars",
+    "badge": "1+"
+   },
+   "vessels": [],
+   "id": "safety-kayak-bar-crossing"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-wear-fines",
+  "topicId": "lifejacket-wearing",
+  "question": "Since 1 July 2025, what can happen if you are caught breaking the lifejacket wear laws?",
+  "options": [
+   "You can be fined on the spot, with penalties starting at $333.",
+   "Nothing. The wear laws are advisory only.",
+   "A written warning is the only outcome for a first offence.",
+   "Your marine licence is automatically cancelled."
+  ],
+  "explanation": "The wear laws commenced on 1 December 2024 with an education period first; penalty enforcement began on 1 July 2025 with fines starting at $333. The rules bind the person required to wear the jacket, so an adult passenger can be fined personally.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Lifejacket fines since 1 July 2025",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Fines apply from 1 July 2025",
+    "badge": "$333"
+   },
+   "vessels": [],
+   "id": "safety-wear-fines"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-night-larger-open-boat",
+  "topicId": "lifejacket-wearing",
+  "question": "You are underway at night in a 5.5 metre open boat with two other adults. Who must wear a lifejacket?",
+  "options": [
+   "Nobody is required to, though jackets must be carried and wearing them at night is recommended.",
+   "Everyone on board aged 1 year or older.",
+   "Only the skipper.",
+   "Everyone, because every open boat requires wear at night."
+  ],
+  "explanation": "The everyone-wears-at-night rule applies to open boats under 4.8 metres. On a longer open boat only children aged 1 to under 12 must wear one underway, and there are no children in this crew. Carriage for every person still applies, and wearing at night is strongly recommended.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "A 5.5 metre open boat underway at night",
+   "night": true,
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -12,
+     "y": 10,
+     "heading": 35,
+     "movement": {
+      "kind": "straight",
+      "distance": 42
+     }
+    }
+   ],
+   "id": "safety-night-larger-open-boat"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-flare-kit",
+  "topicId": "signalling-equipment",
+  "question": "Which flares must a registered boat carry once it operates beyond smooth waters?",
+  "options": [
+   "Two red hand flares and two orange smoke signals.",
+   "Two parachute rockets and two red hand flares.",
+   "One red hand flare and one orange smoke signal.",
+   "Four white hand flares."
+  ],
+  "explanation": "The kit for partially smooth and open waters is two red hand flares plus two hand held orange smoke signals, and only in-date flares count. Store them in a waterproof container away from heat.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "The required flare kit",
+   "layout": {
+    "kind": "card",
+    "icon": "flare",
+    "label": "Beyond smooth waters flare kit",
+    "badge": "2+2"
+   },
+   "vessels": [],
+   "id": "safety-flare-kit"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-flare-expiry",
+  "topicId": "signalling-equipment",
+  "question": "How long do flares last before they must be replaced?",
+  "options": [
+   "About 3 years from manufacture, shown by the expiry date.",
+   "About 1 year from purchase.",
+   "About 5 years from manufacture.",
+   "They never expire if kept dry."
+  ],
+  "explanation": "Flares have a 3 year life and only in-date flares count toward your required equipment. Hand expired flares in at a listed disposal location; do not fire them off, because misuse attracts severe penalties and can bill you for the search it triggers.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Flare expiry",
+   "layout": {
+    "kind": "card",
+    "icon": "flare",
+    "label": "Only in-date flares count",
+    "badge": "3 yr"
+   },
+   "vessels": [],
+   "id": "safety-flare-expiry"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-night-flare",
+  "topicId": "signalling-equipment",
+  "question": "It is dark and you need to attract rescuers. Which of your flares should you use?",
+  "options": [
+   "A red hand flare. Orange smoke signals only work in daylight.",
+   "An orange smoke signal. Red hand flares are for daylight.",
+   "Either. Both types work equally well at night.",
+   "Neither. Flares must not be lit after sunset."
+  ],
+  "explanation": "A red hand flare works by day or night and can be seen up to about 6 nautical miles away. Orange smoke is a daytime-only signal; in the dark the smoke is invisible. Hold a lit flare downwind and cool the spent casing in the sea.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Choosing a flare at night",
+   "layout": {
+    "kind": "card",
+    "icon": "flare",
+    "label": "Red flares work day and night"
+   },
+   "vessels": [],
+   "id": "safety-night-flare"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-red-flare-range",
+  "topicId": "signalling-equipment",
+  "question": "About how far away can a red hand flare be seen in good conditions?",
+  "options": [
+   "Up to about 6 nautical miles (10 kilometres).",
+   "Up to about 2 nautical miles (4 kilometres).",
+   "Only a few hundred metres.",
+   "At least 20 nautical miles."
+  ],
+  "explanation": "A red hand flare is visible up to about 6 nautical miles by day or night. The 2 nautical mile figure belongs to the orange smoke signal, which is a daytime-only signal on a clear day.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Red hand flare visibility",
+   "layout": {
+    "kind": "card",
+    "icon": "flare",
+    "label": "Red hand flare visibility",
+    "badge": "6 nm"
+   },
+   "vessels": [],
+   "id": "safety-red-flare-range"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-v-sheet-meaning",
+  "topicId": "signalling-equipment",
+  "question": "A boat ahead has a fluorescent orange-red sheet with a large black V spread over its deck. What does it mean?",
+  "options": [
+   "The boat is in distress and needs help.",
+   "Divers are working below; keep well clear.",
+   "The boat is aground but needs no assistance.",
+   "The skipper is signalling a waterskiing area."
+  ],
+  "explanation": "That is the V sheet, a distress signal aimed at aircraft and other boats. It can be spread on deck, flown as a flag or tied over an upturned hull, and it is required equipment in partially smooth and open waters.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "The V sheet distress signal",
+   "layout": {
+    "kind": "card",
+    "icon": "vSheet",
+    "label": "Distress signal to aircraft and boats"
+   },
+   "vessels": [],
+   "id": "safety-v-sheet-meaning"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-epirb-registration",
+  "topicId": "signalling-equipment",
+  "question": "Who do you register your 406 MHz EPIRB with, and how often must the registration be renewed?",
+  "options": [
+   "With AMSA, renewed every 2 years.",
+   "With Maritime Safety Queensland, renewed every year.",
+   "With the local volunteer marine rescue group, once only.",
+   "No registration is needed while the battery is in date."
+  ],
+  "explanation": "EPIRBs are registered with the Australian Maritime Safety Authority in the name of the owner or master, and the registration renews every 2 years. The digital identity lets rescue authorities phone you to check an alert, and proof of registration must be shown to marine inspectors.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 10 (EPIRB registration)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "EPIRB registration with AMSA",
+   "layout": {
+    "kind": "card",
+    "icon": "epirb",
+    "label": "Register with AMSA",
+    "badge": "2 yr"
+   },
+   "vessels": [],
+   "id": "safety-epirb-registration"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-epirb-406",
+  "topicId": "signalling-equipment",
+  "question": "Which beacon satisfies the EPIRB carriage requirement?",
+  "options": [
+   "A 406 MHz digital EPIRB registered with AMSA.",
+   "A 121.5 MHz analogue beacon in good working order.",
+   "Any beacon that floats.",
+   "A waterproof strobe light."
+  ],
+  "explanation": "Satellites no longer monitor the old 121.5 MHz analogue beacons, so only a 406 MHz digital EPIRB counts. Its coded identity lets rescue authorities phone the owner to check an alert before committing search aircraft.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 9 (EPIRBs)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "406 MHz digital EPIRBs",
+   "layout": {
+    "kind": "card",
+    "icon": "epirb",
+    "label": "Digital 406 MHz beacons only",
+    "badge": "406"
+   },
+   "vessels": [],
+   "id": "safety-epirb-406"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-plb-on-pwc",
+  "topicId": "signalling-equipment",
+  "question": "Can a PWC rider use a personal locator beacon (PLB) instead of carrying an EPIRB where an EPIRB is required?",
+  "options": [
+   "Yes, if the PLB is 406 MHz, GPS equipped, AMSA registered, and floats or is kept in a floating pouch.",
+   "No. Only a full sized EPIRB ever satisfies the requirement.",
+   "Yes, any pocket sized beacon will do, even without GPS or registration.",
+   "Yes, but only inside smooth waters."
+  ],
+  "explanation": "Maritime Safety Queensland accepts a PLB in place of an EPIRB on a PWC when it complies with AS/NZS 4280.2, is GPS equipped, floats or is carried in a floating pouch, and is registered with AMSA. Keep it on your person: a fall can separate you from the craft, and a PLB in a storage compartment rescues the PWC, not you.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PLBs on personal watercraft",
+   "layout": {
+    "kind": "card",
+    "icon": "epirb",
+    "label": "A worn PLB can cover a PWC",
+    "badge": "PLB"
+   },
+   "vessels": [],
+   "id": "safety-plb-on-pwc"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-torch-at-night",
+  "topicId": "signalling-equipment",
+  "question": "You will still be on the water after sunset. What signalling equipment must you carry?",
+  "options": [
+   "A torch or other signalling light, required on every boat in all waters at night.",
+   "A torch is only required beyond smooth waters.",
+   "Nothing extra. Navigation lights double as signalling equipment.",
+   "A searchlight of at least 1000 lumens."
+  ],
+  "explanation": "Between sunset and sunrise every boat in every water type must carry a signalling device: a torch, fluorescent light, lantern or cyalume stick. It is for signalling and is not a substitute for proper navigation lights.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Signalling light after sunset",
+   "layout": {
+    "kind": "card",
+    "icon": "torch",
+    "label": "Carry a light sunset to sunrise"
+   },
+   "vessels": [],
+   "id": "safety-torch-at-night"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-epirb-last-resort",
+  "topicId": "signalling-equipment",
+  "question": "You are in distress carrying a radio, flares, a V sheet, a phone and an EPIRB. When should you activate the EPIRB?",
+  "options": [
+   "As a last resort, after trying the radio, flares, V sheet and phone.",
+   "First, before anything else, to start the rescue as early as possible.",
+   "Only once the boat has actually sunk.",
+   "Never manually; it must trigger automatically in the water."
+  ],
+  "explanation": "Rescue authorities respond to about 7000 activations a year and every one triggers a response, so the EPIRB comes after your other options. To activate manually, hold the antenna vertical with a clear view of the sky; a red flashing light after about 3 minutes shows it is transmitting.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 9 (EPIRBs)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "When to activate an EPIRB",
+   "layout": {
+    "kind": "card",
+    "icon": "epirb",
+    "label": "Activate as a last resort"
+   },
+   "vessels": [],
+   "id": "safety-epirb-last-resort"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-fire-equipment-over-5m",
+  "topicId": "fire-safety",
+  "question": "Which recreational boats must carry fire fighting equipment?",
+  "options": [
+   "All registered boats, and specifically any boat over 5 metres.",
+   "Only boats over 8 metres.",
+   "Only boats operating beyond smooth waters.",
+   "Only boats with inboard petrol engines."
+  ],
+  "explanation": "Fire fighting equipment capable of putting a fire out quickly and effectively is required on registered boats in all waters, and on all boats over 5 metres. Any boat carrying fuel should mount at least one dry powder extinguisher somewhere accessible, dry and away from likely fire sources.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Who must carry fire fighting equipment",
+   "layout": {
+    "kind": "card",
+    "icon": "fireExtinguisher",
+    "label": "Required on all boats over 5 m",
+    "badge": "5 m"
+   },
+   "vessels": [],
+   "id": "safety-fire-equipment-over-5m"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-abe-extinguisher",
+  "topicId": "fire-safety",
+  "question": "Which fires can an AB(E) dry chemical powder extinguisher fight?",
+  "options": [
+   "Class A solids, class B flammable liquids such as petrol, and electrical fires.",
+   "Only cooking oil and fat fires.",
+   "Only combustible metal fires.",
+   "Only gas fires."
+  ],
+  "explanation": "Dry chemical powder (white band) is the general purpose choice for boats: AB(E) powder covers carbonaceous solids, flammable liquids and electrical hazards. Remember a 1 kg unit discharges for only about 10 to 12 seconds, so aim well before squeezing.",
+  "citations": [
+   {
+    "reference": "QFES fire extinguishers information sheet",
+    "url": "https://www.qfes.qld.gov.au"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "AB(E) dry powder coverage",
+   "layout": {
+    "kind": "card",
+    "icon": "fireExtinguisher",
+    "label": "White band dry powder",
+    "badge": "ABE"
+   },
+   "vessels": [],
+   "id": "safety-abe-extinguisher"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-pass-method",
+  "topicId": "fire-safety",
+  "question": "What does the PASS method for using a fire extinguisher stand for?",
+  "options": [
+   "Pull the pin, Aim at the base of the fire, Squeeze the handle, Sweep side to side.",
+   "Point, Activate, Spray, Stop.",
+   "Pull the pin, Aim at the top of the flames, Spray upward, Stand back.",
+   "Prime, Aim, Shake, Squeeze."
+  ],
+  "explanation": "Aim at the base (the heart) of the fire, not the flames. Only fight a fire if the agent suits the fuel, electricity has been considered, you can put it out quickly, your escape is not at risk, and everyone else has been evacuated.",
+  "citations": [
+   {
+    "reference": "QFES fire extinguishers information sheet",
+    "url": "https://www.qfes.qld.gov.au"
+   }
+  ],
+  "scene": {
+   "title": "The PASS technique",
+   "layout": {
+    "kind": "card",
+    "icon": "fireExtinguisher",
+    "label": "Aim at the base of the fire",
+    "badge": "PASS"
+   },
+   "vessels": [],
+   "id": "safety-pass-method"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-refuelling-before",
+  "topicId": "fire-safety",
+  "question": "What should you do before refuelling your boat?",
+  "options": [
+   "Moor securely, shut down engines and electrics, close hatches, and have an extinguisher handy.",
+   "Keep the engine running so you can move off quickly.",
+   "Open the hatches so any spilt fuel can drain into the bilge.",
+   "Refill portable tanks on board to save carrying them ashore."
+  ],
+  "explanation": "Also take portable tanks ashore, never fill them in the boat, and keep bystanders clear. While filling, keep the nozzle in contact with the filler to prevent static sparks and do not operate radios or phones.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Before you refuel",
+   "layout": {
+    "kind": "card",
+    "icon": "fuel",
+    "label": "Shut down before refuelling"
+   },
+   "vessels": [],
+   "id": "safety-refuelling-before"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-petrol-bilge-fumes",
+  "topicId": "fire-safety",
+  "question": "After refuelling you smell petrol in the bilge. What must you do?",
+  "options": [
+   "Do not start the engine. Ventilate the boat wide open and pump the bilge by hand until the smell is gone.",
+   "Run the electric bilge pump straight away to clear it.",
+   "Start the engine and open the throttle to blow the fumes clear.",
+   "Ignore it. Petrol fumes rise and disperse on their own."
+  ],
+  "explanation": "Petrol vapour is heavier than air and pools in the bilge, where one spark from a starter, switch or electric pump can ignite it. If fuel has spilt, pump the bilge by hand and ventilate the boat wide open for at least 30 minutes before starting anything.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Petrol fumes in the bilge",
+   "layout": {
+    "kind": "card",
+    "icon": "fuel",
+    "label": "Petrol vapour pools in the bilge"
+   },
+   "vessels": [],
+   "id": "safety-petrol-bilge-fumes"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-gas-bottle-storage",
+  "topicId": "fire-safety",
+  "question": "How should LPG gas bottles be stored on a boat?",
+  "options": [
+   "Upright, in a ventilated locker that drains overboard.",
+   "Lying flat in the bilge where they cannot roll around.",
+   "Inside the cabin, close to the stove for easy connection.",
+   "Anywhere convenient, as long as the valve is closed."
+  ],
+  "explanation": "Leaking LPG sinks, so the locker must vent and drain overboard rather than into the hull. Have gas systems installed and serviced by licensed gas fitters, fit flame failure devices or a gas detector, and test joints with soapy water, never a match.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Storing LPG bottles",
+   "layout": {
+    "kind": "card",
+    "icon": "fuel",
+    "label": "Upright in a vented locker",
+    "badge": "LPG"
+   },
+   "vessels": [],
+   "id": "safety-gas-bottle-storage"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-lpg-heavier-than-air",
+  "topicId": "fire-safety",
+  "question": "Why is leaking LPG especially dangerous on a boat?",
+  "options": [
+   "It is heavier than air, so it sinks and pools in the bilge until a spark ignites it.",
+   "It rises and blows away too quickly to smell.",
+   "It corrodes the hull below the waterline.",
+   "It only burns when mixed with petrol."
+  ],
+  "explanation": "LPG is often called the most dangerous substance aboard if mishandled because it collects invisibly in the bilge. In a gas emergency, stop motors, close cylinder valves, turn off appliances, ventilate, and touch no electrical switches until the boat is clear.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "The LPG hazard",
+   "layout": {
+    "kind": "card",
+    "icon": "fuel",
+    "label": "LPG sinks into the bilge",
+    "badge": "LPG"
+   },
+   "vessels": [],
+   "id": "safety-lpg-heavier-than-air"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-powder-shake",
+  "topicId": "fire-safety",
+  "question": "Why should you regularly shake the dry chemical powder extinguisher on your boat?",
+  "options": [
+   "The powder compacts over time and may not discharge when you need it.",
+   "Shaking recharges the internal pressure.",
+   "It mixes the powder with the water propellant.",
+   "It resets the pressure gauge to full."
+  ],
+  "explanation": "Vibration and time pack the powder down, so shake the extinguisher regularly and check the fill gauge. Bag small units in plastic against salt spray, and have extinguishers pressure tested professionally every 5 years.",
+  "citations": [
+   {
+    "reference": "QFES fire extinguishers information sheet",
+    "url": "https://www.qfes.qld.gov.au"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Dry powder extinguisher upkeep",
+   "layout": {
+    "kind": "card",
+    "icon": "fireExtinguisher",
+    "label": "Keep the powder loose"
+   },
+   "vessels": [],
+   "id": "safety-powder-shake"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-partially-smooth-additions",
+  "topicId": "equipment-scales",
+  "question": "You motor from the river out into partially smooth waters. What signalling equipment becomes required?",
+  "options": [
+   "A V sheet, two red hand flares and two orange smoke signals.",
+   "An EPIRB only.",
+   "Nothing extra until you reach open waters.",
+   "A marine radio and a radar reflector."
+  ],
+  "explanation": "Smooth waters require neither flares nor a V sheet; both requirements start at the partially smooth boundary. Equip for the whole trip, including waters you only pass through.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   },
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "Equipment added in partially smooth waters",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "V sheet and flares beyond smooth water",
+    "badge": "2+2"
+   },
+   "vessels": [],
+   "id": "safety-partially-smooth-additions"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-open-waters-additions",
+  "topicId": "equipment-scales",
+  "question": "You plan to fish a reef 10 nautical miles offshore. Besides the flares and V sheet, what must you add?",
+  "options": [
+   "A registered 406 MHz EPIRB.",
+   "A liferaft for everyone on board.",
+   "Two anchors, regardless of boat size.",
+   "Nothing beyond the partially smooth waters kit."
+  ],
+  "explanation": "The EPIRB requirement kicks in beyond smooth waters once you are more than 2 nautical miles from land, and a reef 10 nautical miles out is well past that line. A liferaft is recommended for bigger boats going to sea, but it is not the required item here.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 9 (EPIRBs)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Heading offshore adds an EPIRB",
+   "layout": {
+    "kind": "card",
+    "icon": "epirb",
+    "label": "Add an EPIRB offshore",
+    "badge": "2 nm"
+   },
+   "vessels": [],
+   "id": "safety-open-waters-additions"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-pwc-nearshore-exemption",
+  "topicId": "equipment-scales",
+  "question": "When is a PWC excused from carrying flares and a V sheet in open waters?",
+  "options": [
+   "When operating within 0.5 nautical miles of land, or in an approved aquatic event.",
+   "Whenever the rider is wearing a lifejacket.",
+   "When another vessel accompanies it.",
+   "Never. A PWC always carries flares in open waters."
+  ],
+  "explanation": "Beyond partially smooth waters a PWC staying within 0.5 nautical miles of land does not need the V sheet and flares; the same goes for approved aquatic events. Venture further out and the full signalling kit applies.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC signalling exemption near land",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "PWC flare exemption near land",
+    "badge": "0.5nm"
+   },
+   "vessels": [],
+   "id": "safety-pwc-nearshore-exemption"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-anchor-smooth",
+  "topicId": "equipment-scales",
+  "question": "Under the recommended equipment scale, how much anchor cable should a boat under 5 metres carry in smooth waters?",
+  "options": [
+   "At least 18 metres.",
+   "At least 27 metres.",
+   "At least 37 metres.",
+   "At least 9 metres."
+  ],
+  "explanation": "Cable means chain, rope or both. The same boat needs at least 27 metres once it leaves smooth waters, and boats 8 metres and over carry two anchors with at least 37 metres each.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Anchor cable in smooth waters",
+   "layout": {
+    "kind": "card",
+    "icon": "anchor",
+    "label": "Under 5 m in smooth waters",
+    "badge": "18 m"
+   },
+   "vessels": [],
+   "id": "safety-anchor-smooth"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-anchor-beyond-smooth",
+  "topicId": "equipment-scales",
+  "question": "Your 4.5 metre boat heads into partially smooth waters. What does the anchoring scale recommend?",
+  "options": [
+   "One anchor with at least 27 metres of cable.",
+   "One anchor with at least 18 metres of cable.",
+   "Two anchors with at least 37 metres each.",
+   "No anchor is recommended for boats under 5 metres."
+  ],
+  "explanation": "For boats under 5 metres the scale steps up from 18 metres of cable in smooth waters to 27 metres in partially smooth waters and beyond. Deeper, rougher water needs more scope for the anchor to hold.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Anchor cable beyond smooth waters",
+   "layout": {
+    "kind": "card",
+    "icon": "anchor",
+    "label": "Under 5 m beyond smooth waters",
+    "badge": "27 m"
+   },
+   "vessels": [],
+   "id": "safety-anchor-beyond-smooth"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-anchor-chain-length",
+  "topicId": "equipment-scales",
+  "question": "For a boat over 5 metres, how much chain should sit between the anchor and the rope?",
+  "options": [
+   "At least 2 metres.",
+   "None. Chain is optional at any boat size.",
+   "At least 10 metres.",
+   "Exactly half the total cable length."
+  ],
+  "explanation": "The chain keeps the anchor shank parallel to the seabed so the flukes bite, and it stops the line chafing on the bottom. Boats over 5 metres should have at least 2 metres of chain in the ground tackle.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Chain between anchor and rope",
+   "layout": {
+    "kind": "card",
+    "icon": "anchor",
+    "label": "Chain between anchor and rope",
+    "badge": "2 m"
+   },
+   "vessels": [],
+   "id": "safety-anchor-chain-length"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-bailing-small-boat",
+  "topicId": "equipment-scales",
+  "question": "What bailing or pumping equipment does the safety scale call for on a boat under 5 metres?",
+  "options": [
+   "Suitable bailing equipment, such as a sturdy bucket or bailer.",
+   "A bilge pump of at least 45 litres per minute.",
+   "A bilge pump of at least 70 litres per minute.",
+   "Nothing, if the boat has self draining decks."
+  ],
+  "explanation": "Bailing gear is recommended in all waters: under 5 metres a bailer is enough, 5 to under 8 metres calls for a 45 litre per minute bilge pump, and 8 metres and over a 70 litre per minute pump. A solid bucket with about 2 metres of rope doubles as a fire bucket.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Bailing gear for small boats",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Bailer for boats under 5 m"
+   },
+   "vessels": [],
+   "id": "safety-bailing-small-boat"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-bilge-pump-6m",
+  "topicId": "equipment-scales",
+  "question": "What does the equipment scale recommend for pumping out a 6 metre boat?",
+  "options": [
+   "A bilge pump of at least 45 litres per minute.",
+   "A bilge pump of at least 70 litres per minute.",
+   "Bailing equipment only, with no pump.",
+   "No pump or bailer at this size."
+  ],
+  "explanation": "Boats from 5 to under 8 metres are matched to a 45 litre per minute bilge pump; 70 litres per minute applies from 8 metres. A bucket or bailer alone is only the recommendation for boats under 5 metres.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Bilge pump capacity by boat length",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Bilge pump from 5 m to under 8 m",
+    "badge": "45 L"
+   },
+   "vessels": [],
+   "id": "safety-bilge-pump-6m"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-oars-under-6m",
+  "topicId": "equipment-scales",
+  "question": "For which boats does the equipment scale recommend carrying oars or paddles?",
+  "options": [
+   "Boats under 6 metres.",
+   "Boats under 8 metres.",
+   "Only boats without any motor.",
+   "All boats, regardless of size."
+  ],
+  "explanation": "Manual propulsion is recommended for boats under 6 metres. Fuel problems, mechanical failure and flat batteries are the most common causes of breakdown, and oars can get a small boat home or clear of danger.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Oars for small boats",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Oars recommended under 6 m",
+    "badge": "6 m"
+   },
+   "vessels": [],
+   "id": "safety-oars-under-6m"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "safety-all-waters-lifejackets",
+  "topicId": "equipment-scales",
+  "question": "Which safety equipment is required on every recreational boat, in every water type?",
+  "options": [
+   "A lifejacket of appropriate size for each person aged 1 year and over.",
+   "A V sheet.",
+   "An EPIRB.",
+   "Two red hand flares."
+  ],
+  "explanation": "Since the level flotation exemption was removed on 1 June 2024, lifejackets must be carried for everyone aged 1 and over on all boats in all waters. The V sheet and flares only start in partially smooth waters, and the EPIRB beyond that.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Required in all waters",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Lifejackets on all boats in all waters"
+   },
+   "vessels": [],
+   "id": "safety-all-waters-lifejackets"
+  },
+  "correctIndex": 0
+ }
+]

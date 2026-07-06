@@ -1,0 +1,1035 @@
+[
+ {
+  "id": "pwctow-pwc-anchored-boat",
+  "topicId": "pwc",
+  "question": "You are riding a PWC past an anchored boat. Within what distance of it must you be down to 6 knots?",
+  "options": [
+   "60 metres.",
+   "30 metres, the same as any other boat.",
+   "100 metres.",
+   "No fixed distance; just travel at a safe speed."
+  ],
+  "explanation": "PWC distance rules double the boat rules: 6 knots within 60 metres of anchored or moored ships, jetties, boat ramps and pontoons, people in the water, the shore and the boundary of a bathing reserve. Other boats get 30 metres for the same rule.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 82 (operating personal watercraft)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC approaching an anchored boat with a 60 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 180,
+    "height": 160,
+    "features": [
+     {
+      "kind": "distanceRing",
+      "id": "ring-60",
+      "around": "B",
+      "radius": 60,
+      "label": "60 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "pwc",
+     "x": -35,
+     "y": -25,
+     "heading": 130,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    },
+    {
+     "id": "B",
+     "x": 26,
+     "y": 20,
+     "heading": 350,
+     "anchored": true
+    }
+   ],
+   "id": "pwctow-pwc-anchored-boat"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-shore-distance",
+  "topicId": "pwc",
+  "question": "You are riding a PWC along the beach. How close to the shore may you ride at more than 6 knots?",
+  "options": [
+   "No closer than 60 metres from the shore.",
+   "No closer than 30 metres from the shore.",
+   "Any distance, provided you make no wash.",
+   "No closer than 200 metres from the shore."
+  ],
+  "explanation": "A PWC must slow to 6 knots within 60 metres of the shore, a rule that does not apply to ordinary boats. In a waterway narrower than 120 metres you may instead transit near a straight line close to the centre or the marked channel. The 200 metre figure is the freestyling rule near residential shores, not the general shore limit.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 82 (operating personal watercraft)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC running parallel to the beach with its 60 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 170,
+    "height": 150,
+    "shores": [
+     {
+      "side": "south",
+      "depth": 30,
+      "kind": "beach"
+     }
+    ],
+    "features": [
+     {
+      "kind": "distanceRing",
+      "id": "ring-60",
+      "around": "A",
+      "radius": 60,
+      "label": "60 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "pwc",
+     "x": -20,
+     "y": 25,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    }
+   ],
+   "id": "pwctow-pwc-shore-distance"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-bathing-reserve",
+  "topicId": "pwc",
+  "question": "A buoyed bathing reserve sits off the beach. From where is the PWC 60 metre, 6 knot distance measured?",
+  "options": [
+   "From the boundary of the bathing reserve.",
+   "From the nearest swimmer inside the reserve.",
+   "From the high water mark on the beach.",
+   "From the centre of the reserve."
+  ],
+  "explanation": "The 6 knot rule applies within 60 metres of the boundary of a bathing reserve, so the bubble starts at the buoyed line, not at individual swimmers inside it. A person in the water outside the reserve carries their own 60 metre bubble.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 82 (operating personal watercraft)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Bathing reserve off a beach with a 60 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 180,
+    "height": 150,
+    "shores": [
+     {
+      "side": "south",
+      "depth": 26,
+      "kind": "beach"
+     }
+    ],
+    "features": [
+     {
+      "kind": "swimArea",
+      "id": "sa",
+      "x": -45,
+      "y": 38,
+      "width": 42,
+      "height": 22
+     },
+     {
+      "kind": "distanceRing",
+      "id": "ring-60",
+      "around": "sa",
+      "radius": 60,
+      "label": "60 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "pwc",
+     "x": 25,
+     "y": -20,
+     "heading": 245,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    }
+   ],
+   "swimmers": [
+    {
+     "x": -50,
+     "y": 40
+    },
+    {
+     "x": -38,
+     "y": 42
+    }
+   ],
+   "id": "pwctow-pwc-bathing-reserve"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-jetty-distance",
+  "topicId": "pwc",
+  "question": "You are riding a PWC toward a jetty. At what distance from it must you already be at 6 knots or less?",
+  "options": [
+   "60 metres.",
+   "30 metres.",
+   "10 metres.",
+   "There is no speed limit near structures, only near people."
+  ],
+  "explanation": "On a PWC the 6 knot rule starts 60 metres from jetties, boat ramps, pontoons and anchored or moored ships, twice the 30 metres other boats get. Speeding near structures also risks impeding boats launching and retrieving.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 82 (operating personal watercraft)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "PWC approaching a jetty with a 60 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 180,
+    "height": 150,
+    "shores": [
+     {
+      "side": "south",
+      "depth": 26,
+      "kind": "beach"
+     }
+    ],
+    "features": [
+     {
+      "kind": "jetty",
+      "id": "jetty",
+      "side": "south",
+      "at": 20,
+      "length": 24
+     },
+     {
+      "kind": "distanceRing",
+      "id": "ring-60",
+      "around": {
+       "x": 20,
+       "y": 28
+      },
+      "radius": 60,
+      "label": "60 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "pwc",
+     "x": -45,
+     "y": -35,
+     "heading": 130,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    }
+   ],
+   "id": "pwctow-pwc-jetty-distance"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-ten-knots-moving",
+  "topicId": "pwc",
+  "question": "Your PWC is passing another moving boat. What speed limit applies within 30 metres of it?",
+  "options": [
+   "10 knots.",
+   "6 knots.",
+   "No limit, because both vessels are moving.",
+   "20 knots."
+  ],
+  "explanation": "A PWC travelling faster than 10 knots must keep at least 30 metres from other moving ships, unless taking part in an approved aquatic event. The 6 knot rule is the separate 60 metre rule for people, anchored ships, structures, bathing reserves and the shore.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 82 (operating personal watercraft)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC and a moving boat with a 30 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 170,
+    "height": 140,
+    "features": [
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": "B",
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "pwc",
+     "x": -30,
+     "y": 25,
+     "heading": 60,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    },
+    {
+     "id": "B",
+     "x": 20,
+     "y": -10,
+     "heading": 180,
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    }
+   ],
+   "id": "pwctow-pwc-ten-knots-moving"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-freestyle-shore",
+  "topicId": "pwc",
+  "question": "In coastal waters, how far from a residential shoreline must a PWC be before freestyling or wave jumping?",
+  "options": [
+   "More than 200 metres.",
+   "More than 60 metres.",
+   "More than 100 metres.",
+   "Freestyling is banned everywhere in Queensland."
+  ],
+  "explanation": "Freestyling and wave jumping must occur more than 200 metres from shore where dwellings within 100 metres of the shoreline are visible and nearby. Dams and non-tidal inland waters do not count as coastal waters for this rule, and local marine zones can ban freestyling outright.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 86 (freestyling restrictions)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Freestyling distance from residential shores",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "Freestyling near residential shores",
+    "badge": "200 m"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-freestyle-shore"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-freestyle-definition",
+  "topicId": "pwc",
+  "question": "Which of these describes freestyling on a PWC?",
+  "options": [
+   "Erratic, unpredictable driving such as donuts, figure eights, 360s and wake jumping.",
+   "Riding without holding the handlebars.",
+   "Towing a skier without an observer on board.",
+   "Any riding faster than 10 knots."
+  ],
+  "explanation": "Freestyling is erratic, non-directional, unpredictable high speed driving: wake jumping, donuts, figure eights and 360s. Wave jumping means using waves or swell to launch the craft into the air, and both are restricted near residential shorelines.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 86 (freestyling restrictions)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "What counts as freestyling",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "Donuts, figure eights, wake jumping"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-freestyle-definition"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-off-throttle",
+  "topicId": "pwc",
+  "question": "A PWC rider heading for a moored boat releases the throttle and turns the bars hard. What happens?",
+  "options": [
+   "The PWC keeps going straight ahead, because without jet thrust there is no steering.",
+   "The PWC turns sharply, because the hull grips better at low speed.",
+   "The PWC stops within about a boat length.",
+   "The reverse bucket deploys automatically and slows the craft."
+  ],
+  "explanation": "A PWC steers by directing its jet stream, so chopping the throttle removes steering and the craft continues straight no matter where the bars point. To avoid an obstacle, keep the power on and turn.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Off throttle steering loss",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "No throttle means no steering"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-off-throttle"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-stopping-distance",
+  "topicId": "pwc",
+  "question": "About how far can a PWC keep travelling after you release the throttle from full speed?",
+  "options": [
+   "Up to 80 metres.",
+   "About 10 metres.",
+   "Up to 300 metres.",
+   "It stops almost immediately once the jet cuts out."
+  ],
+  "explanation": "Boats have no brakes: from full speed a PWC can coast up to 80 metres after the throttle is released, and with the throttle off it cannot be steered either. Leave a wide margin around anything you could hit.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC stopping distance from full speed",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "Coasting distance from full speed",
+    "badge": "80 m"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-stopping-distance"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-kill-switch",
+  "topicId": "pwc",
+  "question": "What does the kill switch lanyard on a PWC do?",
+  "options": [
+   "It stops the engine if you fall off, by pulling free of the ignition safety switch.",
+   "It cuts the fuel supply if the PWC capsizes.",
+   "It sounds an alarm so nearby boats know you are in the water.",
+   "It makes the PWC circle back to you at full speed."
+  ],
+  "explanation": "The lanyard clips the operator's wrist or lifejacket to the ignition safety switch; falling off pulls it free and stops the engine, so the craft does not ride on without you. Test it before every trip. Some PWC instead have a self-circling feature that idles back toward the rider.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "The kill switch lanyard",
+   "layout": {
+    "kind": "card",
+    "icon": "killSwitch",
+    "label": "Kill switch lanyard"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-kill-switch"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-lanyard-learner",
+  "topicId": "pwc",
+  "question": "You are supervising an unlicensed learner who is driving your PWC. Who must wear the kill switch lanyard?",
+  "options": [
+   "You, the supervising PWC licence holder.",
+   "The learner who is driving.",
+   "Nobody; lanyards are optional equipment.",
+   "Both of you, on separate lanyards."
+  ],
+  "explanation": "While a learner drives, the supervising licence holder must wear the kill switch lanyard so they can stop the engine immediately. A learner may not carry any passenger other than the supervising licence holder.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 82 (operating personal watercraft)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Supervising a learner PWC driver",
+   "layout": {
+    "kind": "card",
+    "icon": "killSwitch",
+    "label": "Supervising a learner PWC driver"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-lanyard-learner"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-lifejacket-worn",
+  "topicId": "pwc",
+  "question": "When must you wear a lifejacket on a PWC?",
+  "options": [
+   "At all times, whether driving or riding as a passenger.",
+   "Only when travelling faster than 10 knots.",
+   "Only beyond smooth waters.",
+   "Only the driver must wear one; passengers may stow theirs."
+  ],
+  "explanation": "PWC operators and passengers must wear their lifejacket at all times; unlike most boats, carrying one on board is never enough. Falling off is a normal part of PWC riding, so the jacket has to already be on.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Lifejackets on a PWC",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Lifejacket wear on a PWC"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-lifejacket-worn"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-level-hundred",
+  "topicId": "pwc",
+  "question": "Which lifejacket levels are acceptable when riding a PWC?",
+  "options": [
+   "Level 50, or level 50 special purpose in smooth waters only.",
+   "Level 100 or higher, for extra buoyancy.",
+   "Any AS 4758 level from 50 special purpose up to 275.",
+   "Level 150 with a collar, when beyond smooth waters."
+  ],
+  "explanation": "PWC riders wear level 50; level 50 special purpose is acceptable only in smooth waters. Collared level 100 jackets must never be used on a PWC: the collar is designed for passive flotation, not for repeatedly hitting the water at speed.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 22 (lifejackets to be carried)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Lifejacket levels for PWC",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Never level 100 on a PWC",
+    "badge": "L50"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-level-hundred"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-night-lights",
+  "topicId": "pwc",
+  "question": "You want to keep riding your PWC after sunset. When is that allowed?",
+  "options": [
+   "Only if the PWC is fitted with the navigation lights required for a power-driven vessel.",
+   "Whenever you stay within 60 metres of the shore.",
+   "Never; PWC may only ever operate in daylight.",
+   "Whenever you carry a waterproof torch to signal other boats."
+  ],
+  "explanation": "Navigation lights must be shown from sunset to sunrise, and most PWC are not fitted with them, so night operation is only lawful on a PWC carrying the required lights. A torch is a signalling device, not a substitute for navigation lights, and some marine zones ban night operation regardless.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 23 (power-driven vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC underway at night",
+   "night": true,
+   "layout": {
+    "kind": "openWater",
+    "width": 140,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "pwc",
+     "x": -10,
+     "y": 15,
+     "heading": 40,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    },
+    {
+     "id": "B",
+     "x": 30,
+     "y": -25,
+     "heading": 350,
+     "anchored": true
+    }
+   ],
+   "id": "pwctow-pwc-night-lights"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-licence-prerequisite",
+  "topicId": "pwc",
+  "question": "What must you already hold before a personal watercraft licence (PWCL) can be issued to you?",
+  "options": [
+   "A recreational marine driver licence (RMDL) or a recognised equivalent.",
+   "A provisional or open car licence.",
+   "Nothing; the PWCL is a standalone licence with its own course.",
+   "An RMDL held for at least 12 months."
+  ],
+  "explanation": "The PWCL is an add-on licence: you must hold an RMDL (or a recognised equivalent such as an interstate marine licence) or be assessed competent in the RMDL BoatSafe units first. There is no minimum time you must have held the RMDL.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 55 (when a licence is required)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Getting a PWC licence",
+   "layout": {
+    "kind": "card",
+    "icon": "licence",
+    "label": "PWCL builds on the RMDL"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-licence-prerequisite"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-pwc-shallow-water",
+  "topicId": "pwc",
+  "question": "Why should you avoid riding a PWC in water shallower than about 600 mm?",
+  "options": [
+   "The jet intake can suck up sand and debris and damage the impeller.",
+   "The hull will always run aground at that depth.",
+   "It is illegal to operate any powered vessel in less than 1 metre of water.",
+   "The engine cooling system only works at planing speed."
+  ],
+  "explanation": "A PWC needs at least about 600 mm of water; any shallower and the intake can pick up sand, weed and stones that damage the impeller. A blocked impeller is the most common cause of PWC breakdown.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "Minimum depth for a PWC",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "Minimum water depth for the jet",
+    "badge": "0.6 m"
+   },
+   "vessels": [],
+   "id": "pwctow-pwc-shallow-water"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-observer-required",
+  "topicId": "towing",
+  "question": "You are about to tow a friend on a tube behind your boat. Who else must be on board besides you as driver?",
+  "options": [
+   "A capable observer aged 13 years or older, to watch the person being towed.",
+   "Another licensed driver aged 16 or older.",
+   "Nobody else, provided you fit a wide angle rear view mirror.",
+   "An adult with a first aid certificate."
+  ],
+  "explanation": "Towing a skier, tuber or any other towed person requires a capable observer aged 13 or over on board watching them at all times; a mirror is not a substitute in Queensland. The driver must also hold a marine licence.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 83 (towing persons behind ships)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: waterskiing and towed water sports",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "An observer is required when towing",
+   "layout": {
+    "kind": "card",
+    "icon": "skiFlag",
+    "label": "Observer required when towing",
+    "badge": "13+"
+   },
+   "vessels": [],
+   "id": "pwctow-tow-observer-required"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-driver-lookout",
+  "topicId": "towing",
+  "question": "While towing a skier, where should the driver be looking?",
+  "options": [
+   "Ahead and all around, keeping a proper lookout; watching the skier is the observer's job.",
+   "Back at the skier at all times.",
+   "Mostly at the skier, glancing ahead every few seconds.",
+   "At the tow rope, to spot falls early."
+  ],
+  "explanation": "The operator keeps a proper lookout and should not be watching the skier. The observer watches the skier, relays their signals to the driver and reports a fall the moment it happens.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 83 (towing persons behind ships)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "COLREGS, rule 5 (lookout)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Driver looks ahead, observer watches the skier",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 0,
+     "y": 20,
+     "heading": 0,
+     "towing": "skier",
+     "movement": {
+      "kind": "straight",
+      "distance": 50
+     }
+    }
+   ],
+   "id": "pwctow-tow-driver-lookout"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-skier-capacity",
+  "topicId": "towing",
+  "question": "Your boat is rated to carry four people. With a driver and an observer aboard, you tow two people on tubes. Are you within capacity?",
+  "options": [
+   "Yes, exactly at capacity: people being towed count toward the four person limit.",
+   "Yes, with room for two more, because towed people do not count.",
+   "No, a boat may never tow more than one person at a time.",
+   "No, towed people count double because of the loads on the transom."
+  ],
+  "explanation": "People being towed count toward the boat's person capacity, since they may need to be recovered on board. A driver, an observer and two tubers make four people, right at the limit of a four person boat.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: waterskiing and towed water sports",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Boat capacity while towing",
+   "layout": {
+    "kind": "card",
+    "icon": "skiFlag",
+    "label": "Counting people while towing",
+    "badge": "4"
+   },
+   "vessels": [],
+   "id": "pwctow-tow-skier-capacity"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-near-others",
+  "topicId": "towing",
+  "question": "You are towing a skier and your course passes an anchored boat. How much clearance must you give it?",
+  "options": [
+   "At least 30 metres, keeping the skier clear of it too.",
+   "At least 60 metres, the PWC distance.",
+   "At least 10 metres of clear water.",
+   "Enough to keep your wash off it; there is no fixed distance."
+  ],
+  "explanation": "When waterskiing, stay at least 30 metres from people in the water, anchored or moored ships, boat ramps, jetties and pontoons, and remember the skier can swing well wide of your own track. Keep as far as practicable from banks and shorelines.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 83 (towing persons behind ships)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Towing past an anchored boat with a 30 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 170,
+    "height": 140,
+    "features": [
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": "B",
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -35,
+     "y": -20,
+     "heading": 100,
+     "towing": "skier",
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    },
+    {
+     "id": "B",
+     "x": 30,
+     "y": 15,
+     "heading": 10,
+     "anchored": true
+    }
+   ],
+   "id": "pwctow-tow-near-others"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-hand-signals",
+  "topicId": "towing",
+  "question": "How should a skier communicate with the towing boat during the tow?",
+  "options": [
+   "With hand signals agreed before the tow, relayed to the driver by the observer.",
+   "By shouting instructions to the driver.",
+   "By tugging the tow rope a set number of times.",
+   "There is no need; the driver sets the pace."
+  ],
+  "explanation": "Agree the hand signals (faster, slower, turn, stop, cut motor, back to dock, OK) before the tow starts; the observer relays them to the driver. After a fall, an unhurt skier clasps their hands overhead until the boat has seen them.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: waterskiing and towed water sports",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Skier hand signals",
+   "layout": {
+    "kind": "card",
+    "icon": "skiFlag",
+    "label": "Agree signals before the tow"
+   },
+   "vessels": [],
+   "id": "pwctow-tow-hand-signals"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-drop-off-shore",
+  "topicId": "towing",
+  "question": "You are bringing your skier back to a busy beach. What is the right way to drop them off?",
+  "options": [
+   "Run parallel to the beach at a safe distance and release the tow so the skier coasts in.",
+   "Head straight at the beach and cut the throttle at the last moment.",
+   "Tow the skier right to the sand at 6 knots.",
+   "Stop offshore and have the skier hang onto the transom while you motor in."
+  ],
+  "explanation": "Boats towing must keep as far as practicable from banks and shorelines, so run parallel to the beach and let the skier's momentum carry them in while the boat stays clear of the shallows and any swimmers. Driving at the beach risks losing steerage right where people are in the water.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 83 (towing persons behind ships)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: waterskiing and towed water sports",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Dropping a skier off parallel to the beach",
+   "layout": {
+    "kind": "openWater",
+    "width": 170,
+    "height": 140,
+    "shores": [
+     {
+      "side": "south",
+      "depth": 26,
+      "kind": "beach"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -30,
+     "y": 20,
+     "heading": 90,
+     "towing": "skier",
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "pwctow-tow-drop-off-shore"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-anticlockwise",
+  "topicId": "towing",
+  "question": "You are waterskiing in a river. In which direction should ski boats run their circuits?",
+  "options": [
+   "Anticlockwise, unless local signage or custom says otherwise.",
+   "Clockwise, following the coastal traffic convention.",
+   "Whichever direction has the smoothest water.",
+   "It does not matter, as long as every boat keeps right."
+  ],
+  "explanation": "In rivers and creeks, ski boats travel in an anticlockwise pattern unless local customs or signage dictate another direction, so always check before skiing. A common direction keeps tow ropes and fallen skiers predictable for everyone.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: waterskiing and towed water sports",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Anticlockwise ski circuits in rivers",
+   "layout": {
+    "kind": "card",
+    "icon": "skiFlag",
+    "label": "Ski circuits run anticlockwise"
+   },
+   "vessels": [],
+   "id": "pwctow-tow-anticlockwise"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "pwctow-tow-with-pwc",
+  "topicId": "towing",
+  "question": "Can you tow a skier behind a PWC?",
+  "options": [
+   "Yes, provided an observer rides on the PWC, so it needs seating beyond just the driver.",
+   "No, PWC must never tow anyone in Queensland.",
+   "Yes, and no observer is needed because a PWC is so manoeuvrable.",
+   "Yes, but only with a tube, never with skis."
+  ],
+  "explanation": "PWC towing is allowed, and every normal waterskiing rule still applies: an observer aged 13 or over must ride on the PWC watching the skier, and the skier wears a lifejacket. In practice that means a cruising style PWC with enough seating for the driver, the observer, and the recovered skier; a solo sports PWC cannot legally tow.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 83 (towing persons behind ships)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC towing a skier with an observer aboard",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "pwc",
+     "x": -15,
+     "y": 25,
+     "heading": 20,
+     "towing": "skier",
+     "movement": {
+      "kind": "straight",
+      "distance": 50
+     }
+    }
+   ],
+   "id": "pwctow-tow-with-pwc"
+  },
+  "correctIndex": 0
+ }
+]

@@ -1,0 +1,1045 @@
+[
+ {
+  "id": "lights-head-on-action",
+  "topicId": "nav-lights",
+  "question": "At night a white light appears dead ahead with a green light below it on your left and a red light below it on your right. What should you do?",
+  "options": [
+   "Alter course to starboard in good time and pass port side to port side.",
+   "Alter course to port and pass starboard side to starboard side.",
+   "Hold your course and speed: you are the stand-on vessel.",
+   "Stop your engine and drift until the lights pass."
+  ],
+  "explanation": "Both sidelights with a masthead light above mean a power-driven vessel is coming straight at you; because you face each other, its red port light sits on your right. Head-on, both vessels alter course to starboard and pass port to port.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 23 (power-driven vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 14 (head-on situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Masthead light over both sidelights, dead ahead",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "powerboat",
+    "lights": [
+     {
+      "color": "white",
+      "x": 50,
+      "y": 22,
+      "size": "small"
+     },
+     {
+      "color": "green",
+      "x": 44,
+      "y": 31
+     },
+     {
+      "color": "red",
+      "x": 56,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-head-on-action"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-crossing-green-stand-on",
+  "topicId": "nav-lights",
+  "question": "At night you see a green light with a white masthead light above it, moving steadily from your left toward your right. What are you seeing, and what should you do?",
+  "options": [
+   "A power-driven vessel crossing that must give way to you: hold your course and speed, but stay ready to act.",
+   "A power-driven vessel you must give way to: alter course at once to pass astern.",
+   "A sailing vessel crossing: give way to it.",
+   "A vessel at anchor: no action is needed."
+  ],
+  "explanation": "A green sidelight under a masthead light means a power-driven vessel is showing you its starboard side, so you are on its starboard bow and it must give way. As the stand-on vessel you hold course and speed, but the rules require you to act if it fails to keep clear.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 15 (crossing situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 17 (action by stand-on vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Masthead light and green sidelight crossing left to right",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "powerboat",
+    "lights": [
+     {
+      "color": "white",
+      "x": 48,
+      "y": 22,
+      "size": "small"
+     },
+     {
+      "color": "green",
+      "x": 55,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-crossing-green-stand-on"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-crossing-red-give-way",
+  "topicId": "nav-lights",
+  "question": "At night a red light with a white masthead light above it crosses from your right toward your left. What are you seeing, and what should you do?",
+  "options": [
+   "A power-driven vessel crossing from your starboard side: give way, slowing or altering course to pass astern of it.",
+   "A power-driven vessel that must give way to you: hold your course and speed.",
+   "A port lateral mark: keep it on your port side and carry on.",
+   "A vessel at anchor swinging on its line: pass close on either side."
+  ],
+  "explanation": "A lone red sidelight under a masthead light means you are looking at the vessel's port side: it is crossing from your starboard side, so you are the give-way vessel. Slow down or alter course to pass astern rather than crossing ahead of it.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 15 (crossing situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 16 (action by give-way vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Masthead light and red sidelight crossing right to left",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "powerboat",
+    "lights": [
+     {
+      "color": "white",
+      "x": 52,
+      "y": 22,
+      "size": "small"
+     },
+     {
+      "color": "red",
+      "x": 45,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-crossing-red-give-way"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-stern-overtaking",
+  "topicId": "nav-lights",
+  "question": "Ahead of you at night is a single white light, low over the water, and you are slowly gaining on it. What is the situation, and what must you do?",
+  "options": [
+   "You are overtaking another vessel from astern: keep well clear until you are finally past and clear.",
+   "It is an anchored vessel: maintain your speed and pass close alongside.",
+   "It is a masthead light coming toward you: alter course to starboard immediately.",
+   "It is a safe water mark: pass on either side without slowing."
+  ],
+  "explanation": "A stern light is a single white light visible only from behind, so steadily gaining on it means you are overtaking. The overtaking vessel always keeps clear, whatever its type, until finally past and clear, and must not cut in after passing.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 21 (definitions of lights)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 13 (overtaking)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "A single low white stern light seen from astern",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "powerboat",
+    "lights": [
+     {
+      "color": "white",
+      "x": 50,
+      "y": 32
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-stern-overtaking"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-sail-head-on",
+  "topicId": "nav-lights",
+  "question": "At night you see a green light on your left and a red light on your right, close together ahead, with no white light above them. What are you seeing, and what should your powerboat do?",
+  "options": [
+   "A sailing vessel under sail coming toward you: keep out of its way in good time.",
+   "A power-driven vessel head-on: sound one short blast and hold course.",
+   "A pair of lateral channel marks: steer between them.",
+   "A vessel at anchor: pass either side at 6 knots."
+  ],
+  "explanation": "Sidelights with no masthead light above them mark a sailing vessel under sail, and a power-driven vessel must keep out of its way. Do not mistake the pair for channel marks: these lights are moving toward you.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 25 (sailing vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Both sidelights ahead with no masthead light",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "sailboat",
+    "lights": [
+     {
+      "color": "green",
+      "x": 44,
+      "y": 31
+     },
+     {
+      "color": "red",
+      "x": 56,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-sail-head-on"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-anchored-single-white",
+  "topicId": "nav-lights",
+  "question": "In a bay used as an anchorage you see a single steady white light sitting still in the water, and its bearing does not change as you approach. What is it, and what must you do?",
+  "options": [
+   "A vessel under 50 m at anchor: keep clear and slow to 6 knots or less within 30 m of it.",
+   "The stern light of a faster vessel: speed up and overtake it.",
+   "A safe water mark: pass close on either side at normal speed.",
+   "A power-driven vessel head-on with failed sidelights: alter hard to port."
+  ],
+  "explanation": "A vessel under 50 m at anchor shows one all-round white light where it can best be seen. In Queensland you must also slow to 6 knots or less within 30 m of an anchored ship. A single white light can also be a stern light or a small powerboat's all-round light, so watch whether it moves before committing.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 30 (anchored vessels and vessels aground)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near anchored ships)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   }
+  ],
+  "scene": {
+   "title": "A single all-round white anchor light",
+   "layout": {
+    "kind": "lightsView",
+    "lights": [
+     {
+      "color": "white",
+      "x": 50,
+      "y": 26
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-anchored-single-white"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-trawler-green-white",
+  "topicId": "nav-lights",
+  "question": "At night you see a green light directly above a white light, with red and green sidelights lower down. What are you seeing, and what should you do?",
+  "options": [
+   "A vessel trawling and making way: keep out of its way and give its gear a wide berth.",
+   "A sailing vessel showing its optional masthead lights: it must give way to you.",
+   "A vessel at anchor with deck lights on: pass close by at normal speed.",
+   "A pilot vessel on duty: expect it to come alongside you."
+  ],
+  "explanation": "Green over white all-round lights mark a vessel trawling: green over white, trawling tonight. The sidelights below show it is making way, and trawlers are hampered by their gear, so your powerboat must keep out of the way and pass well clear of the nets.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 26 (fishing vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Green over white above sidelights: a trawler head-on",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "ship",
+    "lights": [
+     {
+      "color": "green",
+      "x": 50,
+      "y": 18,
+      "size": "small"
+     },
+     {
+      "color": "white",
+      "x": 50,
+      "y": 24,
+      "size": "small"
+     },
+     {
+      "color": "green",
+      "x": 44,
+      "y": 31
+     },
+     {
+      "color": "red",
+      "x": 56,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-trawler-green-white"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-fishing-red-white",
+  "topicId": "nav-lights",
+  "question": "At night you see a red light directly above a white light, with no other lights showing. What are you seeing?",
+  "options": [
+   "A vessel fishing (but not trawling): keep well clear of it and its gear.",
+   "A pilot vessel: red over white means a pilot is on board.",
+   "A sailing vessel showing its optional masthead lights.",
+   "A vessel aground on a shoal."
+  ],
+  "explanation": "Red over white all-round lights mark a vessel fishing other than trawling: red over white, fishing tonight. Its lines or nets can extend a long way from the hull, and power-driven vessels must keep out of the way of vessels engaged in fishing, so pass wide.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 26 (fishing vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Red over white: a vessel fishing at night",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "powerboat",
+    "lights": [
+     {
+      "color": "red",
+      "x": 50,
+      "y": 18,
+      "size": "small"
+     },
+     {
+      "color": "white",
+      "x": 50,
+      "y": 24,
+      "size": "small"
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-fishing-red-white"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-ship-two-mastheads",
+  "topicId": "nav-lights",
+  "question": "Crossing from your right you see a red light low down near the leading end, with two white lights above it, the lower white light leading the higher one. What are you seeing, and what should you do?",
+  "options": [
+   "A large power-driven vessel crossing from your starboard side: give way early and pass well astern of it.",
+   "A small powerboat crossing that must give way to you: hold your course.",
+   "Two separate vessels travelling side by side: steer between them.",
+   "A vessel over 50 m at anchor: no action is needed."
+  ],
+  "explanation": "Two masthead lights, the forward one lower, mark a large ship of 50 m or more, and its red sidelight means you are looking at its port side as it crosses from your starboard side, so you must give way. Big ships can need up to 2 nautical miles to stop, so act early and pass well astern.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 23 (power-driven vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 15 (crossing situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Two masthead lights and a red sidelight crossing right to left",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "ship",
+    "lights": [
+     {
+      "color": "white",
+      "x": 57,
+      "y": 19,
+      "size": "small"
+     },
+     {
+      "color": "white",
+      "x": 44,
+      "y": 26,
+      "size": "small"
+     },
+     {
+      "color": "red",
+      "x": 38,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-ship-two-mastheads"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-towing-vertical-whites",
+  "topicId": "nav-lights",
+  "question": "Dead ahead at night you see two white lights in a vertical line close together on one mast, with a green light below on your left and a red light below on your right. What are you seeing, and what should you do?",
+  "options": [
+   "A vessel towing coming toward you: alter course early, give it a wide berth and never pass between it and its tow.",
+   "A vessel at anchor showing two anchor lights: pass close on either side.",
+   "A sailing vessel motoring with its deck lights on: it must give way to you.",
+   "A police vessel signalling you to stop immediately."
+  ],
+  "explanation": "Two white masthead lights in a vertical line with sidelights below mark a power-driven vessel towing, with the tow up to 200 m astern (three lights in a line mean a longer tow). The towline and the tow itself are easy to miss at night, so never cut between a tug and its tow.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 24 (towing and pushing)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Two vertical masthead lights over both sidelights: a tug head-on",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "powerboat",
+    "lights": [
+     {
+      "color": "white",
+      "x": 50,
+      "y": 18,
+      "size": "small"
+     },
+     {
+      "color": "white",
+      "x": 50,
+      "y": 24,
+      "size": "small"
+     },
+     {
+      "color": "green",
+      "x": 44,
+      "y": 31
+     },
+     {
+      "color": "red",
+      "x": 56,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-towing-vertical-whites"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-sail-crossing-green",
+  "topicId": "nav-lights",
+  "question": "A lone green light, with no white light above it, crosses ahead of you from left to right at night. What are you seeing, and what should your powerboat do?",
+  "options": [
+   "A sailing vessel crossing: even though you see its green light, your powerboat must give way.",
+   "A power-driven vessel crossing: you are the stand-on vessel, so hold course and speed.",
+   "A starboard lateral mark: keep it on your starboard side.",
+   "A PWC, because PWC show a single green light at night."
+  ],
+  "explanation": "A sidelight with no masthead light above it belongs to a sailing vessel, and power gives way to sail no matter which sidelight you can see. The idea that seeing green means you can stand on only applies between two power-driven vessels.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 25 (sailing vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "A lone green sidelight with no masthead light",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "sailboat",
+    "lights": [
+     {
+      "color": "green",
+      "x": 54,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "lights-sail-crossing-green"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-own-under-12",
+  "topicId": "nav-lights",
+  "question": "Your 5 m powerboat cruises at 20 knots. Which lights must it show when underway at night?",
+  "options": [
+   "Sidelights plus either a masthead light and stern light, or an all-round white light.",
+   "An all-round white light alone.",
+   "Red and green sidelights alone.",
+   "A torch or lantern kept ready to shine."
+  ],
+  "explanation": "A power-driven boat under 12 m shows sidelights with a masthead and stern light, or the simpler option of sidelights with an all-round white light. The all-round white alone only satisfies the rules for a boat under 7 m that cannot exceed 7 knots, and a torch alone is for rowed boats.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 23 (power-driven vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Lights for a powerboat under 12 m",
+   "layout": {
+    "kind": "card",
+    "icon": "torch",
+    "label": "Powerboat under 12 m underway at night",
+    "badge": "12 m"
+   },
+   "vessels": [],
+   "id": "lights-own-under-12"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-own-under-7-slow",
+  "topicId": "nav-lights",
+  "question": "Your 4 m tender has a top speed of 6 knots. What is the minimum lighting it must show when underway at night?",
+  "options": [
+   "An all-round white light, with sidelights fitted if possible.",
+   "A masthead light, separate sidelights and a stern light are all compulsory.",
+   "A torch switched on only when another boat comes near.",
+   "No lights, provided you stay within 100 m of the shore."
+  ],
+  "explanation": "A power-driven boat under 7 m with a top speed of 7 knots or less may show just an all-round white light, adding sidelights if practicable. Faster or larger boats need sidelights plus either a masthead light and stern light or an all-round white light.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 23 (power-driven vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Minimum lights under 7 m and 7 knots",
+   "layout": {
+    "kind": "card",
+    "icon": "torch",
+    "label": "Under 7 m with top speed 7 knots or less",
+    "badge": "7 kn"
+   },
+   "vessels": [],
+   "id": "lights-own-under-7-slow"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-pwc-after-sunset",
+  "topicId": "nav-lights",
+  "question": "You want to ride your PWC home across the bay after sunset. What do the lighting rules require?",
+  "options": [
+   "It must show the lights of a power-driven vessel under 12 m, so without navigation lights it cannot legally be ridden after sunset.",
+   "Nothing: PWC are exempt from navigation light requirements.",
+   "A single flashing yellow light visible all round.",
+   "Lights are only required more than 2 nautical miles from land."
+  ],
+  "explanation": "A PWC is a power-driven vessel, so between sunset and sunrise it needs sidelights plus an all-round white light (or a masthead light and stern light) like any other powerboat under 12 m. Most PWC carry no navigation lights, so plan to be off the water before sunset.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 23 (power-driven vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWC after sunset",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "PWC between sunset and sunrise"
+   },
+   "vessels": [],
+   "id": "lights-pwc-after-sunset"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-when-required",
+  "topicId": "nav-lights",
+  "question": "When must a boat show its navigation lights?",
+  "options": [
+   "From sunset to sunrise and in restricted visibility by day, whether underway or at anchor.",
+   "Only while actually moving between sunset and sunrise.",
+   "Only when other vessels are visible nearby.",
+   "Only when operating beyond smooth waters."
+  ],
+  "explanation": "Navigation lights are compulsory from sunset to sunrise even at anchor, and also in daytime restricted visibility such as heavy rain or fog. A drifting boat is still underway and keeps showing its underway lights.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 20 (application of the light rules)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "When navigation lights must be shown",
+   "layout": {
+    "kind": "card",
+    "icon": "torch",
+    "label": "Sunset to sunrise, and fog by day"
+   },
+   "vessels": [],
+   "id": "lights-when-required"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-drifting-underway",
+  "topicId": "nav-lights",
+  "question": "You cut the engine at night to drift and fish, without anchoring. What lights should your boat show?",
+  "options": [
+   "Your normal underway lights, because a drifting boat is still underway.",
+   "A single all-round anchor light.",
+   "No lights, because the engine is off.",
+   "Sidelights only, with the white light switched off."
+  ],
+  "explanation": "Underway means not at anchor, not moored, not made fast to the shore and not aground, so a drifting boat is still underway and shows its underway lights, not an anchor light. Switching everything off makes you invisible to other traffic.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 3 (general definitions)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 23 (power-driven vessels underway)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Drifting at night still counts as underway",
+   "layout": {
+    "kind": "openWater",
+    "width": 120,
+    "height": 100
+   },
+   "night": true,
+   "animate": false,
+   "vessels": [
+    {
+     "id": "A",
+     "x": -5,
+     "y": 5,
+     "heading": 65
+    }
+   ],
+   "id": "lights-drifting-underway"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-one-short-blast",
+  "topicId": "shapes-sounds",
+  "question": "A ship ahead of you sounds one short blast. What is it telling you?",
+  "options": [
+   "It is altering its course to starboard.",
+   "It is altering its course to port.",
+   "Its engines are going astern.",
+   "It doubts your intentions."
+  ],
+  "explanation": "One short blast means the vessel is altering course to starboard; two short blasts mean altering to port. Expect the ship to swing to its right and keep clear of its new track.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 34 (manoeuvring and warning signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Ship signalling a turn to starboard",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": -8,
+     "y": 28,
+     "heading": 0,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 40
+     }
+    }
+   ],
+   "id": "lights-one-short-blast"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-two-short-blasts",
+  "topicId": "shapes-sounds",
+  "question": "A ship ahead of you sounds two short blasts. What is it telling you?",
+  "options": [
+   "It is altering its course to port.",
+   "It is altering its course to starboard.",
+   "Its engines are going astern.",
+   "It wants you to overtake it on its starboard side."
+  ],
+  "explanation": "Two short blasts signal an alteration of course to port. One short blast means starboard and three short blasts mean the engines are going astern.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 34 (manoeuvring and warning signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Ship signalling a turn to port",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": 6,
+     "y": 28,
+     "heading": 0,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 320
+     }
+    }
+   ],
+   "id": "lights-two-short-blasts"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-three-short-blasts",
+  "topicId": "shapes-sounds",
+  "question": "A ferry pulling away from its terminal sounds three short blasts. What does this signal mean?",
+  "options": [
+   "Its engines are going astern, for example while backing away from the berth.",
+   "It is altering course to starboard.",
+   "It doubts your intentions.",
+   "It is about to anchor."
+  ],
+  "explanation": "Three short blasts mean my engines are going astern, used when a vessel is stopping or reversing. A vessel going astern can swing unpredictably, so give it plenty of room.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 34 (manoeuvring and warning signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Three short blasts: engines going astern",
+   "layout": {
+    "kind": "card",
+    "icon": "radio",
+    "label": "Manoeuvring sound signals"
+   },
+   "vessels": [],
+   "id": "lights-three-short-blasts"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-doubt-five-blasts",
+  "topicId": "shapes-sounds",
+  "question": "You are the stand-on vessel, but the give-way boat keeps coming and you doubt it will keep clear. What sound signal should you make?",
+  "options": [
+   "At least five short and rapid blasts.",
+   "One prolonged blast every two minutes.",
+   "Two short blasts.",
+   "Three short blasts."
+  ],
+  "explanation": "Five or more short rapid blasts is the doubt or danger signal: you do not believe the other vessel is taking enough action to avoid a collision. Sound it early, and if the give-way vessel still fails to act, the rules require you to take avoiding action yourself.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 34 (manoeuvring and warning signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 17 (action by stand-on vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Give-way vessel not taking action",
+   "layout": {
+    "kind": "openWater",
+    "width": 140,
+    "height": 110
+   },
+   "animate": false,
+   "vessels": [
+    {
+     "id": "A",
+     "x": 20,
+     "y": 30,
+     "heading": 0,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    },
+    {
+     "id": "B",
+     "x": -38,
+     "y": -2,
+     "heading": 90,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "lights-doubt-five-blasts"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-fog-power-making-way",
+  "topicId": "shapes-sounds",
+  "question": "You are motoring slowly through fog. What sound signal must a power-driven vessel making way sound?",
+  "options": [
+   "One prolonged blast at least every two minutes.",
+   "Two prolonged blasts every two minutes.",
+   "Five short blasts every minute.",
+   "Nothing: boats under 12 m are exempt from fog signals."
+  ],
+  "explanation": "A power-driven vessel underway and making way in restricted visibility sounds one prolonged blast at least every two minutes; two prolonged blasts mean underway but stopped. Boats under 12 m are not exempt: if they cannot give the standard signals they must make some other efficient sound signal at the same interval.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 35 (sound signals in restricted visibility)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Fog signal for a power boat making way",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Fog signals: power boat making way",
+    "badge": "2 min"
+   },
+   "vessels": [],
+   "id": "lights-fog-power-making-way"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-fog-hampered-vessel",
+  "topicId": "shapes-sounds",
+  "question": "In fog you hear one prolonged blast followed by two short blasts, repeated every couple of minutes. What is out there?",
+  "options": [
+   "A vessel under sail, fishing or towing: a hampered vessel making way.",
+   "A power-driven vessel making way through the water.",
+   "A power-driven vessel underway but stopped.",
+   "A vessel at anchor."
+  ],
+  "explanation": "One prolonged plus two short blasts is the fog signal for sailing vessels, fishing vessels, towing vessels and other hampered vessels making way. A power-driven vessel sounds one prolonged blast when making way and two when stopped, so slow down and keep a sharp lookout.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 35 (sound signals in restricted visibility)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "One prolonged plus two short blasts in fog",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Fog signals in restricted visibility"
+   },
+   "vessels": [],
+   "id": "lights-fog-hampered-vessel"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-anchor-ball",
+  "topicId": "shapes-sounds",
+  "question": "By day, what shape must a vessel at anchor display?",
+  "options": [
+   "One black ball hoisted forward where it can best be seen.",
+   "A black diamond.",
+   "Two black balls in a vertical line.",
+   "A black cone with its point down."
+  ],
+  "explanation": "A vessel at anchor displays one black ball forward by day and an all-round white light at night. A diamond marks a tow over 200 m, two balls mean a vessel not under command, and a cone point down marks a sailing vessel also using its engine.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 30 (anchored vessels and vessels aground)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Vessel at anchor by day",
+   "layout": {
+    "kind": "openWater",
+    "width": 110,
+    "height": 95
+   },
+   "animate": false,
+   "vessels": [
+    {
+     "id": "A",
+     "x": 2,
+     "y": 6,
+     "heading": 30,
+     "anchored": true
+    }
+   ],
+   "id": "lights-anchor-ball"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-diving-flag-a",
+  "topicId": "shapes-sounds",
+  "question": "A float near a moored boat flies a rigid blue and white swallow-tailed flag. What does it mean, and what must you do?",
+  "options": [
+   "There is a diver below: stay at least 30 m clear and slow down.",
+   "The boat requires assistance: approach and offer help.",
+   "Waterskiing is in progress: pass wide at normal speed.",
+   "The boat is carrying dangerous goods: keep 200 m clear."
+  ],
+  "explanation": "Code flag A (Alpha) means I have a diver down, keep well clear at slow speed. In Queensland boats must stay at least 30 m from a diver in the water when the flag is shown on a float, boat or structure, and divers can surface some distance from the flag.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: diving flags and keeping clear of divers",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Code flag A on a dive float",
+   "layout": {
+    "kind": "card",
+    "icon": "divingFlag",
+    "label": "Code flag A",
+    "badge": "30 m"
+   },
+   "vessels": [],
+   "id": "lights-diving-flag-a"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-skier-ok-signal",
+  "topicId": "shapes-sounds",
+  "question": "A waterskier you are observing falls, then clasps both hands together overhead. What are they telling you?",
+  "options": [
+   "The skier is unhurt: it is the OK signal after a fall.",
+   "The skier is injured and needs urgent help.",
+   "The skier wants more speed on the next run.",
+   "The skier wants the boat's motor cut immediately."
+  ],
+  "explanation": "A fallen skier who is unhurt clasps their hands overhead until the boat crew sees them; the observer relays the signal and the boat returns, stopping the engine before the skier boards over the stern. Faster, slower and cut motor all have their own agreed hand signals.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland BoatSafe Workbook, section 4.10: waterskiing rules and signals",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Fallen skier signalling OK",
+   "layout": {
+    "kind": "card",
+    "icon": "skiFlag",
+    "label": "Waterskiing signals"
+   },
+   "vessels": [],
+   "id": "lights-skier-ok-signal"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "lights-tow-diamond",
+  "topicId": "shapes-sounds",
+  "question": "By day, a tug and the barge it is towing both display black diamond shapes. What are they telling you?",
+  "options": [
+   "The tow is longer than 200 m: keep well clear and never pass between tug and tow.",
+   "The tug is restricted to 6 knots.",
+   "The barge is carrying dangerous goods.",
+   "The tug is at anchor and swinging with the tide."
+  ],
+  "explanation": "Diamond day shapes on a tug and its tow mean the tow exceeds 200 m in length. Give the whole operation a wide berth and never cut between tug and tow: the connecting line can lie just under the surface.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 24 (towing and pushing)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Tug and long tow displaying diamonds",
+   "layout": {
+    "kind": "openWater",
+    "width": 170,
+    "height": 110
+   },
+   "animate": false,
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": 18,
+     "y": 0,
+     "heading": 90,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 30
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "ship",
+     "x": -40,
+     "y": 0,
+     "heading": 90
+    }
+   ],
+   "id": "lights-tow-diamond"
+  },
+  "correctIndex": 0
+ }
+]

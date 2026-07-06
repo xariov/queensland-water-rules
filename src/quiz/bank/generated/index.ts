@@ -4,5 +4,22 @@
  */
 
 import type { Question } from '../../model.ts';
+import gw from './gw.json' with { type: 'json' };
+import lights from './lights.json' with { type: 'json' };
+import marks from './marks.json' with { type: 'json' };
+import ops from './ops.json' with { type: 'json' };
+import prep from './prep.json' with { type: 'json' };
+import pwctow from './pwctow.json' with { type: 'json' };
+import safety from './safety.json' with { type: 'json' };
+import sea from './sea.json' with { type: 'json' };
 
-export const generatedQuestions: Question[] = [];
+export const generatedQuestions: Question[] = [
+  ...(gw as Question[]),
+  ...(lights as Question[]),
+  ...(marks as Question[]),
+  ...(ops as Question[]),
+  ...(prep as Question[]),
+  ...(pwctow as Question[]),
+  ...(safety as Question[]),
+  ...(sea as Question[]),
+];

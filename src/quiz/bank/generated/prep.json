@@ -1,0 +1,850 @@
+[
+ {
+  "id": "prep-voyage-plan-contact",
+  "topicId": "planning",
+  "question": "Before a day trip on the water, what should you do with your voyage plan?",
+  "options": [
+   "Leave it with a reliable person ashore who knows to call the police if you are overdue.",
+   "Keep it on board so rescuers can find it if something goes wrong.",
+   "Lodge it with Maritime Safety Queensland before departing.",
+   "Prepare one only for trips beyond partially smooth waters."
+  ],
+  "explanation": "A voyage plan only helps if someone ashore has it and knows what to do: if you are overdue, they call triple zero (000) and ask for police. Keeping the plan on board defeats the purpose, and no authority requires it to be lodged - it goes to your own reliable contact for every trip, however small.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Leaving a voyage plan",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Leave the plan with a reliable contact"
+   },
+   "vessels": [],
+   "id": "prep-voyage-plan-contact"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-log-off-return",
+  "topicId": "planning",
+  "question": "You logged on with your local volunteer marine rescue group before heading out. What must you remember to do when you get back?",
+  "options": [
+   "Log off, so they know you are back and no search is started.",
+   "Nothing - a log on lapses automatically at sunset.",
+   "Log off only if you went beyond smooth waters.",
+   "Call triple zero (000) to confirm your safe return."
+  ],
+  "explanation": "Logging off closes out your trip. If you forget, the rescue group will treat you as overdue and may launch a search for a boat that is safely back on its trailer. Report in to your shore contact as well.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Logging off on return",
+   "layout": {
+    "kind": "card",
+    "icon": "radio",
+    "label": "Log on going out, log off coming back"
+   },
+   "vessels": [],
+   "id": "prep-log-off-return"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-plans-change",
+  "topicId": "planning",
+  "question": "While out fishing you decide to move to a different spot and stay two hours longer than planned. What should you do?",
+  "options": [
+   "Tell your shore contact about the change of plans.",
+   "Nothing, provided you are back before dark.",
+   "Note the change in the boat's log for later.",
+   "Call triple zero (000) to update the police."
+  ],
+  "explanation": "Your voyage plan is only as good as its latest update. If your plans change and your contact does not know, they may report you overdue and trigger a needless search, or a real search may start in the wrong area.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "When plans change on the water",
+   "layout": {
+    "kind": "card",
+    "icon": "radio",
+    "label": "Update your contact if plans change"
+   },
+   "vessels": [],
+   "id": "prep-plans-change"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-fuel-thirds",
+  "topicId": "planning",
+  "question": "What is the accepted rule of thumb for fuel planning on a boat trip?",
+  "options": [
+   "A third out, a third back, and a third in reserve.",
+   "Enough for the trip plus 10 percent spare.",
+   "Fill the tank completely, whatever the trip.",
+   "Half out and half back."
+  ],
+  "explanation": "Plan to burn no more than a third of your fuel getting there and a third getting back, keeping at least a third in reserve. Wind, sea and tide can raise consumption sharply, so calculate for the worst conditions you might meet, not the best.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The one third fuel rule",
+   "layout": {
+    "kind": "card",
+    "icon": "fuel",
+    "label": "Out, back, and reserve",
+    "badge": "1/3"
+   },
+   "vessels": [],
+   "id": "prep-fuel-thirds"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-predeparture-checks",
+  "topicId": "planning",
+  "question": "Which of these belongs in your checks before every trip, even a short one?",
+  "options": [
+   "Weather forecast checked, battery charged, and the bung in.",
+   "Only the fuel level - everything else is covered by the yearly service.",
+   "Nothing formal, for a short trip in smooth waters.",
+   "Just confirming the trailer lights work."
+  ],
+  "explanation": "Pre-departure checks cover the boat and the day: the weather forecast, fuel, battery charged with tight terminals, bungs in, engine, lights, safety equipment and a lifejacket for everyone aboard. The major causes of breakdown at sea - fuel, mechanical and battery problems - are exactly what these checks catch.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Pre-departure checks",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Weather, battery, bungs, fuel, gear"
+   },
+   "vessels": [],
+   "id": "prep-predeparture-checks"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-kill-switch",
+  "topicId": "planning",
+  "question": "How should the engine kill switch lanyard be used on a small powerboat?",
+  "options": [
+   "Clipped to the driver, so the motor cuts out if they are thrown from the helm.",
+   "Clipped to a rail near the helm, ready to grab in an emergency.",
+   "Stowed with the spare keys and fitted only in rough water.",
+   "Looped around the throttle to stop it slipping."
+  ],
+  "explanation": "The kill switch only works if it is attached to the driver's wrist, jacket or belt. If the driver goes overboard or is thrown from the helm, the lanyard pulls the switch and stops the engine, preventing a runaway boat circling back with a spinning propeller.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Using the kill switch",
+   "layout": {
+    "kind": "card",
+    "icon": "killSwitch",
+    "label": "Clip the lanyard to the driver"
+   },
+   "vessels": [],
+   "id": "prep-kill-switch"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-forgot-bung",
+  "topicId": "planning",
+  "question": "Just after launching you realise water is coming in: you forgot to put the bung in. What should you do?",
+  "options": [
+   "Drive fast enough for the water to drain out, then fit the bung.",
+   "Stop the boat immediately and start bailing.",
+   "Return to the ramp at 6 knots and winch straight back onto the trailer.",
+   "Plug the hole with a rag and carry on with your trip."
+  ],
+  "explanation": "Do not panic. Once the boat is moving fast enough, the water drains out through the open bung hole and you can then fit the bung. Stopping dead just lets more water flow in through the transom.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The forgotten bung",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Drive the water out, then fit the bung"
+   },
+   "vessels": [],
+   "id": "prep-forgot-bung"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-cooling-telltale",
+  "topicId": "planning",
+  "question": "You start your outboard at the ramp. What should you check straight away to confirm the engine is cooling properly?",
+  "options": [
+   "That water is discharging from the telltale outlet.",
+   "That the exhaust smoke is white rather than blue.",
+   "That the propeller spins freely in neutral.",
+   "That the fuel gauge reading is steady."
+  ],
+  "explanation": "The telltale stream shows cooling water is circulating. No discharge means a blocked intake or a failed water pump impeller - shut down and fix it before the engine overheats. Impellers should be replaced regularly as routine maintenance.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: trip planning and preparation",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Engine cooling telltale",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Look for the telltale water stream"
+   },
+   "vessels": [],
+   "id": "prep-cooling-telltale"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-overboard-first-actions",
+  "topicId": "emergencies",
+  "question": "A passenger falls overboard from your moving boat. What should the crew do first?",
+  "options": [
+   "Shout the alarm, keep pointing at the person, and throw them something that floats.",
+   "Send the strongest swimmer in immediately to support them.",
+   "Move everyone to the stern ready to pull them in.",
+   "Ring triple zero (000) before doing anything else."
+  ],
+  "explanation": "Shout so the skipper reacts, keep watching and pointing so the person is never lost from sight, and throw flotation straight away - at night, a lit floating torch. Never jump in after them: that immediately doubles the potential drownings.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Person overboard: first actions",
+   "layout": {
+    "kind": "card",
+    "icon": "lifebuoy",
+    "label": "Shout, point, throw"
+   },
+   "vessels": [],
+   "id": "prep-overboard-first-actions"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-overboard-helm",
+  "topicId": "emergencies",
+  "question": "You are at the helm when someone falls overboard on your starboard side. Which way do you turn, and why?",
+  "options": [
+   "Turn the bow toward the side they fell, swinging the stern and propeller away from them.",
+   "Turn away from them to line up a long straight approach.",
+   "Hold your course and stop as quickly as possible.",
+   "Put the engine straight into reverse and back up to them."
+  ],
+  "explanation": "Turning the bow toward the person kicks the stern - and the spinning propeller - away from them, then you stop. Keep them in sight the whole time and fix your position by GPS or shore marks in case outside help is needed.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Person overboard: helm response",
+   "layout": {
+    "kind": "card",
+    "icon": "lifebuoy",
+    "label": "Turn the bow toward the person"
+   },
+   "vessels": [],
+   "id": "prep-overboard-helm"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-overboard-approach",
+  "topicId": "emergencies",
+  "question": "You circle back to pick up a person in the water. How should you make the final approach?",
+  "options": [
+   "Slowly, with the propeller stopped before you come alongside them.",
+   "At speed, using a burst of reverse at the last moment to pull up beside them.",
+   "Close enough for them to grab the outboard leg and climb up.",
+   "With the wind behind you so the boat drifts down onto them."
+  ],
+  "explanation": "Come in slowly, heading into the wind and waves so you keep control, and make sure the engine is off and the propeller stopped before you reach the person. A boat blown onto a swimmer, or a turning propeller near one, turns one emergency into two. Bring them aboard over the stern.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Slow final approach to a person in the water",
+   "layout": {
+    "kind": "openWater",
+    "width": 140,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -38,
+     "y": 12,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    }
+   ],
+   "swimmers": [
+    {
+     "x": 24,
+     "y": 12
+    }
+   ],
+   "id": "prep-overboard-approach"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-capsize-hull",
+  "topicId": "emergencies",
+  "question": "After a capsize, why climb onto the upturned hull rather than tread water beside it?",
+  "options": [
+   "Getting your body out of the water slows heat loss and makes you easier to see.",
+   "Your weight on top stops the hull from sinking.",
+   "You can paddle the hull to shore faster than swimming.",
+   "There is no real advantage, but it is more comfortable."
+  ],
+  "explanation": "Cold water drains body heat up to 25 times faster than air, so getting out of it dramatically slows hypothermia, and rescuers spot a hull with people on it far more easily than a head in the water. Stay with the boat: never swim for shore unless you are certain you can reach it, because distances over water look shorter than they are.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Capsize: get onto the hull",
+   "layout": {
+    "kind": "card",
+    "icon": "lifebuoy",
+    "label": "Stay with the boat, out of the water"
+   },
+   "vessels": [],
+   "id": "prep-capsize-hull"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-help-position",
+  "topicId": "emergencies",
+  "question": "You are in cold water wearing a lifejacket, waiting for rescue. How do you slow the loss of body heat?",
+  "options": [
+   "Hold the HELP position - knees drawn up, arms hugged to your sides - and keep still.",
+   "Swim gently in circles so your muscles keep generating heat.",
+   "Tread water vigorously and rub your arms and legs.",
+   "Take off heavy clothing so you float higher."
+  ],
+  "explanation": "The heat escape lessening posture (HELP) protects the areas that lose heat fastest: the head, the sides of the chest and the groin. Movement pumps warm water away from your body, so swimming or treading water speeds up hypothermia. If several people are in the water, huddle together instead - huddling can extend survival time by up to 50 percent.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The HELP position and the huddle",
+   "layout": {
+    "kind": "card",
+    "icon": "lifejacket",
+    "label": "Protect head, chest sides and groin"
+   },
+   "vessels": [],
+   "id": "prep-help-position"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-hypothermia-treatment",
+  "topicId": "emergencies",
+  "question": "You pull a crew member from cold water; they are shivering violently and confused. How do you treat them?",
+  "options": [
+   "Handle them gently, swap wet clothes for dry layers, and rewarm them gradually.",
+   "Give them a nip of rum or brandy to warm them from the inside.",
+   "Rub their arms and legs briskly to restore circulation.",
+   "Get them into the hottest shower or bath available."
+  ],
+  "explanation": "Rewarm hypothermia gradually: shelter, dry layers, warmth to the head, neck, chest sides and groin, and warm sweet drinks only if they are fully conscious. Never give alcohol, never rub or massage the limbs, and never use a hot bath or a fire - rough handling and rapid rewarming can trigger cardiac arrest.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Treating hypothermia",
+   "layout": {
+    "kind": "card",
+    "icon": "firstAid",
+    "label": "Gentle handling, gradual rewarming"
+   },
+   "vessels": [],
+   "id": "prep-hypothermia-treatment"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-drsabcd-order",
+  "topicId": "emergencies",
+  "question": "In the DRSABCD action plan, what do the letters stand for, in order?",
+  "options": [
+   "Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation.",
+   "Danger, Rescue, Support, Airway, Bleeding, Circulation, Defibrillation.",
+   "Distress, Response, Signal, Airway, Breathing, Compressions, Doctor.",
+   "Danger, Response, Airway, Breathing, Send for help, CPR, Defibrillation."
+  ],
+  "explanation": "Check for Danger first so you do not become a casualty yourself, check for a Response, Send for help by calling triple zero (000), then clear the Airway, check Breathing, start CPR if they are not breathing normally, and attach a Defibrillator as soon as one is available. A common trap is putting Send for help after the breathing checks.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook, DRSABCD factsheet",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The DRSABCD action plan",
+   "layout": {
+    "kind": "card",
+    "icon": "firstAid",
+    "label": "Danger comes first"
+   },
+   "vessels": [],
+   "id": "prep-drsabcd-order"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-cpr-ratio",
+  "topicId": "emergencies",
+  "question": "You start CPR on an adult who is not breathing. What rhythm do you use?",
+  "options": [
+   "30 compressions then 2 breaths, at about 100 to 120 compressions per minute.",
+   "15 compressions then 2 breaths, at about 60 compressions per minute.",
+   "5 compressions then 1 breath, as fast as possible.",
+   "2 breaths after every 100 compressions."
+  ],
+  "explanation": "CPR runs in cycles of 30 compressions to 2 breaths, pressing the centre of the chest down one third of its depth at about 100 to 120 compressions per minute. Keep going until help arrives or the person recovers, and attach a defibrillator as soon as one is available.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook, DRSABCD factsheet",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "CPR compressions and breaths",
+   "layout": {
+    "kind": "card",
+    "icon": "firstAid",
+    "label": "30 compressions, then 2 breaths",
+    "badge": "30:2"
+   },
+   "vessels": [],
+   "id": "prep-cpr-ratio"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-engine-breakdown",
+  "topicId": "emergencies",
+  "question": "Your engine stops offshore and will not restart. What should you do first?",
+  "options": [
+   "Anchor to stop the boat drifting, then work on the problem and signal for help if needed.",
+   "Fire a red flare immediately so nearby boats know you have broken down.",
+   "Swim a line across to the nearest anchored boat.",
+   "Start bailing in case water caused the failure."
+  ],
+  "explanation": "Anchoring stops the drift toward shore, shallows or shipping, and holds the bow into the sea while you troubleshoot. If you cannot fix it, signal or call for help - a breakdown is normally an urgency, not a distress, unless the danger becomes grave and imminent.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Engine breakdown at sea",
+   "layout": {
+    "kind": "card",
+    "icon": "anchor",
+    "label": "Anchor first to stop the drift"
+   },
+   "vessels": [],
+   "id": "prep-engine-breakdown"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-aground",
+  "topicId": "emergencies",
+  "question": "You run aground on a sandbank. What is the right immediate response?",
+  "options": [
+   "Stop, check the crew and hull, then work out how to get off without making things worse.",
+   "Apply full reverse power and hold it until the boat drags free.",
+   "Get everyone over the side straight away to push the boat off.",
+   "Activate your EPIRB."
+  ],
+  "explanation": "Stop and assess first: is anyone hurt, and is the hull taking water? Prolonged full power can suck sand through the cooling intake and dig you in deeper, and putting people over the side risks injury. Grounding by itself is not a distress situation - come off gently, shift weight, or wait for the tide.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Running aground",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Stop and assess before acting"
+   },
+   "vessels": [],
+   "id": "prep-aground"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-pan-pan",
+  "topicId": "distress",
+  "question": "Your engine has failed and you are drifting slowly toward a rocky shore, but you are not in immediate danger yet. What radio call do you make?",
+  "options": [
+   "Pan pan, pan pan, pan pan - the urgency call - on VHF channel 16.",
+   "Mayday, mayday, mayday on VHF channel 16.",
+   "Securite, securite, securite on a working channel.",
+   "No call is allowed until the danger becomes grave and imminent."
+  ],
+  "explanation": "Pan pan is the urgency call: a very urgent message about the safety of your boat or a person when full distress is not justified - a disabled boat drifting toward a lee shore is the classic example. Mayday is reserved for grave and imminent danger; if the situation deteriorates, upgrade the call.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: marine radio and emergency calls",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The urgency call",
+   "layout": {
+    "kind": "card",
+    "icon": "radio",
+    "label": "Pan pan: urgent, but not distress"
+   },
+   "vessels": [],
+   "id": "prep-pan-pan"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-securite",
+  "topicId": "distress",
+  "question": "You hear 'securite, securite, securite' on the radio. What kind of message follows?",
+  "options": [
+   "An important safety message, such as a navigation hazard or weather warning.",
+   "A distress message from a vessel in grave and imminent danger.",
+   "A very urgent message about the safety of a vessel or person.",
+   "A routine radio check from a coast station."
+  ],
+  "explanation": "Securite prefixes safety broadcasts: storm warnings, a large floating object, a navigation light out of service. It is usually made by coast stations, with the initial call on a distress frequency and the message body passed on a working frequency.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: marine radio and emergency calls",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The safety call",
+   "layout": {
+    "kind": "card",
+    "icon": "radio",
+    "label": "Securite: navigation and weather"
+   },
+   "vessels": [],
+   "id": "prep-securite"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-vhf-16",
+  "topicId": "distress",
+  "question": "Which VHF channel do you use for a distress call?",
+  "options": [
+   "Channel 16.",
+   "Channel 67.",
+   "Channel 88.",
+   "Any channel, as long as you say mayday three times."
+  ],
+  "explanation": "VHF channel 16 is the distress and initial calling channel, monitored around the clock by many rescue stations - it is not for chat. Channel 67 carries weather in many areas, and 88 is the 27 MHz channel most volunteer rescue groups monitor, not a VHF channel.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: marine radio and emergency calls",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The VHF distress channel",
+   "layout": {
+    "kind": "card",
+    "icon": "radio",
+    "label": "Distress and calling: channel 16",
+    "badge": "CH 16"
+   },
+   "vessels": [],
+   "id": "prep-vhf-16"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-mayday-contents",
+  "topicId": "distress",
+  "question": "After the opening mayday calls and your boat's name, what must your distress message include?",
+  "options": [
+   "Your position, the nature of the distress, and the number of people on board.",
+   "Your home address and the boat's registration papers.",
+   "Your position only - keep the transmission as short as possible.",
+   "The name of your insurer and where your car and trailer are parked."
+  ],
+  "explanation": "Rescuers need to know who you are, where you are, what is wrong and how many people they are looking for, plus a description of the boat and your intentions if time allows. Position is the single most important item - without it, nobody can find you.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: marine radio and emergency calls",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "What a mayday message contains",
+   "layout": {
+    "kind": "card",
+    "icon": "mayday",
+    "label": "Name, position, problem, people"
+   },
+   "vessels": [],
+   "id": "prep-mayday-contents"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-epirb-when",
+  "topicId": "distress",
+  "question": "When should you activate your EPIRB?",
+  "options": [
+   "Only in a distress situation, when you need rescue.",
+   "Whenever you break down, so rescue services know where you are.",
+   "Briefly once a month, to check the battery.",
+   "At the start of any trip beyond smooth waters."
+  ],
+  "explanation": "An EPIRB activation launches a search and rescue response, so it is reserved for genuine distress - grave and imminent danger to the boat or the people on it. Check the beacon with its built-in self-test, never a real activation, and report any accidental activation immediately rather than just switching it off.",
+  "citations": [
+   {
+    "reference": "AMSA: using distress beacons",
+    "url": "https://beacons.amsa.gov.au"
+   },
+   {
+    "reference": "COLREGS, rule Annex IV (distress signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "When to activate an EPIRB",
+   "layout": {
+    "kind": "card",
+    "icon": "epirb",
+    "label": "Distress only, never for a test"
+   },
+   "vessels": [],
+   "id": "prep-epirb-when"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-epirb-leave-on",
+  "topicId": "distress",
+  "question": "You have activated your EPIRB after your boat started sinking. How do you manage the beacon while you wait?",
+  "options": [
+   "Leave it switched on and keep it with you, antenna clear of obstructions.",
+   "Switch it off between position updates to save the battery.",
+   "Tie it to the sinking boat so rescuers can find the wreck.",
+   "Hold it under water to keep the casing cool."
+  ],
+  "explanation": "Once activated, leave the EPIRB on until rescuers tell you otherwise - switching it off interrupts the transmissions search aircraft home in on. Keep it with you and the people in the water, antenna upright with a clear view of the sky, and float it if it is designed to operate in the water.",
+  "citations": [
+   {
+    "reference": "AMSA: using distress beacons",
+    "url": "https://beacons.amsa.gov.au"
+   }
+  ],
+  "scene": {
+   "title": "After activating an EPIRB",
+   "layout": {
+    "kind": "card",
+    "icon": "epirb",
+    "label": "Leave it on and keep it with you"
+   },
+   "vessels": [],
+   "id": "prep-epirb-leave-on"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-v-sheet",
+  "topicId": "distress",
+  "question": "How is a V sheet used to signal distress?",
+  "options": [
+   "Spread it over the deck or cabin top, or wave it, so it can be seen from the air.",
+   "Hang it over the bow just above the waterline.",
+   "Keep it folded away until a rescue aircraft is directly overhead.",
+   "Burn it to produce orange smoke."
+  ],
+  "explanation": "The V sheet is a fluorescent orange sheet with a black V, designed to be spotted from the air. Spread it flat over the deck, cabin top or upturned hull, or wave it at a passing boat or aircraft. It is required equipment beyond smooth waters, and displaying it other than in genuine distress is illegal.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule Annex IV (distress signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Using a V sheet",
+   "layout": {
+    "kind": "card",
+    "icon": "vSheet",
+    "label": "Spread it where aircraft can see it"
+   },
+   "vessels": [],
+   "id": "prep-v-sheet"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-flares-day-night",
+  "topicId": "distress",
+  "question": "You need to attract attention with your distress signals. Which signal suits which conditions?",
+  "options": [
+   "Orange smoke signals by day and red hand flares at night.",
+   "Red hand flares by day and orange smoke at night.",
+   "Either type works equally well at any time.",
+   "White flares by day and red flares at night."
+  ],
+  "explanation": "Orange smoke shows up best against daylight; red hand flares show up best in darkness. Fire flares downwind and away from your body and the boat, only when there is a real chance of being seen. Flares expire three years from manufacture, so check the dates before every season.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule Annex IV (distress signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Maritime Safety Queensland: safety equipment for recreational ships",
+    "url": "https://www.msq.qld.gov.au/safety/safety-equipment-recreational-ships"
+   }
+  ],
+  "scene": {
+   "title": "Flares by day and by night",
+   "layout": {
+    "kind": "card",
+    "icon": "flare",
+    "label": "Smoke by day, red flares by night"
+   },
+   "vessels": [],
+   "id": "prep-flares-day-night"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-arm-signal",
+  "topicId": "distress",
+  "question": "A person on a nearby boat is slowly and repeatedly raising and lowering their outstretched arms. What are they telling you?",
+  "options": [
+   "They are in distress and need help.",
+   "They want you to slow down and reduce your wash.",
+   "They are waving you past on their port side.",
+   "They are signalling that everything is OK."
+  ],
+  "explanation": "Slowly and repeatedly raising and lowering outstretched arms is a recognised distress signal - useful when there is no radio, flare or other equipment to hand. Using it, or any distress signal, other than in genuine distress is illegal and can put rescuers at risk.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule Annex IV (distress signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "The arm distress signal",
+   "layout": {
+    "kind": "card",
+    "icon": "mayday",
+    "label": "Arms raised and lowered means help"
+   },
+   "vessels": [],
+   "id": "prep-arm-signal"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "prep-see-distress",
+  "topicId": "distress",
+  "question": "Some distance away you see a red flare arc into the night sky. What must you do?",
+  "options": [
+   "Help if you safely can, or report the sighting to the authorities immediately.",
+   "Nothing, unless you can see the vessel itself.",
+   "Fire one of your own flares to acknowledge it.",
+   "Note the time in your log and continue your trip."
+  ],
+  "explanation": "A distress signal demands a response: render assistance if you can do so without endangering your own boat, or report the sighting - position, bearing and time - to a volunteer marine rescue group, water police or triple zero (000) so a search can begin. Never assume someone else has seen it or will act.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule Annex IV (distress signals)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Maritime Safety Queensland: preparing for emergencies",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Seeing a distress signal",
+   "layout": {
+    "kind": "card",
+    "icon": "flare",
+    "label": "Assist or report it at once"
+   },
+   "vessels": [],
+   "id": "prep-see-distress"
+  },
+  "correctIndex": 0
+ }
+]

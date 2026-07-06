@@ -1,0 +1,1388 @@
+[
+ {
+  "id": "marks-upstream-green-side",
+  "topicId": "lateral-marks",
+  "question": "You are travelling upstream in a marked channel, returning from seaward. On which side should you keep the green conical marks?",
+  "options": [
+   "On your starboard (right) side.",
+   "On your port (left) side.",
+   "Either side, provided you stay in the deepest water.",
+   "Directly ahead, passing close alongside each one."
+  ],
+  "explanation": "In IALA region A, travelling upstream (returning from seaward) you keep green conical starboard marks on your starboard side and red can marks on your port side. The sides swap when you turn around and head back downstream.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Travelling upstream between lateral marks",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 40,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p3",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s3",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 10,
+     "y": 40,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 70
+     }
+    }
+   ],
+   "id": "marks-upstream-green-side"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-downstream-red-side",
+  "topicId": "lateral-marks",
+  "question": "You are heading downstream, back toward the sea. On which side should you keep the red can shaped marks?",
+  "options": [
+   "On your starboard (right) side.",
+   "On your port (left) side.",
+   "It does not matter, as long as you keep to the middle of the channel.",
+   "Astern of you; red marks only apply when entering from the sea."
+  ],
+  "explanation": "Lateral mark sides are defined for a vessel returning from seaward. Heading downstream you are travelling the opposite way, so the sides swap: red marks now pass down your starboard side and green marks down your port side.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Heading downstream toward the sea",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 40,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p3",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s3",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -10,
+     "y": -40,
+     "heading": 180,
+     "movement": {
+      "kind": "straight",
+      "distance": 70
+     }
+    }
+   ],
+   "id": "marks-downstream-red-side"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-port-mark-shape",
+  "topicId": "lateral-marks",
+  "question": "Which shape and colour identify a port lateral mark?",
+  "options": [
+   "Red, with a can (cylindrical) shape or can topmark.",
+   "Green, with a conical shape or cone topmark.",
+   "Red and white vertical stripes.",
+   "Yellow all over."
+  ],
+  "explanation": "Port lateral marks are red and can shaped; starboard lateral marks are green and conical. Red and white vertical stripes belong to a safe water mark, and an all-yellow mark is a special mark.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "A red can mark on the channel edge",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 120,
+    "height": 100,
+    "features": [
+     {
+      "kind": "mark",
+      "id": "port-mark",
+      "markType": "lateralPort",
+      "x": 14,
+      "y": -6
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -24,
+     "y": 30,
+     "heading": 0,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    }
+   ],
+   "id": "marks-port-mark-shape"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-starboard-mark-shape",
+  "topicId": "lateral-marks",
+  "question": "Against the glare you can make out a channel marker's shape but not its colour: a single cone pointing upward. What is it?",
+  "options": [
+   "A starboard lateral mark, green in daylight.",
+   "A port lateral mark, red in daylight.",
+   "A safe water mark.",
+   "A north cardinal mark."
+  ],
+  "explanation": "Cone means starboard and can means port; the shapes exist so you can tell lateral marks apart in silhouette or glare. A north cardinal mark carries two cones as a topmark on a black and yellow pillar, not a single conical body.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "A conical mark seen against the glare",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 120,
+    "height": 100,
+    "features": [
+     {
+      "kind": "mark",
+      "id": "starboard-mark",
+      "markType": "lateralStarboard",
+      "x": 12,
+      "y": -4
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -26,
+     "y": 28,
+     "heading": 0,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    }
+   ],
+   "id": "marks-starboard-mark-shape"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-lateral-purpose",
+  "topicId": "lateral-marks",
+  "question": "What do lateral marks show?",
+  "options": [
+   "The port and starboard sides of a navigable channel.",
+   "The compass direction of the safest water around a danger.",
+   "An isolated danger with clear water all around it.",
+   "A special area such as a spoil ground or pipeline."
+  ],
+  "explanation": "Lateral marks define the edges of a channel; which side you leave them on depends on whether you are travelling upstream or downstream. Compass-based guidance around a danger is the job of cardinal marks.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "A channel marked with lateral marks",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 40,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p3",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s3",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 10,
+     "y": 35,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    }
+   ],
+   "id": "marks-lateral-purpose"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-pile-beacons",
+  "topicId": "lateral-marks",
+  "question": "In Queensland rivers many lateral marks are fixed pile beacons rather than floating buoys. How do you treat them?",
+  "options": [
+   "Exactly like the equivalent buoy: red to port and green to starboard when travelling upstream.",
+   "Pass on whichever side has deeper water, since piles are only hazard warnings.",
+   "Keep at least 60 metres clear of any pile beacon.",
+   "Treat them as special marks and consult the chart."
+  ],
+  "explanation": "A beacon on a pile carries the same daymark colour and shape as the matching buoy and means the same thing. The structure changes; the rule does not.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Pile beacons marking a river channel",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 40,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "structure": "pile",
+      "x": -20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "structure": "pile",
+      "x": -20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p3",
+      "markType": "lateralPort",
+      "structure": "pile",
+      "x": -20,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "structure": "pile",
+      "x": 20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "structure": "pile",
+      "x": 20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s3",
+      "markType": "lateralStarboard",
+      "structure": "pile",
+      "x": 20,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 9,
+     "y": 40,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 70
+     }
+    }
+   ],
+   "id": "marks-pile-beacons"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-returning-from-seaward",
+  "topicId": "lateral-marks",
+  "question": "In the buoyage rules, what does \"returning from seaward\" mean?",
+  "options": [
+   "Entering from the sea and travelling upstream, away from the sea.",
+   "Heading out of a river or channel toward the open sea.",
+   "Travelling in whichever direction the tide is flooding.",
+   "Any passage made in a northerly direction."
+  ],
+  "explanation": "Returning from seaward is the reference direction for lateral buoyage: travel from the sea into the river or port. Keep red port marks to port when travelling that way; the sides swap when you head back out.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "What returning from seaward means",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Direction of buoyage"
+   },
+   "vessels": [],
+   "id": "marks-returning-from-seaward"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-buoyage-direction-arrow",
+  "topicId": "lateral-marks",
+  "question": "A waterway can be entered from the sea at both ends, so the direction of buoyage is not obvious. How is the direction shown?",
+  "options": [
+   "The chart carries a direction of buoyage arrow symbol.",
+   "The marks are doubled so the channel reads the same from both directions.",
+   "The mark colours reverse halfway along the channel.",
+   "Signs on the bank state the local convention."
+  ],
+  "explanation": "Where the direction of buoyage is unclear, for example a channel approachable from two seaward entrances, charts show a direction of buoyage arrow. Check the chart before relying on the mark colours.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Channel open to the sea at both ends",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Direction of buoyage arrow"
+   },
+   "vessels": [],
+   "id": "marks-buoyage-direction-arrow"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-broadwater-seaway",
+  "topicId": "lateral-marks",
+  "question": "For buoyage direction in the Gold Coast Broadwater, which entrance is treated as the nearest sea entrance?",
+  "options": [
+   "The Gold Coast Seaway.",
+   "The Jumpinpin bar.",
+   "The mouth of the Nerang River.",
+   "The southern end of Moreton Bay."
+  ],
+  "explanation": "In the Broadwater the Seaway is treated as the nearest sea entrance, so travelling inward from the Seaway counts as returning from seaward when you read the lateral marks.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Buoyage direction in the Broadwater",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Gold Coast Broadwater"
+   },
+   "vessels": [],
+   "id": "marks-broadwater-seaway"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-paired-gate",
+  "topicId": "lateral-marks",
+  "question": "Ahead of you a red can mark and a green conical mark sit close together as a pair. What should you do?",
+  "options": [
+   "Pass between them; they mark a gate of navigable water.",
+   "Pass outside both of them to stay clear of the shallows.",
+   "Anchor and wait, because paired marks close a channel.",
+   "Pass on the red side only, whichever way you are travelling."
+  ],
+  "explanation": "When a red and a green lateral mark sit close together as a pair, the navigable water is between them. Which one you keep to port still depends on whether you are heading upstream or downstream.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "A pair of lateral marks ahead",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110,
+    "features": [
+     {
+      "kind": "mark",
+      "id": "gate-port",
+      "markType": "lateralPort",
+      "x": -9,
+      "y": -12
+     },
+     {
+      "kind": "mark",
+      "id": "gate-starboard",
+      "markType": "lateralStarboard",
+      "x": 9,
+      "y": -12
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 0,
+     "y": 36,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    }
+   ],
+   "id": "marks-paired-gate"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-lateral-night-lights",
+  "topicId": "lateral-marks",
+  "question": "Travelling upstream in a marked channel at night, what light colours should you see on each side?",
+  "options": [
+   "Red flashing lights to port and green flashing lights to starboard.",
+   "Green flashing lights to port and red flashing lights to starboard.",
+   "White flashing lights on both sides of the channel.",
+   "Yellow lights to port and white lights to starboard."
+  ],
+  "explanation": "Lit lateral marks show a light of the mark's colour: red for port marks and green for starboard marks, in any flash rhythm. Heading downstream the colours appear on the opposite sides.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Marked channel at night, travelling upstream",
+   "night": true,
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 40,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p3",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s3",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 10,
+     "y": 40,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 70
+     }
+    }
+   ],
+   "id": "marks-lateral-night-lights"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-lateral-light-rhythm",
+  "topicId": "lateral-marks",
+  "question": "At night, what flash rhythm identifies a lit port lateral mark?",
+  "options": [
+   "Any rhythm may be used; the red colour of the light identifies it.",
+   "A group of two flashes.",
+   "Continuous quick flashing only.",
+   "One long flash every 10 seconds."
+  ],
+  "explanation": "Lateral marks are identified by light colour, red for port and green for starboard, and any flash rhythm may be used. Fixed rhythms belong to other marks: two flashes means isolated danger and one long flash every 10 seconds means safe water.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Port lateral mark light at night",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Port lateral mark light",
+    "badge": "Red"
+   },
+   "vessels": [],
+   "id": "marks-lateral-light-rhythm"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-cardinal-meaning",
+  "topicId": "cardinal-marks",
+  "question": "What does a cardinal mark tell you?",
+  "options": [
+   "The compass side of the mark on which the safest water lies.",
+   "The port or starboard edge of a channel.",
+   "That there is navigable water all around the mark.",
+   "The boundary of a designated anchorage."
+  ],
+  "explanation": "Cardinal marks are named for the compass side you should pass on: keep north of a north mark, east of an east mark, south of a south mark and west of a west mark. The danger lies on the opposite side of the mark from its name.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "What cardinal marks show",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Cardinal marks"
+   },
+   "vessels": [],
+   "id": "marks-cardinal-meaning"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-east-cardinal-topmark",
+  "topicId": "cardinal-marks",
+  "question": "A pillar mark carries two black cones pointing away from each other. On which side of the mark is the safe water?",
+  "options": [
+   "To the east of the mark.",
+   "To the west of the mark.",
+   "To the north of the mark.",
+   "Between the mark and the nearest shore."
+  ],
+  "explanation": "Cones pointing away from each other mean an east cardinal mark: black at top and bottom with a yellow band between, the black sitting where the cones point. Pass to the east; the danger lies west of the mark.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "East cardinal mark clear of a shoal",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "shoal",
+      "x": -14,
+      "y": 0,
+      "radius": 14
+     },
+     {
+      "kind": "mark",
+      "id": "east-mark",
+      "markType": "cardinalEast",
+      "x": 16,
+      "y": 0
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 36,
+     "y": -44,
+     "heading": 180,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "marks-east-cardinal-topmark"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-south-cardinal-topmark",
+  "topicId": "cardinal-marks",
+  "question": "A cardinal mark's two black cones both point downward. On which side of the mark should you pass?",
+  "options": [
+   "To the south of the mark.",
+   "To the north of the mark.",
+   "To the west of the mark.",
+   "Either side; the cones only show the mark's height above water."
+  ],
+  "explanation": "Both cones pointing down means a south cardinal mark: safe water lies to the south and the danger sits north of the mark. The colours match the memory aid, yellow above black, with the black where the cones point.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "South cardinal mark clear of a shoal",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "shoal",
+      "x": 0,
+      "y": -22,
+      "radius": 14
+     },
+     {
+      "kind": "mark",
+      "id": "south-mark",
+      "markType": "cardinalSouth",
+      "x": 0,
+      "y": 8
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -42,
+     "y": 34,
+     "heading": 90,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    }
+   ],
+   "id": "marks-south-cardinal-topmark"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-west-cardinal-topmark",
+  "topicId": "cardinal-marks",
+  "question": "A cardinal mark's two black cones point toward each other, tip to tip. Where is the danger?",
+  "options": [
+   "To the east of the mark; pass on its western side.",
+   "To the west of the mark; pass on its eastern side.",
+   "Directly beneath the mark, with clear water all around.",
+   "To the south of the mark; pass on its northern side."
+  ],
+  "explanation": "Cones pointing toward each other identify a west cardinal mark; some remember the wineglass shape as a W. Safe water lies to the west, so the danger is on the eastern side. The body is yellow with a black band in the middle, where the cones point.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "West cardinal mark clear of a shoal",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "shoal",
+      "x": 18,
+      "y": 0,
+      "radius": 14
+     },
+     {
+      "kind": "mark",
+      "id": "west-mark",
+      "markType": "cardinalWest",
+      "x": -14,
+      "y": 0
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -38,
+     "y": 42,
+     "heading": 0,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    }
+   ],
+   "id": "marks-west-cardinal-topmark"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-north-cardinal-colours",
+  "topicId": "cardinal-marks",
+  "question": "A pillar mark is black on top and yellow below. Which mark is it, and where do you pass?",
+  "options": [
+   "A north cardinal mark; pass to its north.",
+   "A south cardinal mark; pass to its south.",
+   "A west cardinal mark; pass to its west.",
+   "An isolated danger mark; keep well clear on any side."
+  ],
+  "explanation": "The black band sits where the topmark cones point: on a north cardinal mark both cones point up, so the black is on top. Safe water is north of the mark and the danger lies to its south.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Black over yellow pillar near a shoal",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "shoal",
+      "x": 12,
+      "y": 24,
+      "radius": 14
+     },
+     {
+      "kind": "mark",
+      "id": "north-mark",
+      "markType": "cardinalNorth",
+      "x": 12,
+      "y": -6
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -42,
+     "y": -34,
+     "heading": 90,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "marks-north-cardinal-colours"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-east-cardinal-colours",
+  "topicId": "cardinal-marks",
+  "question": "A pillar mark is black at the top and bottom with a broad yellow band between. Which mark is it?",
+  "options": [
+   "An east cardinal mark; safe water lies to its east.",
+   "A west cardinal mark; safe water lies to its west.",
+   "An isolated danger mark; navigable water lies all around it.",
+   "A special mark; check the chart for which side to pass."
+  ],
+  "explanation": "East cardinal cones point away from each other, up and down, so the black sits at both ends with yellow in the middle. A west cardinal is the reverse: a single black band in the middle where the cones point together.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Black, yellow, black banding near a shoal",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "shoal",
+      "x": -16,
+      "y": 6,
+      "radius": 13
+     },
+     {
+      "kind": "mark",
+      "id": "east-mark",
+      "markType": "cardinalEast",
+      "x": 14,
+      "y": 6
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 38,
+     "y": -42,
+     "heading": 180,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "marks-east-cardinal-colours"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-north-cardinal-light",
+  "topicId": "cardinal-marks",
+  "question": "At night you see a white light flashing continuously, with no pauses or groups. What mark is it?",
+  "options": [
+   "A north cardinal mark; pass to its north.",
+   "A south cardinal mark; pass to its south.",
+   "A safe water mark; you may pass on either side.",
+   "An anchored vessel showing its all-round white light."
+  ],
+  "explanation": "Cardinal lights are white and follow a clock face: north flashes continuously, east flashes in threes, south in sixes plus a long flash, and west in nines. An anchored vessel's all-round white light is steady, not flashing.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Continuous white flashing north of a shoal",
+   "night": true,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "shoal",
+      "x": 12,
+      "y": 26,
+      "radius": 14
+     },
+     {
+      "kind": "mark",
+      "id": "north-mark",
+      "markType": "cardinalNorth",
+      "x": 12,
+      "y": -4
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -40,
+     "y": -30,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "marks-north-cardinal-light"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-east-cardinal-light",
+  "topicId": "cardinal-marks",
+  "question": "At night, what is the light rhythm of an east cardinal mark?",
+  "options": [
+   "White, in groups of three flashes.",
+   "White, in groups of nine flashes.",
+   "White, in groups of six flashes followed by one long flash.",
+   "Yellow, in groups of three flashes."
+  ],
+  "explanation": "Think of a clock face: east sits at 3 o'clock and flashes in threes, south at 6, west at 9, and north flashes continuously. All cardinal lights are white; yellow lights belong to special marks.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "East cardinal light rhythm",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "East cardinal light rhythm",
+    "badge": "3"
+   },
+   "vessels": [],
+   "id": "marks-east-cardinal-light"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-south-cardinal-light",
+  "topicId": "cardinal-marks",
+  "question": "A white light flashes six times, then gives one long flash, then repeats. What are you looking at?",
+  "options": [
+   "A south cardinal mark; safe water lies to its south.",
+   "An east cardinal mark; safe water lies to its east.",
+   "A west cardinal mark; safe water lies to its west.",
+   "A north cardinal mark; safe water lies to its north."
+  ],
+  "explanation": "Six flashes marks south on the clock face, and the added long flash stops a six count being confused with east's three or west's nine. Pass to the south of the mark; the danger lies to its north.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Six flashes and a long flash south of a shoal",
+   "night": true,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "shoal",
+      "x": 0,
+      "y": -24,
+      "radius": 14
+     },
+     {
+      "kind": "mark",
+      "id": "south-mark",
+      "markType": "cardinalSouth",
+      "x": 0,
+      "y": 8
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -40,
+     "y": 34,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "marks-south-cardinal-light"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-west-cardinal-light",
+  "topicId": "cardinal-marks",
+  "question": "At night, which mark shows a white light in groups of nine flashes?",
+  "options": [
+   "A west cardinal mark.",
+   "An east cardinal mark.",
+   "A south cardinal mark.",
+   "A safe water mark."
+  ],
+  "explanation": "West sits at 9 o'clock on the cardinal clock face. East flashes in threes, south flashes six plus a long flash, north flashes continuously, and a safe water mark shows a single long flash every 10 seconds.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "West cardinal light rhythm",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "West cardinal light rhythm",
+    "badge": "9"
+   },
+   "vessels": [],
+   "id": "marks-west-cardinal-light"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-isolated-danger-identify",
+  "topicId": "cardinal-marks",
+  "question": "A black pillar mark with a broad red band carries two black spheres, one above the other. What does it mark?",
+  "options": [
+   "An isolated danger, such as a rock or wreck, with navigable water all around it.",
+   "The junction of two channels; pass on the wider side.",
+   "Safe water with a designated anchorage beneath the mark.",
+   "The centre of a shipping fairway."
+  ],
+  "explanation": "Two black spheres identify an isolated danger mark, placed on or above a danger of limited extent such as a rock, reef, shoal or wreck. Water is navigable around it, but do not pass close; check the chart for the extent of the danger.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Isolated danger mark over a small hazard",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 140,
+    "height": 120,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "hazard",
+      "x": 0,
+      "y": -4,
+      "radius": 9
+     },
+     {
+      "kind": "mark",
+      "id": "danger-mark",
+      "markType": "isolatedDanger",
+      "x": 0,
+      "y": -4
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -45,
+     "y": 30,
+     "heading": 90,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    }
+   ],
+   "id": "marks-isolated-danger-identify"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-isolated-danger-light",
+  "topicId": "cardinal-marks",
+  "question": "At night, what light does an isolated danger mark show?",
+  "options": [
+   "White, in groups of two flashes.",
+   "White, one long flash every 10 seconds.",
+   "Red, in groups of two flashes.",
+   "Yellow, with any rhythm."
+  ],
+  "explanation": "Isolated danger marks flash white in groups of two; the memory aid is two flashes, two spheres. One long flash every 10 seconds is a safe water mark, and yellow lights belong to special marks.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Isolated danger light rhythm",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Isolated danger mark light",
+    "badge": "2"
+   },
+   "vessels": [],
+   "id": "marks-isolated-danger-light"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-safe-water",
+  "topicId": "cardinal-marks",
+  "question": "A buoy with red and white vertical stripes lies ahead. What does it tell you?",
+  "options": [
+   "There is navigable water all around it; it often marks mid-channel or the seaward start of a fairway.",
+   "There is an isolated danger directly beneath it.",
+   "Keep the buoy on your port side when travelling upstream.",
+   "You are entering a designated bathing reserve."
+  ],
+  "explanation": "Red and white vertical stripes identify a safe water mark, showing navigable water all around. In Queensland they mark the seaward start of fairways into major ports; at night they show a white light with one long flash every 10 seconds.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Safe water mark at the start of a fairway",
+   "layout": {
+    "kind": "openWater",
+    "width": 140,
+    "height": 120,
+    "features": [
+     {
+      "kind": "mark",
+      "id": "safe-water-mark",
+      "markType": "safeWater",
+      "x": 2,
+      "y": -6
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -24,
+     "y": 36,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "marks-safe-water"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "marks-special-mark",
+  "topicId": "cardinal-marks",
+  "question": "What does an all-yellow mark indicate?",
+  "options": [
+   "A special area or feature, such as a spoil ground or pipeline; check the chart for which side to pass.",
+   "The starboard side of the channel when travelling upstream.",
+   "A danger with safe water to the north of the mark.",
+   "A mark reserved for commercial shipping only."
+  ],
+  "explanation": "Special marks are yellow and indicate features like traffic separation, spoil grounds, cables and pipelines, a deep draught channel, or the intersection of two channels. The mark itself does not tell you which side to pass; consult the chart. At night it shows a yellow light with a rhythm different from any white-light mark.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: beacons, buoys and marks",
+    "url": "https://www.msq.qld.gov.au/waterways/beacons-buoys-and-marks"
+   }
+  ],
+  "scene": {
+   "title": "Yellow special mark",
+   "layout": {
+    "kind": "openWater",
+    "width": 140,
+    "height": 120,
+    "features": [
+     {
+      "kind": "mark",
+      "id": "special-mark",
+      "markType": "special",
+      "x": 8,
+      "y": -4
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -38,
+     "y": 20,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "marks-special-mark"
+  },
+  "correctIndex": 0
+ }
+]

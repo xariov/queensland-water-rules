@@ -1,0 +1,1676 @@
+[
+ {
+  "id": "ops-lic-five-kw",
+  "topicId": "licences",
+  "question": "You are buying a dinghy with a 5 kilowatt outboard. Do you need a marine licence to drive it?",
+  "options": [
+   "Yes, an RMDL is required for any recreational boat with an engine over 4.5 kilowatts.",
+   "No, a licence is only needed above 10 kilowatts.",
+   "No, dinghies are exempt from licensing regardless of engine size.",
+   "Only if you plan to go beyond smooth waters."
+  ],
+  "explanation": "The licence threshold is engine power over 4.5 kW (about 6 horsepower), so a 5 kW outboard puts the boat over the line. Do not confuse it with the registration threshold, which is 3 kW.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 55 (when a licence is required)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Queensland Government: recreational marine licences",
+    "url": "https://www.qld.gov.au/transport/boating/licences"
+   }
+  ],
+  "scene": {
+   "title": "Licence needed over 4.5 kW",
+   "layout": {
+    "kind": "card",
+    "icon": "licence",
+    "label": "Over 4.5 kW needs an RMDL",
+    "badge": "5 kW"
+   },
+   "vessels": [],
+   "id": "ops-lic-five-kw"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-lic-minimum-age",
+  "topicId": "licences",
+  "question": "What is the minimum age for obtaining a recreational marine driver licence in Queensland?",
+  "options": [
+   "16 years.",
+   "18 years.",
+   "15 years.",
+   "14 years, with parental consent."
+  ],
+  "explanation": "The minimum age for both the RMDL and the PWCL is 16. Younger people can complete a BoatSafe course, but the qualification cannot be issued until they turn 16.",
+  "citations": [
+   {
+    "reference": "Queensland Government: recreational marine licences",
+    "url": "https://www.qld.gov.au/transport/boating/licences"
+   }
+  ],
+  "scene": {
+   "title": "Minimum age for a marine licence",
+   "layout": {
+    "kind": "card",
+    "icon": "licence",
+    "label": "Minimum licence age",
+    "badge": "16"
+   },
+   "vessels": [],
+   "id": "ops-lic-minimum-age"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-lic-competency-expiry",
+  "topicId": "licences",
+  "question": "You pass your BoatSafe course and receive a statement of competency. How long do you have to present it and apply for the licence?",
+  "options": [
+   "6 months, or you must be reassessed.",
+   "12 months from the course date.",
+   "There is no time limit once you have passed.",
+   "30 days."
+  ],
+  "explanation": "A statement of competency is not the licence. It must be presented at a Transport and Main Roads customer service centre within 6 months of completing the course; after that you must be reassessed by a BoatSafe training organisation.",
+  "citations": [
+   {
+    "reference": "Queensland Government: recreational marine licences",
+    "url": "https://www.qld.gov.au/transport/boating/licences"
+   }
+  ],
+  "scene": {
+   "title": "Statement of competency validity",
+   "layout": {
+    "kind": "card",
+    "icon": "licence",
+    "label": "Statement of competency validity",
+    "badge": "6 mo"
+   },
+   "vessels": [],
+   "id": "ops-lic-competency-expiry"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-lic-supervised-operation",
+  "topicId": "licences",
+  "question": "Can an unlicensed adult drive a boat that normally requires a licence?",
+  "options": [
+   "Yes, under the direct supervision of a licence holder who can take immediate control.",
+   "No, never; only licence holders may touch the controls.",
+   "Yes, anywhere in smooth waters without conditions.",
+   "Only if the boat stays under 6 knots."
+  ],
+  "explanation": "An unlicensed person may operate under the direct supervision of a licensed person who is on board and able to take over immediately. That is how learners build experience before their assessment.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 55 (when a licence is required)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Queensland Government: recreational marine licences",
+    "url": "https://www.qld.gov.au/transport/boating/licences"
+   }
+  ],
+  "scene": {
+   "title": "Supervised operation without a licence",
+   "layout": {
+    "kind": "card",
+    "icon": "licence",
+    "label": "Supervision by a licence holder"
+   },
+   "vessels": [],
+   "id": "ops-lic-supervised-operation"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-lic-pwcl-prerequisite",
+  "topicId": "licences",
+  "question": "You want a personal watercraft licence (PWCL). What must you hold or complete first?",
+  "options": [
+   "An RMDL or recognised equivalent, or be assessed competent in the RMDL BoatSafe units.",
+   "Nothing; the PWCL is a stand-alone licence with no prerequisites.",
+   "A commercial coxswain certificate.",
+   "At least 12 months of logged boating experience."
+  ],
+  "explanation": "A PWCL is only issued to people who hold an RMDL (or a recognised equivalent such as an interstate licence) or who have been assessed competent in the RMDL units. There is no minimum time you must have held the RMDL first.",
+  "citations": [
+   {
+    "reference": "Queensland Government: recreational marine licences",
+    "url": "https://www.qld.gov.au/transport/boating/licences"
+   },
+   {
+    "reference": "Maritime Safety Queensland: personal watercraft",
+    "url": "https://www.msq.qld.gov.au/safety/personal-watercraft"
+   }
+  ],
+  "scene": {
+   "title": "PWCL prerequisite",
+   "layout": {
+    "kind": "card",
+    "icon": "pwc",
+    "label": "PWCL is issued to RMDL holders"
+   },
+   "vessels": [],
+   "id": "ops-lic-pwcl-prerequisite"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-lic-never-expires",
+  "topicId": "licences",
+  "question": "When does a Queensland recreational marine driver licence expire?",
+  "options": [
+   "Never; the licence does not expire.",
+   "Every 5 years, when it must be renewed.",
+   "At age 75, when a medical certificate is required.",
+   "After 10 years of not owning a boat."
+  ],
+  "explanation": "Queensland marine licences never expire and there is no renewal cycle. They are delivered through the Queensland Digital Licence app, and there is no requirement to carry physical evidence of the licence.",
+  "citations": [
+   {
+    "reference": "Queensland Government: recreational marine licences",
+    "url": "https://www.qld.gov.au/transport/boating/licences"
+   }
+  ],
+  "scene": {
+   "title": "Marine licences never expire",
+   "layout": {
+    "kind": "card",
+    "icon": "licence",
+    "label": "Marine licences never expire"
+   },
+   "vessels": [],
+   "id": "ops-lic-never-expires"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-lic-interstate-visitor",
+  "topicId": "licences",
+  "question": "You hold an equivalent marine licence from another Australian state and are holidaying in Queensland. Can you drive a boat that needs a licence here?",
+  "options": [
+   "Yes, an equivalent interstate marine licence is recognised.",
+   "No, you must pass the Queensland assessment before your trip.",
+   "Only in smooth waters.",
+   "Only if a Queensland licence holder is also on board."
+  ],
+  "explanation": "Queensland recognises equivalent interstate marine licences, so visitors can operate on their home state licence. Anyone moving to Queensland permanently should check the transfer requirements with Transport and Main Roads.",
+  "citations": [
+   {
+    "reference": "Queensland Government: recreational marine licences",
+    "url": "https://www.qld.gov.au/transport/boating/licences"
+   }
+  ],
+  "scene": {
+   "title": "Interstate licence recognition",
+   "layout": {
+    "kind": "card",
+    "icon": "licence",
+    "label": "Interstate licences are recognised"
+   },
+   "vessels": [],
+   "id": "ops-lic-interstate-visitor"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-lic-towing-skier",
+  "topicId": "licences",
+  "question": "Who may drive a boat that is towing a waterskier?",
+  "options": [
+   "Only a person who holds a valid marine licence.",
+   "Any adult, provided an observer is on board.",
+   "Anyone, because the observer carries the legal responsibility.",
+   "Only the boat's registered owner."
+  ],
+  "explanation": "The operator of any boat towing a waterskier or other towed person must hold a valid marine licence, whatever the engine size. A separate rule also requires a capable observer aged 13 or older to watch the skier.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 83 (towing waterskiers)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   }
+  ],
+  "scene": {
+   "title": "Towing requires a marine licence",
+   "layout": {
+    "kind": "card",
+    "icon": "skiFlag",
+    "label": "Towing requires a marine licence"
+   },
+   "vessels": [],
+   "id": "ops-lic-towing-skier"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-reg-power-threshold",
+  "topicId": "registration",
+  "question": "From what engine power must a recreational boat be registered in Queensland?",
+  "options": [
+   "3 kilowatts or more.",
+   "Over 4.5 kilowatts.",
+   "Any engine at all.",
+   "6 kilowatts or more."
+  ],
+  "explanation": "Registration is triggered at 3 kW of propulsion power. The licence threshold is different (over 4.5 kW), so a boat with a 4 kW motor must be registered even though no licence is needed to drive it.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 26 (which ships must be registered)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   }
+  ],
+  "scene": {
+   "title": "Registration threshold",
+   "layout": {
+    "kind": "card",
+    "icon": "registration",
+    "label": "Registration starts at 3 kW",
+    "badge": "3 kW"
+   },
+   "vessels": [],
+   "id": "ops-reg-power-threshold"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-reg-tender-exemption",
+  "topicId": "registration",
+  "question": "When is a tender to a registered boat exempt from its own registration?",
+  "options": [
+   "When it is used within 2 nautical miles of the primary boat.",
+   "When its engine is under 4.5 kilowatts.",
+   "When it is under 3 metres long.",
+   "Never; tenders always need their own registration."
+  ],
+  "explanation": "A tender to a registered Queensland ship is exempt while used within 2 nautical miles of the primary boat. It must be marked with the word tender plus the primary boat's registration symbols, and it needs to carry a light for signalling.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 26 (which ships must be registered)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   }
+  ],
+  "scene": {
+   "title": "Tender registration exemption",
+   "layout": {
+    "kind": "card",
+    "icon": "registration",
+    "label": "Tender exemption within 2 nm",
+    "badge": "2 nm"
+   },
+   "vessels": [],
+   "id": "ops-reg-tender-exemption"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-reg-unpowered",
+  "topicId": "registration",
+  "question": "Does a paddle kayak with no motor need to be registered in Queensland?",
+  "options": [
+   "No, unpowered craft are exempt from registration.",
+   "Yes, all watercraft over 2.5 metres must be registered.",
+   "Yes, but only if used beyond smooth waters.",
+   "Only if it is fitted with a sail."
+  ],
+  "explanation": "Registration applies to boats with propulsion power of 3 kW or more. Unpowered craft such as kayaks, rowboats and sailing dinghies without an auxiliary engine are exempt.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 26 (which ships must be registered)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   }
+  ],
+  "scene": {
+   "title": "Unpowered craft and registration",
+   "layout": {
+    "kind": "card",
+    "icon": "registration",
+    "label": "Unpowered craft are exempt"
+   },
+   "vessels": [],
+   "id": "ops-reg-unpowered"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-reg-symbols-display",
+  "topicId": "registration",
+  "question": "How must registration symbols be displayed on a registered boat?",
+  "options": [
+   "Clearly visible, in plain characters, in a colour contrasting with the hull.",
+   "Anywhere on board, as long as they can be produced on request.",
+   "Only on the trailer used to launch the boat.",
+   "On the inside of the transom, visible to the skipper."
+  ],
+  "explanation": "Symbols must be clearly visible in plain characters and a colour that contrasts with the hull. Boats capable of planing carry them at least 150 mm high on both sides; most other boats need at least 75 mm.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 26 (registration symbols)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Queensland Government: boat registration",
+    "url": "https://www.qld.gov.au/transport/boating/registration"
+   }
+  ],
+  "scene": {
+   "title": "Displaying registration symbols",
+   "layout": {
+    "kind": "card",
+    "icon": "registration",
+    "label": "Visible, plain, contrasting colour"
+   },
+   "vessels": [],
+   "id": "ops-reg-symbols-display"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-reg-planing-height",
+  "topicId": "registration",
+  "question": "Your speed boat is capable of planing. How tall must its registration symbols be?",
+  "options": [
+   "At least 150 millimetres, on both sides.",
+   "At least 75 millimetres, on the stern only.",
+   "At least 100 millimetres, on the port side.",
+   "There is no minimum size, only a visibility requirement."
+  ],
+  "explanation": "Planing boats such as speed boats and dinghies carry symbols at least 150 mm high on both sides. Other boats (excluding PWC) need at least 75 mm on both sides or on the stern, and PWC need 100 mm on both sides.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 26 (registration symbols)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Queensland Government: boat registration",
+    "url": "https://www.qld.gov.au/transport/boating/registration"
+   }
+  ],
+  "scene": {
+   "title": "Symbol height on a planing boat",
+   "layout": {
+    "kind": "card",
+    "icon": "registration",
+    "label": "Symbol height on a planing boat",
+    "badge": "150"
+   },
+   "vessels": [],
+   "id": "ops-reg-planing-height"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-reg-transfer-14-days",
+  "topicId": "registration",
+  "question": "You buy a second-hand registered boat. When must the transfer of registration be lodged?",
+  "options": [
+   "Within 14 days of the sale.",
+   "Within 48 hours of the sale.",
+   "Before the boat is next used on the water.",
+   "Within 3 months of the sale."
+  ],
+  "explanation": "The new owner must lodge a transfer of registration application within 14 days. The 48 hour deadline is a different rule: it is the time limit for reporting a marine incident.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 26 (transfer of registration)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Queensland Government: boat registration",
+    "url": "https://www.qld.gov.au/transport/boating/registration"
+   }
+  ],
+  "scene": {
+   "title": "Transfer of registration deadline",
+   "layout": {
+    "kind": "card",
+    "icon": "registration",
+    "label": "Transfer of registration deadline",
+    "badge": "14 d"
+   },
+   "vessels": [],
+   "id": "ops-reg-transfer-14-days"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-anchored-boat",
+  "topicId": "speed-distance",
+  "question": "In a boat (not a PWC), what is the maximum speed within 30 metres of a boat lying at anchor?",
+  "options": [
+   "6 knots.",
+   "10 knots.",
+   "8 knots.",
+   "Any speed, provided you cause no wash."
+  ],
+  "explanation": "Boats keep to 6 knots or less within 30 metres of ships that are anchored, moored, made fast to the shore or aground. On a PWC the same 6 knot rule stretches to 60 metres.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near people and structures)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Passing an anchored boat with a 30 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 120,
+    "features": [
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": "B",
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -42,
+     "y": -22,
+     "heading": 115,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    },
+    {
+     "id": "B",
+     "x": 20,
+     "y": 14,
+     "heading": 75,
+     "anchored": true
+    }
+   ],
+   "id": "ops-sd-anchored-boat"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-jetty",
+  "topicId": "speed-distance",
+  "question": "You are motoring past a jetty crowded with people fishing. What speed limit applies within 30 metres of it?",
+  "options": [
+   "6 knots.",
+   "10 knots.",
+   "4 knots.",
+   "No fixed limit applies near structures."
+  ],
+  "explanation": "The 6 knot rule covers jetties, wharves, boat ramps and pontoons as well as people in the water and anchored or moored ships. It applies within 30 metres of the structure, signed or not.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near people and structures)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Passing a jetty with a 30 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 160,
+    "height": 120,
+    "shores": [
+     {
+      "side": "south",
+      "depth": 24,
+      "kind": "beach"
+     }
+    ],
+    "features": [
+     {
+      "kind": "jetty",
+      "id": "jetty",
+      "side": "south",
+      "at": 30,
+      "length": 22
+     },
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": {
+       "x": 30,
+       "y": 20
+      },
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -40,
+     "y": -15,
+     "heading": 105,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    }
+   ],
+   "id": "ops-sd-jetty"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-boat-ramp",
+  "topicId": "speed-distance",
+  "question": "What is the maximum speed for a boat within 30 metres of a boat ramp?",
+  "options": [
+   "6 knots.",
+   "10 knots.",
+   "Whatever speed is safe for the conditions.",
+   "6 knots, but only when a boat is using the ramp."
+  ],
+  "explanation": "Boat ramps are on the 6 knot list along with jetties, wharves and pontoons, whether or not anyone is using them. Slow early: your wash keeps travelling after you throttle back.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near people and structures)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Approaching a boat ramp with a 30 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 120,
+    "shores": [
+     {
+      "side": "south",
+      "depth": 24,
+      "kind": "built"
+     }
+    ],
+    "features": [
+     {
+      "kind": "boatRamp",
+      "id": "ramp",
+      "side": "south",
+      "at": -25
+     },
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": {
+       "x": -25,
+       "y": 28
+      },
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 25,
+     "y": -30,
+     "heading": 215,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    }
+   ],
+   "id": "ops-sd-boat-ramp"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-moored-distance",
+  "topicId": "speed-distance",
+  "question": "Within what distance of a moored boat must you slow to 6 knots in a boat (not a PWC)?",
+  "options": [
+   "30 metres.",
+   "60 metres.",
+   "100 metres.",
+   "200 metres."
+  ],
+  "explanation": "For boats the 6 knot zone is 30 metres. The 60 metre figure is the PWC rule, and 100 metres relates to cross-river ferries, both common traps.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near people and structures)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "A 30 metre ring around a moored boat",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 120,
+    "shores": [
+     {
+      "side": "east",
+      "depth": 26,
+      "kind": "built"
+     }
+    ],
+    "features": [
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": "B",
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -40,
+     "y": -25,
+     "heading": 120,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    },
+    {
+     "id": "B",
+     "x": 35,
+     "y": 10,
+     "heading": 80,
+     "moored": true
+    }
+   ],
+   "id": "ops-sd-moored-distance"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-aground",
+  "topicId": "speed-distance",
+  "question": "You pass a ship that has run aground on a sandbank. Does the 6 knot rule apply to you?",
+  "options": [
+   "Yes, within 30 metres of a ship that is aground.",
+   "No, the rule only covers vessels at anchor.",
+   "Only if the grounded crew ask you to slow down.",
+   "No, but you must sound one long blast as you pass."
+  ],
+  "explanation": "The 6 knot list covers ships that are anchored, moored, made fast to the shore or aground. Wash can pound a grounded hull and anyone working to refloat it, so slow right down.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near people and structures)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "A boat aground on a sandbank with a 30 metre ring",
+   "layout": {
+    "kind": "openWater",
+    "width": 160,
+    "height": 130,
+    "features": [
+     {
+      "kind": "shallows",
+      "id": "sandbank",
+      "x": 30,
+      "y": 15,
+      "radius": 16
+     },
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": "B",
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -45,
+     "y": -30,
+     "heading": 120,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    },
+    {
+     "id": "B",
+     "x": 30,
+     "y": 15,
+     "heading": 60
+    }
+   ],
+   "id": "ops-sd-aground"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-unsigned",
+  "topicId": "speed-distance",
+  "question": "There are no speed limit signs where you are boating. Do the 6 knot distance rules still apply?",
+  "options": [
+   "Yes, they apply statewide whether or not signs are posted.",
+   "No, the limits only apply where signed.",
+   "Only inside marinas and boat harbours.",
+   "Only during daylight hours."
+  ],
+  "explanation": "The 6 knot rules near people, anchored or moored ships, jetties, ramps and pontoons apply across Queensland with or without signage. Posted limits add local restrictions on top; they do not replace the statewide rules.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near people and structures)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "The 6 knot rule applies without signs",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 120,
+    "features": [
+     {
+      "kind": "distanceRing",
+      "id": "ring-30",
+      "around": {
+       "x": 25,
+       "y": 20
+      },
+      "radius": 30,
+      "label": "30 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -40,
+     "y": -18,
+     "heading": 110,
+     "movement": {
+      "kind": "straight",
+      "distance": 38
+     }
+    }
+   ],
+   "swimmers": [
+    {
+     "x": 25,
+     "y": 20
+    }
+   ],
+   "id": "ops-sd-unsigned"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-wash-damage",
+  "topicId": "speed-distance",
+  "question": "Your wash rocks a moored yacht and damages its fittings against the pontoon. Who is responsible?",
+  "options": [
+   "You are; a skipper is responsible for their wash and the damage it causes.",
+   "The yacht's owner, for mooring in a busy spot.",
+   "The marina operator, for not fitting fenders.",
+   "Nobody; wash damage is an accepted risk of boating."
+  ],
+  "explanation": "You are responsible for the effect of your wash on other boats, people in the water, and the shore. Look astern occasionally: if your wash is breaking or rocking boats, slow down.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 81 (speed near people and structures)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Wash from a passing boat near a moored yacht",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 120,
+    "shores": [
+     {
+      "side": "east",
+      "depth": 26,
+      "kind": "built"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -40,
+     "y": -20,
+     "heading": 160,
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    },
+    {
+     "id": "B",
+     "x": 35,
+     "y": 18,
+     "heading": 0,
+     "moored": true
+    }
+   ],
+   "id": "ops-sd-wash-damage"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-wash-posted-limit",
+  "topicId": "speed-distance",
+  "question": "You are travelling exactly at a posted 10 knot limit, but your wash is rocking anchored boats. Are you in the clear?",
+  "options": [
+   "No, complying with a posted limit does not make your wash acceptable.",
+   "Yes, a posted limit overrides the wash rules.",
+   "Yes, wash rules only apply above 15 knots.",
+   "Only if your boat is over 8 metres long."
+  ],
+  "explanation": "Speed limits and wash responsibility are separate obligations. Even under a posted limit you must manage the effect of your wash on other boats, people in the water and the shore.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Wash duty applies at any speed",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Wash duty applies at any speed"
+   },
+   "vessels": [],
+   "id": "ops-sd-wash-posted-limit"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-safe-speed-factors",
+  "topicId": "speed-distance",
+  "question": "Away from the fixed 6 knot zones, what determines a safe speed for your boat?",
+  "options": [
+   "Conditions such as visibility, traffic, your draught, and the wind and sea state.",
+   "The boat's maximum rated speed on the builders plate.",
+   "Whatever speed other boats around you are doing.",
+   "Any speed under 20 knots is automatically safe."
+  ],
+  "explanation": "Safe speed weighs visibility, traffic density, hazards, depth and your draught, manoeuvrability, background lighting at night, and the wind and sea state. The faster you go, the more distance you need to assess and avoid a collision.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 6 (safe speed)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Judging a safe speed",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Judging a safe speed"
+   },
+   "vessels": [],
+   "id": "ops-sd-safe-speed-factors"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-sd-safe-speed-night",
+  "topicId": "speed-distance",
+  "question": "You are heading home after dark through an anchorage, with town lights on the shore behind it. What does the safe speed rule require?",
+  "options": [
+   "Slow down, because darkness and background lighting make obstacles harder to see.",
+   "Speed up to spend less time in the risky area.",
+   "Maintain your daytime cruising speed to keep steerage.",
+   "Nothing changes at night if your navigation lights are on."
+  ],
+  "explanation": "Visibility and background shore lighting are safe speed factors: unlit hazards and anchored boats are hard to pick out against town lights. Travel slowly enough to spot and avoid them in time.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 6 (safe speed)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "Maritime Safety Queensland: speed limits",
+    "url": "https://www.msq.qld.gov.au/waterways/speed-limits"
+   }
+  ],
+  "scene": {
+   "title": "Night transit through an anchorage",
+   "night": true,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 120,
+    "shores": [
+     {
+      "side": "north",
+      "depth": 22,
+      "kind": "built"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -40,
+     "y": 35,
+     "heading": 65,
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    },
+    {
+     "id": "B",
+     "x": 18,
+     "y": -8,
+     "heading": 250,
+     "anchored": true
+    },
+    {
+     "id": "C",
+     "x": 45,
+     "y": 15,
+     "heading": 30,
+     "anchored": true
+    }
+   ],
+   "id": "ops-sd-safe-speed-night"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-al-limit",
+  "topicId": "alcohol",
+  "question": "What is the blood alcohol limit for the person in control of a recreational boat in Queensland?",
+  "options": [
+   "Under 0.05, the same as for driving a car.",
+   "Under 0.08 on the water.",
+   "Zero; no alcohol at all is allowed.",
+   "There is no limit on private boats."
+  ],
+  "explanation": "The limit afloat is the same as on the road: under 0.05. Sun, wind, waves and motion amplify alcohol's effects, so impairment comes faster on the water than the number suggests.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Road Use Management) Act 1995, section 79 (drink driving provisions, applied to vessels)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "The 0.05 limit afloat",
+   "layout": {
+    "kind": "card",
+    "icon": "alcohol",
+    "label": "Under 0.05 while in control",
+    "badge": "0.05"
+   },
+   "vessels": [],
+   "id": "ops-al-limit"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-al-at-anchor",
+  "topicId": "alcohol",
+  "question": "You anchor in a bay for lunch and stay aboard as the person in charge. Does the 0.05 limit still apply to you?",
+  "options": [
+   "Yes, you are still in control of the boat while it is at anchor.",
+   "No, the limit only applies while the engine is running.",
+   "No, the limit only applies while the boat is moving.",
+   "Only if you plan to move again within an hour."
+  ],
+  "explanation": "Anchoring does not hand over control: you are still in charge of a boat at anchor, and the 0.05 limit still applies. It stops applying only once the boat is secured, such as moored at a marina berth, and is no longer being operated.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Road Use Management) Act 1995, section 79 (drink driving provisions, applied to vessels)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "The limit still applies at anchor",
+   "layout": {
+    "kind": "card",
+    "icon": "alcohol",
+    "label": "Still in control at anchor",
+    "badge": "0.05"
+   },
+   "vessels": [],
+   "id": "ops-al-at-anchor"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-al-marina-berth",
+  "topicId": "alcohol",
+  "question": "Your boat is tied up in its marina berth for the night and going nowhere. Does the 0.05 limit apply on board?",
+  "options": [
+   "No, the limit does not apply while the boat is moored at its berth.",
+   "Yes, the limit applies at all times on any boat.",
+   "Yes, unless every person on board is over 18.",
+   "Only between sunset and sunrise."
+  ],
+  "explanation": "The limit attaches to being in control of a boat that is being operated, which includes being underway or at anchor. Once the boat is moored at a marina berth and not being operated, the limit no longer applies, but you must be under 0.05 before you take the boat out again.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Road Use Management) Act 1995, section 79 (drink driving provisions, applied to vessels)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "Moored at a marina berth",
+   "layout": {
+    "kind": "card",
+    "icon": "alcohol",
+    "label": "Moored at a berth: not in control"
+   },
+   "vessels": [],
+   "id": "ops-al-marina-berth"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-al-sober-master",
+  "topicId": "alcohol",
+  "question": "You hold the licence and are the master, but a friend who is under 0.05 is driving while you have been drinking. Is that legal?",
+  "options": [
+   "No, as master you must stay under 0.05 even when someone else is at the helm.",
+   "Yes, only the person steering has to be under the limit.",
+   "Yes, provided you do not touch the controls.",
+   "Only if you stay seated at the stern."
+  ],
+  "explanation": "The master remains responsible for the safe operation of the boat even when someone else drives, so the master must stay under 0.05 and ensure the person driving is under it too. A master can be convicted while a sober person is at the helm.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Road Use Management) Act 1995, section 79 (drink driving provisions, applied to vessels)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "The sober master principle",
+   "layout": {
+    "kind": "card",
+    "icon": "alcohol",
+    "label": "The master must stay under 0.05",
+    "badge": "0.05"
+   },
+   "vessels": [],
+   "id": "ops-al-sober-master"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-al-breath-test",
+  "topicId": "alcohol",
+  "question": "Can police require you to take a breath test while you are boating?",
+  "options": [
+   "Yes, water police can breath test operators on the water, at ramps and in marinas.",
+   "No, breath testing only applies to motor vehicles.",
+   "Only after a marine incident has occurred.",
+   "Only inside declared alcohol-free zones."
+  ],
+  "explanation": "Queensland Water Police run breath testing on the water just as police do on the road, including at boat ramps and in marinas. Penalties range from fines to imprisonment, and your marine licence can be suspended or cancelled.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Road Use Management) Act 1995, section 79 (drink driving provisions, applied to vessels)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "Breath testing on the water",
+   "layout": {
+    "kind": "card",
+    "icon": "alcohol",
+    "label": "Breath testing applies afloat"
+   },
+   "vessels": [],
+   "id": "ops-al-breath-test"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-al-amplified",
+  "topicId": "alcohol",
+  "question": "Why does alcohol affect you faster on the water than ashore?",
+  "options": [
+   "Sun, wind, waves and the boat's motion amplify its effects.",
+   "It does not; the effects are identical.",
+   "Salt air chemically strengthens alcohol.",
+   "Boat fuel fumes double blood alcohol readings."
+  ],
+  "explanation": "Exposure to sun, wind, glare, engine noise and constant motion fatigues you and magnifies alcohol's effects on balance and judgement. Being under 0.05 on paper can still leave you dangerously impaired afloat.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: alcohol and drugs on the water",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Alcohol hits harder afloat",
+   "layout": {
+    "kind": "card",
+    "icon": "alcohol",
+    "label": "Alcohol hits harder afloat"
+   },
+   "vessels": [],
+   "id": "ops-al-amplified"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-inc-what-counts",
+  "topicId": "incidents",
+  "question": "Which of these must be reported as a marine incident?",
+  "options": [
+   "A collision between two boats, even with nobody hurt.",
+   "Running low on fuel and cutting a trip short.",
+   "A crew member feeling seasick in choppy weather.",
+   "Receiving a caution from a shipping inspector."
+  ],
+  "explanation": "Marine incidents include collisions, strandings, a person lost from a boat, death or grievous bodily harm, material damage, and events causing danger to a person or serious danger to a boat or structure. Injury incidents must be reported even when the boat is undamaged.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Act 1994, section 123 (meaning of marine incident)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "What counts as a marine incident",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "What counts as a marine incident"
+   },
+   "vessels": [],
+   "id": "ops-inc-what-counts"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-inc-collision-duties",
+  "topicId": "incidents",
+  "question": "You collide with another boat. What must you do at the scene?",
+  "options": [
+   "Stop, help anyone in danger if you safely can, and give your details to the other operator.",
+   "Continue on and lodge a report within 48 hours; stopping is optional.",
+   "Photograph the damage and leave; details are exchanged through insurers.",
+   "Wait for water police before speaking to the other skipper."
+  ],
+  "explanation": "After an incident involving another boat the master must render assistance where possible without endangering their own passengers, stay at the scene, give the owner's details to the other operator, and help injured people. The written report comes later, within 48 hours.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Act 1994, section 124 (duties after a marine incident)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "After a collision: stop and help",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 110,
+    "height": 95
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -6,
+     "y": 4,
+     "heading": 75
+    },
+    {
+     "id": "B",
+     "x": 10,
+     "y": -6,
+     "heading": 200
+    }
+   ],
+   "id": "ops-inc-collision-duties"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-inc-48-hours",
+  "topicId": "incidents",
+  "question": "Within what time must a marine incident be reported to a shipping inspector?",
+  "options": [
+   "Within 48 hours.",
+   "Within 14 days.",
+   "Within 7 days.",
+   "Immediately by marine radio, or not at all."
+  ],
+  "explanation": "Marine incidents are reported within 48 hours on the approved form unless there is a reasonable excuse. The 14 day figure is the deadline for transferring registration after buying a boat, a common trap.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Act 1994, sections 125 and 126 (reporting marine incidents)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "Marine incident report deadline",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Marine incident report deadline",
+    "badge": "48 h"
+   },
+   "vessels": [],
+   "id": "ops-inc-48-hours"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-inc-written-form",
+  "topicId": "incidents",
+  "question": "How must a marine incident report be made?",
+  "options": [
+   "In writing on the approved marine incident report form.",
+   "By phone to any coastguard station; nothing written is needed.",
+   "By posting in a local boating group so others are warned.",
+   "Verbally to the nearest harbour master within 30 days."
+  ],
+  "explanation": "The report goes to a shipping inspector on the approved form (form F3071) within 48 hours. Shipping inspectors include MSQ marine officers, Queensland Water Police, and boating and fisheries patrol officers.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Act 1994, sections 125 and 126 (reporting marine incidents)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "Reporting on the approved form",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Written report on form F3071"
+   },
+   "vessels": [],
+   "id": "ops-inc-written-form"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-inc-who-reports",
+  "topicId": "incidents",
+  "question": "After a collision damages both boats, who is legally required to lodge the incident report for your boat?",
+  "options": [
+   "The master of the boat.",
+   "The owner, even if they were not on board.",
+   "Whichever crew member saw the incident best.",
+   "Your insurance company."
+  ],
+  "explanation": "For most incident types the master reports. The owner reports only for loss, presumed loss or abandonment of a ship. Insurers commonly refuse claims when an incident was never officially reported.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Act 1994, sections 125 and 126 (reporting marine incidents)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "Who lodges the incident report",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "The master lodges the report"
+   },
+   "vessels": [],
+   "id": "ops-inc-who-reports"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-inc-injury-no-damage",
+  "topicId": "incidents",
+  "question": "A passenger is seriously injured falling in your boat, but the boat is undamaged. Must you report it?",
+  "options": [
+   "Yes, incidents involving injury to people must always be reported.",
+   "No, reports are only for hull or property damage.",
+   "Only if the passenger asks you to report it.",
+   "Only if an ambulance meets you at the ramp."
+  ],
+  "explanation": "Death or grievous bodily harm caused by a boat's operations is a reportable marine incident even when the boat itself is untouched. Report to a shipping inspector within 48 hours on the approved form.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Act 1994, section 123 (meaning of marine incident)",
+    "url": "https://www.legislation.qld.gov.au/"
+   }
+  ],
+  "scene": {
+   "title": "Injury incidents must be reported",
+   "layout": {
+    "kind": "card",
+    "icon": "firstAid",
+    "label": "Injury incidents must be reported"
+   },
+   "vessels": [],
+   "id": "ops-inc-injury-no-damage"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-smooth-definition",
+  "topicId": "water-limits",
+  "question": "Which waters count as smooth waters in Queensland?",
+  "options": [
+   "Rivers, creeks, streams and lakes, plus other waters listed in the regulation.",
+   "Any water where the waves are under half a metre on the day.",
+   "All waters within 10 nautical miles of the coast.",
+   "Only artificial lakes and dams."
+  ],
+  "explanation": "Smooth waters are defined by location, not by the conditions on the day: rivers, creeks, streams and lakes, waters inside breakwaters or revetments, the 0.5 nautical mile strip off land inside partially smooth limits, and the waters listed in Schedule 8.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "What smooth waters are",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Rivers, creeks, streams and lakes"
+   },
+   "vessels": [],
+   "id": "ops-wl-smooth-definition"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-partially-smooth",
+  "topicId": "water-limits",
+  "question": "What are partially smooth waters?",
+  "options": [
+   "Sheltered coastal waters, such as large bays, listed by Maritime Safety Queensland.",
+   "Any waters where the swell stays under 1 metre.",
+   "All waters between 2 and 5 nautical miles offshore.",
+   "Waters that are smooth at low tide only."
+  ],
+  "explanation": "Partially smooth waters are specific areas determined by MSQ and described in Schedule 7 of the regulation, typically sheltered bays and passages such as Moreton Bay or the Whitsunday passage. Their boundaries are fixed lines on the water limits maps, not a sea state.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "What partially smooth waters are",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Sheltered bays listed by MSQ"
+   },
+   "vessels": [],
+   "id": "ops-wl-partially-smooth"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-beyond",
+  "topicId": "water-limits",
+  "question": "What are the waters beyond smooth and partially smooth limits called?",
+  "options": [
+   "Open waters.",
+   "Offshore waters.",
+   "Unprotected waters.",
+   "Coastal waters."
+  ],
+  "explanation": "Everything beyond the smooth and partially smooth limits is open waters. That is where the most demanding safety equipment scale applies, including an EPIRB when more than 2 nautical miles from land.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "Beyond the limits: open waters",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Beyond the limits: open waters"
+   },
+   "vessels": [],
+   "id": "ops-wl-beyond"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-why-matter",
+  "topicId": "water-limits",
+  "question": "Why do the water limit categories matter to a skipper?",
+  "options": [
+   "They set the safety equipment the boat must carry, including lifejacket levels.",
+   "They set the speed limits in each area.",
+   "They decide whether a marine licence is needed.",
+   "They only matter to commercial ships."
+  ],
+  "explanation": "The equipment scales are keyed to the water categories: for example, a V sheet, red hand flares and orange smoke signals are required beyond smooth waters, and level 50S lifejackets stop being acceptable outside smooth waters. Know which waters you will enter before you load the boat.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "Water categories drive equipment",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Categories drive equipment lists"
+   },
+   "vessels": [],
+   "id": "ops-wl-why-matter"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-river-category",
+  "topicId": "water-limits",
+  "question": "You spend the day boating on a river and its creeks. What water category are you in?",
+  "options": [
+   "Smooth waters.",
+   "Partially smooth waters.",
+   "Open waters.",
+   "It depends on the weather that day."
+  ],
+  "explanation": "Rivers, creeks, streams and lakes are smooth waters by definition, whatever the conditions. Rough weather can still make smooth waters dangerous; the category describes the legal zone, not the actual sea state.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "Rivers and creeks are smooth waters",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Rivers and creeks: smooth waters"
+   },
+   "vessels": [],
+   "id": "ops-wl-river-category"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-moreton-bay",
+  "topicId": "water-limits",
+  "question": "Most of Moreton Bay falls into which water limits category?",
+  "options": [
+   "Partially smooth waters.",
+   "Smooth waters.",
+   "Open waters.",
+   "It is not covered by the water limits maps."
+  ],
+  "explanation": "Enclosed bays such as Moreton Bay, Hervey Bay and Cleveland Bay are designated partially smooth. Within the bay, rivers and creeks and the 0.5 nautical mile strip off land still count as smooth waters.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "Moreton Bay: partially smooth",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Moreton Bay: partially smooth"
+   },
+   "vessels": [],
+   "id": "ops-wl-moreton-bay"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-half-mile",
+  "topicId": "water-limits",
+  "question": "Inside partially smooth limits, what does the 0.5 nautical mile line mean?",
+  "options": [
+   "Waters within 0.5 nautical miles of land count as smooth waters.",
+   "Boats must stay at least 0.5 nautical miles offshore.",
+   "It marks where an EPIRB becomes mandatory.",
+   "It is the outer boundary of the open waters."
+  ],
+  "explanation": "Within partially smooth limits, the strip of water within 0.5 nautical miles of land is treated as smooth waters. The EPIRB line is different: 2 nautical miles from land beyond the partially smooth limits.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "The 0.5 nm smooth water strip",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "The 0.5 nm smooth water strip",
+    "badge": "0.5"
+   },
+   "vessels": [],
+   "id": "ops-wl-half-mile"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-trip-categories",
+  "topicId": "water-limits",
+  "question": "You launch in the Brisbane River, cross Moreton Bay, then head well offshore past the islands. How many water categories does the trip pass through?",
+  "options": [
+   "Three: smooth, then partially smooth, then open waters.",
+   "Two: inshore and offshore.",
+   "One: it is all coastal water.",
+   "Four: river, estuary, bay and ocean."
+  ],
+  "explanation": "The river is smooth water, Moreton Bay is partially smooth, and beyond the bay's limits you are in open waters. Your equipment must satisfy the most demanding category you will enter, so this trip needs the open waters scale.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "One trip, three water categories",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "One trip, three water categories"
+   },
+   "vessels": [],
+   "id": "ops-wl-trip-categories"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-find-boundaries",
+  "topicId": "water-limits",
+  "question": "How do you find exactly where smooth water ends and partially smooth water begins for your area?",
+  "options": [
+   "Check the Maritime Safety Queensland water limits maps.",
+   "Judge it by eye from the wave height.",
+   "Ask other boaties at the ramp.",
+   "There is no fixed boundary; it moves with the tide."
+  ],
+  "explanation": "MSQ publishes water limits maps for each designated port area, from Thursday Island to the Gold Coast. The boundaries are fixed legal lines drawn from the regulation's schedules, not a judgement call on the day.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "Reading the water limits maps",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Reading the water limits maps"
+   },
+   "vessels": [],
+   "id": "ops-wl-find-boundaries"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "ops-wl-breakwater",
+  "topicId": "water-limits",
+  "question": "Your harbour sits behind a breakwater on the open coast. What category are the waters inside the breakwater?",
+  "options": [
+   "Smooth waters.",
+   "Partially smooth waters.",
+   "Open waters, because the coast outside is open.",
+   "Whatever category the adjoining coast is."
+  ],
+  "explanation": "Waters within breakwaters or revetments are smooth waters by definition, even when the coastline outside the wall faces open water. Step outside the breakwater and the adjoining category applies immediately.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: water limits maps",
+    "url": "https://www.msq.qld.gov.au/waterways/water-limit-maps"
+   }
+  ],
+  "scene": {
+   "title": "Inside a breakwater: smooth waters",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Inside a breakwater: smooth"
+   },
+   "vessels": [],
+   "id": "ops-wl-breakwater"
+  },
+  "correctIndex": 0
+ }
+]

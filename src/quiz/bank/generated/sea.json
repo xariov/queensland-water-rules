@@ -1,0 +1,1149 @@
+[
+ {
+  "id": "sea-anchor-from-bow",
+  "topicId": "anchoring",
+  "question": "You are about to anchor your open boat to fish. From which end of the boat should the anchor be set?",
+  "options": [
+   "From the bow, so the boat rides head to the wind and waves.",
+   "From the stern, so you can watch the anchor line while fishing.",
+   "From either end, whichever is more convenient at the time.",
+   "From the stern in rough weather and the bow in calm weather."
+  ],
+  "explanation": "Always anchor by the bow. The stern sits low in the water, and a stern anchor pulls it lower still, letting waves or wash flood the boat - a common cause of swamping and capsize.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Boat lying to an anchor set from the bow",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 110,
+    "height": 95
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 0,
+     "y": 5,
+     "heading": 20,
+     "anchored": true
+    }
+   ],
+   "id": "sea-anchor-from-bow"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-anchor-scope-rough",
+  "topicId": "anchoring",
+  "question": "You anchored with a scope of 5 to 1 and the wind is now rising sharply. What should you do with the anchor line?",
+  "options": [
+   "Pay out more line, increasing the scope to as much as 8 to 1.",
+   "Shorten the line so the boat swings through a smaller circle.",
+   "Keep the scope at 5 to 1; extra line makes no difference to holding.",
+   "Take in line until the boat sits directly above the anchor."
+  ],
+  "explanation": "Scope is the ratio of rode paid out to water depth: about 5 to 1 suits normal conditions and up to 8 to 1 suits extreme conditions. A longer scope flattens the pull on the anchor, helping the flukes stay dug in as the strain increases.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Anchored boat paying out extra scope in rising wind",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 110,
+    "height": 95
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 8,
+     "y": 10,
+     "heading": 305,
+     "anchored": true
+    }
+   ],
+   "id": "sea-anchor-scope-rough"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-anchor-chain",
+  "topicId": "anchoring",
+  "question": "Why should the anchor be joined to the rope by 2 to 3 metres of chain?",
+  "options": [
+   "The chain's weight keeps the pull on the shank parallel to the seabed so the flukes bite, and it stops the line chafing on the bottom.",
+   "Chain is cheaper than rope, so it reduces the cost of the rode.",
+   "The chain lets you winch the anchor up without touching the rope.",
+   "It makes the anchor easier to throw over the side."
+  ],
+  "explanation": "Without chain, the pull lifts the shank and the flukes break out of the bottom; the chain also takes the abrasion from rock and shell that would quickly chafe through rope. And lower the anchor rather than throwing it.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Chain between the anchor and the rope",
+   "layout": {
+    "kind": "card",
+    "icon": "anchor",
+    "label": "2 to 3 m of chain between anchor and rope",
+    "badge": "2-3 m"
+   },
+   "vessels": [],
+   "id": "sea-anchor-chain"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-anchor-drag-transit",
+  "topicId": "anchoring",
+  "question": "You have just anchored near a rocky shore. How do you check that the anchor is holding?",
+  "options": [
+   "Line up two fixed objects ashore and watch that they stay in line; if the transit opens up, you are dragging.",
+   "Give the line one firm tug; if it feels solid the anchor will hold all day.",
+   "Watch the nearest anchored boat; if it stays put, so are you.",
+   "There is no need to check once the anchor has been dug in under power."
+  ],
+  "explanation": "A transit between two fixed shore features shows any drag immediately. You can also watch the cable angle or feel the line for the vibration of a dragging anchor, and you should recheck regularly, especially as wind or tide changes.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Anchored boat watching a transit on the shore",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "shores": [
+     {
+      "side": "north",
+      "depth": 24,
+      "kind": "rocks"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 0,
+     "y": 25,
+     "heading": 0,
+     "anchored": true
+    }
+   ],
+   "id": "sea-anchor-drag-transit"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-anchor-fouled",
+  "topicId": "anchoring",
+  "question": "Your anchor is fouled on the bottom and cannot be broken out. What is the right response?",
+  "options": [
+   "If it will not come free, cut the line and lose the anchor rather than fight it.",
+   "Drive the boat hard over the top of the anchor to wrench it out.",
+   "Cleat the line at the stern and apply full power ahead.",
+   "Winch the bow down to the water until something gives."
+  ],
+  "explanation": "Driving over a fouled anchor to wrench it free can overturn the boat, and hauling against a snag from the stern is just as dangerous. An anchor is replaceable; if it has snagged near a cable crossing sign, cutting the line is also the rule.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Anchor fouled on the bottom",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 110,
+    "height": 95
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -5,
+     "y": 8,
+     "heading": 45,
+     "anchored": true
+    }
+   ],
+   "id": "sea-anchor-fouled"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-anchor-cable-clearance",
+  "topicId": "anchoring",
+  "question": "How close to a submarine cable crossing are you allowed to anchor?",
+  "options": [
+   "No closer than 200 metres from the cable crossing.",
+   "No closer than 30 metres.",
+   "No closer than 60 metres.",
+   "There is no set distance, as long as your anchor does not touch the cable."
+  ],
+  "explanation": "Anchoring is prohibited within 200 metres of a submarine cable crossing, which is marked by advisory signs on the banks. If your anchor snags near a cable sign, cut the line - never haul it up.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring near submarine cables",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Anchoring clear of a submarine cable crossing",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 170,
+    "height": 150,
+    "features": [
+     {
+      "kind": "mark",
+      "id": "cable",
+      "markType": "special",
+      "x": 15,
+      "y": -10
+     },
+     {
+      "kind": "distanceRing",
+      "id": "clearance",
+      "around": "cable",
+      "radius": 55,
+      "label": "200 m"
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -62,
+     "y": 52,
+     "heading": 350,
+     "anchored": true
+    }
+   ],
+   "id": "sea-anchor-cable-clearance"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-anchor-not-in-channels",
+  "topicId": "anchoring",
+  "question": "The boat shown has anchored between the lateral marks of a channel. Is that acceptable?",
+  "options": [
+   "No. Channels and fairways must be kept clear; anchor well outside them.",
+   "Yes, provided an anchor light is shown.",
+   "Yes, if the stop is shorter than 30 minutes.",
+   "Yes, if the boat is small enough for others to pass around it."
+  ],
+  "explanation": "Never anchor in a channel or fairway, near navigation beacons, near cable crossing signs or on historic wrecks: an anchored boat there obstructs traffic that may have no room to avoid it. Pick sheltered water clear of the fairway, with room to swing.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Boat anchored in the middle of a marked channel",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130,
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -22,
+      "y": -35
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 22,
+      "y": -35
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -22,
+      "y": 35
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 22,
+      "y": 35
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 0,
+     "y": 0,
+     "heading": 0,
+     "anchored": true
+    }
+   ],
+   "id": "sea-anchor-not-in-channels"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-anchor-types",
+  "topicId": "anchoring",
+  "question": "Which anchor should a small boat carry for the sand and mud bottoms most common in Queensland waters?",
+  "options": [
+   "A Danforth anchor, which is light and holds extremely well in sand and mud.",
+   "A reef anchor, which holds best on every type of bottom.",
+   "A sea anchor, which is designed to grip soft bottoms.",
+   "Any anchor works equally well if the scope is right."
+  ],
+  "explanation": "The Danforth is the usual small-craft choice for sand and mud but should be kept off reef, where its flukes can jam. Reef or grapnel anchors have prongs that straighten under load for recovery on coral and rock, and a sea anchor is a drogue for slowing drift in open water, not ground tackle.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: anchoring guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Matching the anchor to the seabed",
+   "layout": {
+    "kind": "card",
+    "icon": "anchor",
+    "label": "Danforth, plough, reef anchors"
+   },
+   "vessels": [],
+   "id": "sea-anchor-types"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-load-low-central",
+  "topicId": "boat-handling",
+  "question": "How should you load gear and passengers in a small open boat?",
+  "options": [
+   "Keep weight low and near the centre, spread evenly so the boat sits level.",
+   "Stack gear high at the stern so spray stays off it.",
+   "Put everything in the bow to help the boat cut through waves.",
+   "Let passengers sit on the gunwales so the load can shift as needed."
+  ],
+  "explanation": "Heavy items stowed low and central, with weight distributed evenly, keep the boat stable and preserve freeboard. High, uneven or shifting loads make a small boat easy to swamp or capsize, and passengers stay off the bow, side decks and gunwales while under way.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook: loading and trim",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Loading a small boat",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Stow heavy gear low and central"
+   },
+   "vessels": [],
+   "id": "sea-load-low-central"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-capacity-plate-limit",
+  "topicId": "boat-handling",
+  "question": "Your boat's Australian Builders Plate shows a maximum of 5 persons. What does that figure mean?",
+  "options": [
+   "It is the most people the boat may carry, and it assumes good conditions in smooth waters.",
+   "It is a manufacturer's suggestion that an experienced skipper may exceed.",
+   "It is the minimum crew needed to operate the boat safely.",
+   "It applies only to commercial use of the boat."
+  ],
+  "explanation": "The capacity on the plate must not be exceeded, and it already assumes good conditions and smooth waters. Overloading cuts freeboard and is one of the easiest ways to swamp or capsize a boat.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: Australian Builders Plate and capacity",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "The capacity plate is a hard limit",
+   "layout": {
+    "kind": "card",
+    "icon": "registration",
+    "label": "Australian Builders Plate capacity",
+    "badge": "5"
+   },
+   "vessels": [],
+   "id": "sea-capacity-plate-limit"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-capacity-rough-third",
+  "topicId": "boat-handling",
+  "question": "Your capacity plate allows 6 people. How many should you carry when heading into open waters with rough conditions forecast?",
+  "options": [
+   "About 4 - reduce the plate capacity by roughly one third in open or rough waters.",
+   "All 6 - the plate figure applies in all conditions.",
+   "3 - always halve the plate figure offshore.",
+   "7 - the plate includes a built-in safety margin."
+  ],
+  "explanation": "The plate's person capacity assumes smooth water and good weather. In open waters or rough conditions, reduce the number carried by about one third to keep adequate freeboard and stability.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: Australian Builders Plate and capacity",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Capacity in open or rough waters",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Cut people carried by a third offshore",
+    "badge": "1/3"
+   },
+   "vessels": [],
+   "id": "sea-capacity-rough-third"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-planing-trim",
+  "topicId": "boat-handling",
+  "question": "Your loaded boat struggles to climb onto the plane and the bow rides high. What is the most likely cause?",
+  "options": [
+   "Too much weight aft - shift weight forward so the boat trims level.",
+   "Too much weight in the bow pinning it down.",
+   "The boat is too lightly loaded to plane.",
+   "The water is too deep for planing."
+  ],
+  "explanation": "Planing hulls are sensitive to loading: weight concentrated at the stern lifts the bow and keeps the hull ploughing instead of lifting. Trim the boat level, with weight low and evenly distributed, and it will climb onto the plane far more easily.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook: hulls, loading and trim",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Powerboat trimming level to climb onto the plane",
+   "layout": {
+    "kind": "openWater",
+    "width": 120,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -10,
+     "y": 30,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 50
+     }
+    }
+   ],
+   "id": "sea-planing-trim"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-crossing-wakes",
+  "topicId": "boat-handling",
+  "question": "A large cruiser throws a steep wake across your course, as shown. How should you take it?",
+  "options": [
+   "Slow down and cross the wake at an angle rather than square on at speed.",
+   "Speed up and hit the wake head on to punch straight through.",
+   "Turn parallel to the wake and sit in the trough until it dies away.",
+   "Stop dead and take the wake side on."
+  ],
+  "explanation": "Angling across waves limits pitching and pounding, and slowing down keeps the boat from launching off the crests. Taking a steep wake beam on invites a heavy roll, and hitting it at speed can injure passengers or damage the hull.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook: handling waves and wash",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Crossing another boat's wake at an angle",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -20,
+     "y": 40,
+     "heading": 40,
+     "movement": {
+      "kind": "straight",
+      "distance": 45
+     }
+    },
+    {
+     "id": "B",
+     "x": -15,
+     "y": -30,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 50
+     }
+    }
+   ],
+   "id": "sea-crossing-wakes"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-prop-walk-astern",
+  "topicId": "boat-handling",
+  "question": "You put a single right-handed propeller into reverse at low speed. Which way does transverse thrust push the stern?",
+  "options": [
+   "To port - and the effect dominates steering while going astern slowly.",
+   "To starboard, the same side as when going ahead.",
+   "Straight back; propellers push evenly in reverse.",
+   "Whichever way the rudder is turned."
+  ],
+  "explanation": "A right-handed propeller walks the stern to starboard going ahead and to port going astern - the paddlewheel effect. That is why coming alongside port side to is easier: engaging reverse to stop walks the stern into the berth.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook: factors influencing manoeuvring",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Transverse thrust in reverse",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Right-handed prop, going astern"
+   },
+   "vessels": [],
+   "id": "sea-prop-walk-astern"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-pivot-stern-swings",
+  "topicId": "boat-handling",
+  "question": "You steer hard to starboard at speed, as shown. Which part of the boat swings wide toward the outside of the turn?",
+  "options": [
+   "The stern swings wide, because a boat pivots from a point well forward of amidships.",
+   "The bow swings wide while the stern tracks straight.",
+   "Neither end; the boat rotates around its centre.",
+   "The whole boat slides bodily sideways without pivoting."
+  ],
+  "explanation": "Going ahead, a boat steers from the rear like a forklift: the pivot point sits well forward, so the stern swings wide in every turn. That is why you cannot simply steer the bow away from a dock - the stern needs room to swing first.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook: factors influencing manoeuvring",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Hard turn to starboard: the stern swings wide",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -15,
+     "y": 25,
+     "heading": 0,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 90
+     }
+    }
+   ],
+   "id": "sea-pivot-stern-swings"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-wind-high-sided",
+  "topicId": "boat-handling",
+  "question": "You are manoeuvring a boat with a high bow and cabin slowly across a strong wind. What should you expect?",
+  "options": [
+   "The wind will push the bow downwind, and sideways drift is greatest at slow speed.",
+   "The boat will hold its heading; wind only matters above planing speed.",
+   "The stern will always blow downwind first, swinging the bow into the wind.",
+   "The boat will automatically turn head to wind and stay there."
+  ],
+  "explanation": "Windage on most boats is concentrated forward, so the bow blows downwind when moving slowly or stopped, and leeway is greatest at slow speed. Allow for that drift when berthing or picking up a mooring in a crosswind; when reversing slowly, the stern seeks the wind instead.",
+  "citations": [
+   {
+    "reference": "BoatSafe workbook: wind, tide and steering effects",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Wind effects when manoeuvring slowly",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Strong crosswind on a high-sided boat"
+   },
+   "vessels": [],
+   "id": "sea-wind-high-sided"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-forecast-before-during",
+  "topicId": "weather",
+  "question": "What should a skipper do about the weather for a day trip on coastal waters?",
+  "options": [
+   "Check the marine forecast before departing and keep monitoring the weather while out.",
+   "Check the forecast once, the night before; forecasts do not change on the day.",
+   "Rely on a look at the sky from the ramp; local observation beats any forecast.",
+   "Head out regardless and let the conditions decide when to come home."
+  ],
+  "explanation": "Get the latest coastal waters forecast before you leave, then keep watching both the sky and the updated forecasts and warnings while afloat, because conditions can deteriorate quickly. Marine radio, the BOM website and the maritime weather phone services all carry updates through the day.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "Marine weather forecasts",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Check forecasts before and during trips"
+   },
+   "vessels": [],
+   "id": "sea-forecast-before-during"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-strong-wind-warning",
+  "topicId": "weather",
+  "question": "A strong wind warning is current for your coastal waters area. What does that mean for your planned trip in a 5 metre boat?",
+  "options": [
+   "Strong winds are expected in the area - a clear signal for a small boat to stay in port or stay sheltered.",
+   "It applies only to commercial and fishing vessels, not recreational boats.",
+   "Gale force winds are already blowing and all boating is prohibited.",
+   "It is routine advice with no bearing on small craft."
+  ],
+  "explanation": "Coastal warnings are issued whenever strong winds, gales, storm force or stronger winds are expected, and they are renewed every 6 hours while current. A strong wind warning does not legally close the water, but for a small boat it is a strong signal not to go out.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "Bureau of Meteorology coastal warnings",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Strong wind warning current"
+   },
+   "vessels": [],
+   "id": "sea-strong-wind-warning"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-gusts-forty-percent",
+  "topicId": "weather",
+  "question": "The coastal waters forecast gives an average wind of 20 knots. How strong could the gusts be?",
+  "options": [
+   "Around 28 knots - gusts can be up to about 40 percent stronger than the forecast average.",
+   "20 knots - the forecast figure already includes gusts.",
+   "Around 22 knots at most.",
+   "40 knots - gusts routinely double the forecast average."
+  ],
+  "explanation": "Forecast wind speeds are averages: gusts can run up to 40 percent above the quoted figure. Plan for the gusts, not the average, when deciding whether your boat and crew can handle the day.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "Reading wind forecasts",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Gusts above the forecast average",
+    "badge": "40%"
+   },
+   "vessels": [],
+   "id": "sea-gusts-forty-percent"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-waves-twice-forecast",
+  "topicId": "weather",
+  "question": "The forecast quotes a 1 metre sea. How big can individual waves be?",
+  "options": [
+   "Up to about 2 metres - some waves reach twice the average height quoted.",
+   "No more than 1 metre; the forecast is a maximum.",
+   "Up to about 1.2 metres.",
+   "Up to 4 metres on any 1 metre forecast."
+  ],
+  "explanation": "Forecast sea and swell heights are averages, and some waves will be up to twice that height. The forecasts also ignore local effects such as currents, tidal flows and landforms, which can make conditions worse again.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "Reading sea and swell forecasts",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Waves above the forecast height",
+    "badge": "2x"
+   },
+   "vessels": [],
+   "id": "sea-waves-twice-forecast"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-sea-breeze-afternoon",
+  "topicId": "weather",
+  "question": "You plan to run home across an exposed Queensland bay late on a hot summer afternoon. What wind pattern should you allow for?",
+  "options": [
+   "An onshore sea breeze that often strengthens through the afternoon as the land heats up.",
+   "An offshore land breeze that peaks in the mid afternoon.",
+   "Winds that reliably die away to a calm by mid afternoon.",
+   "Sea breezes only blow in winter, so summer afternoons are calm."
+  ],
+  "explanation": "As the land heats during the day, an onshore sea breeze builds and is often strong on summer afternoons, sometimes feeding late afternoon thunderstorms. The morning's offshore land breeze and smoother water can lull you into a rough trip home.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "Sea breezes in Queensland",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Summer afternoon sea breeze"
+   },
+   "vessels": [],
+   "id": "sea-sea-breeze-afternoon"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-isobars-close",
+  "topicId": "weather",
+  "question": "On the synoptic chart the isobars over your area are packed closely together. What does that tell you?",
+  "options": [
+   "Expect strong winds - closely spaced isobars mean a steep pressure gradient.",
+   "Expect light and variable winds.",
+   "Expect heavy rain but little wind.",
+   "Isobar spacing says nothing about wind strength."
+  ],
+  "explanation": "Isobars join points of equal pressure: the closer together they are, the stronger the wind, while widely spaced isobars mean gentle winds. Weather systems generally move eastward across Australia over two to three days, so a tight pattern approaching from the west deserves attention.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "Reading a weather map",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Closely spaced isobars"
+   },
+   "vessels": [],
+   "id": "sea-isobars-close"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-deteriorating-signs",
+  "topicId": "weather",
+  "question": "Which combination of signs suggests the weather is turning bad while you are on the water?",
+  "options": [
+   "Darkening, lowering cloud, building whitecaps and a falling barometer.",
+   "A rising barometer and a clearing sky.",
+   "A steady light breeze and a long glassy swell.",
+   "The afternoon getting warmer ashore."
+  ],
+  "explanation": "Lowering dark cloud, whitecaps and a falling barometer all point to deteriorating weather, and a fast moving band of dark cloud from the south west means seek shelter urgently. If conditions worsen, have everyone put lifejackets on and head for shelter early.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "Deteriorating weather on the water",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "Signs of worsening weather afloat"
+   },
+   "vessels": [],
+   "id": "sea-deteriorating-signs"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-when-in-doubt",
+  "topicId": "weather",
+  "question": "You cannot decide whether conditions are safe enough for the trip. What is the correct decision?",
+  "options": [
+   "If in doubt, do not go out - delay or cancel the trip.",
+   "Go and inspect conditions from the water; you can always turn back.",
+   "Go if another boat is heading out at the same time.",
+   "Go, but keep everyone in lifejackets to offset the risk."
+  ],
+  "explanation": "The rule of thumb is simple: if in doubt, do not go out. No fishing spot or schedule is worth the risk, and turning back later may not be possible once conditions have deteriorated.",
+  "citations": [
+   {
+    "reference": "Bureau of Meteorology: marine forecasts and warnings",
+    "url": "https://www.bom.gov.au/marine/"
+   }
+  ],
+  "scene": {
+   "title": "The go or no-go decision",
+   "layout": {
+    "kind": "card",
+    "icon": "weather",
+    "label": "If in doubt, do not go out"
+   },
+   "vessels": [],
+   "id": "sea-when-in-doubt"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-springs-neaps",
+  "topicId": "tides-bars",
+  "question": "When do spring tides, with the biggest range between high and low water, occur?",
+  "options": [
+   "Around full moon and new moon.",
+   "At the first and third quarters of the moon.",
+   "Only during spring, from September to November.",
+   "Whenever a low pressure system passes."
+  ],
+  "explanation": "Spring tides (the largest range) come with the full and new moon; neap tides (the smallest range) come at the first and third quarters. The name has nothing to do with the season.",
+  "citations": [
+   {
+    "reference": "Queensland Tide Tables, Maritime Safety Queensland",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Spring and neap tides",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Spring tides at full and new moon"
+   },
+   "vessels": [],
+   "id": "sea-springs-neaps"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-two-highs-two-lows",
+  "topicId": "tides-bars",
+  "question": "On most of the Queensland coast, how many tides occur each day?",
+  "options": [
+   "About two high waters and two low waters.",
+   "One high water and one low water.",
+   "Three highs and three lows.",
+   "It changes at random from day to day."
+  ],
+  "explanation": "Most of the Queensland coast gets roughly two highs and two lows a day, with the times falling almost an hour later each day. Tidal range varies enormously along the coast, from about 6 metres around Mackay to about 1 metre in the south.",
+  "citations": [
+   {
+    "reference": "Queensland Tide Tables, Maritime Safety Queensland",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Daily tide pattern in Queensland",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Two highs and two lows most days"
+   },
+   "vessels": [],
+   "id": "sea-two-highs-two-lows"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-chart-datum",
+  "topicId": "tides-bars",
+  "question": "Soundings on your chart are measured from chart datum. Why can the real depth be less than the charted figure?",
+  "options": [
+   "Datum is usually the lowest astronomical tide, and the tide can occasionally fall below it.",
+   "Charts deliberately overstate depths to keep boats moving.",
+   "Datum is mean sea level, so charted depths are only correct at half tide.",
+   "The real depth can never be less than the charted figure."
+  ],
+  "explanation": "Chart datum is normally the lowest astronomical tide (LAT), so the actual depth is the charted sounding plus the tide height - and a low water below datum, shown with a minus sign in the tables, means less water than charted. High barometric pressure and strong offshore winds can also lower the actual sea level.",
+  "citations": [
+   {
+    "reference": "Queensland Tide Tables, Maritime Safety Queensland",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Chart datum",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Chart datum and real depth",
+    "badge": "LAT"
+   },
+   "vessels": [],
+   "id": "sea-chart-datum"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-stream-mid-tide",
+  "topicId": "tides-bars",
+  "question": "At what stage of the tide does the tidal stream usually run fastest?",
+  "options": [
+   "Around mid tide, roughly halfway between high and low water.",
+   "Right at high water.",
+   "Right at low water.",
+   "The stream runs at the same speed throughout the tide."
+  ],
+  "explanation": "The horizontal flow slackens around high and low water and peaks near mid tide. That is why a coastal bar is at its worst at peak ebb, midway between high water and the following low.",
+  "citations": [
+   {
+    "reference": "Queensland Tide Tables, Maritime Safety Queensland",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Tidal stream strength",
+   "layout": {
+    "kind": "card",
+    "icon": "chart",
+    "label": "Tidal streams strongest at mid tide"
+   },
+   "vessels": [],
+   "id": "sea-stream-mid-tide"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-bar-safest-time",
+  "topicId": "tides-bars",
+  "question": "You must cross a coastal bar today. When is the crossing generally safest?",
+  "options": [
+   "About an hour before high water, while the flow is still flooding and depths are greatest.",
+   "At peak ebb, when the outgoing stream flattens the swell.",
+   "At low water, when the banks are visible.",
+   "The state of the tide makes no real difference on a bar."
+  ],
+  "explanation": "Near the top of the tide the water over the bar is deepest and the flood has nearly finished, so the waves are at their mildest. Never attempt a crossing in heavy swell, strong wind or on a run-out tide - be willing to delay or cancel.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: crossing coastal bars",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Timing a bar crossing",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Cross near the top of the tide"
+   },
+   "vessels": [],
+   "id": "sea-bar-safest-time"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-bar-worst-ebb",
+  "topicId": "tides-bars",
+  "question": "When is a coastal bar at its most dangerous?",
+  "options": [
+   "On a strong run-out (ebb) tide flowing against an incoming swell.",
+   "On the young flood just after low water.",
+   "At slack water around the top of the tide.",
+   "Whenever the wind is blowing offshore."
+  ],
+  "explanation": "An ebb stream running out against incoming swell makes the waves shorter, steeper and more likely to break, and the worst state is peak ebb, midway between high water and the following low. The water over the bar is also shallower as the tide falls.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: crossing coastal bars",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "When a bar is at its worst",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Ebb tide against incoming swell"
+   },
+   "vessels": [],
+   "id": "sea-bar-worst-ebb"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-bar-lifejackets",
+  "topicId": "tides-bars",
+  "question": "Your 5.5 metre open boat is about to cross a designated coastal bar. Who must wear a lifejacket?",
+  "options": [
+   "Everyone on board aged 1 year or older.",
+   "Only children under 12.",
+   "No one - the wear rule stops at 4.8 metres and this boat is longer.",
+   "Only the skipper."
+  ],
+  "explanation": "Crossing a designated coastal bar, everyone aged 1 year or older on an open boat of any length must wear a lifejacket; on other ships, everyone aged 1 or older in an open area must. A gazette notice extends the rule to small sailboats, pedal boats, rafts, rowboats and sea or surf kayaks.",
+  "citations": [
+   {
+    "reference": "Transport Operations (Marine Safety) Regulation 2016, section 24 (wearing lifejackets)",
+    "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2016-0154"
+   },
+   {
+    "reference": "Maritime Safety Queensland: lifejacket laws",
+    "url": "https://www.msq.qld.gov.au/safety/lifejackets"
+   }
+  ],
+  "scene": {
+   "title": "Lifejacket law on coastal bars",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Lifejackets on a designated bar",
+    "badge": "1+"
+   },
+   "vessels": [],
+   "id": "sea-bar-lifejackets"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-bar-checks",
+  "topicId": "tides-bars",
+  "question": "What preparation should you make before committing to a coastal bar crossing?",
+  "options": [
+   "Watch the bar first, check the boat and weather, secure loose gear, get everyone into lifejackets and radio the local marine rescue group.",
+   "None beyond local knowledge; hesitating at a bar is what causes trouble.",
+   "Simply follow the boat ahead and copy its line exactly.",
+   "Open all hatches so any water taken aboard can drain quickly."
+  ],
+  "explanation": "Check steering, bilge, hatches, drains and watertight integrity, draw fuel from a full tank, secure loose gear, get a current weather report and have everyone in lifejackets. Tell a volunteer marine rescue group by radio before you cross and report again once clear.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: crossing coastal bars",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Preparing to cross a coastal bar",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Prepare before committing to the bar"
+   },
+   "vessels": [],
+   "id": "sea-bar-checks"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-bar-wait-for-sets",
+  "topicId": "tides-bars",
+  "question": "Heading out over the bar, the swell is arriving in distinct sets. How should you make the crossing?",
+  "options": [
+   "Watch the sets, wait for a lull, pick the calmest line through the deepest water, and once committed keep going.",
+   "Go immediately; waiting only lets conditions get worse.",
+   "Start out and turn back quickly if a wave breaks ahead of you.",
+   "Take the waves beam on so they pass under the whole boat at once."
+  ],
+  "explanation": "Waves come in sets with lulls between them, so time your run and then commit: turning around in front of a breaking wave can be disastrous. Take waves close to head on, aim for the saddles between peaks and accelerate without getting airborne.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: crossing coastal bars",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Waiting for sets at the bar",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Watch the sets and pick a lull"
+   },
+   "vessels": [],
+   "id": "sea-bar-wait-for-sets"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "sea-bar-coming-in",
+  "topicId": "tides-bars",
+  "question": "You are bringing a planing boat back in across the bar. How should you ride the swell?",
+  "options": [
+   "Sit on the back of a wave, matching its speed, without surfing down the face or overtaking it.",
+   "Surf down the face of the biggest wave so you outrun the break.",
+   "Overtake the wave ahead so you reach calm water sooner.",
+   "Stop between waves on the bar and wait for a gap."
+  ],
+  "explanation": "A planing boat capable of at least 18 knots rides the back of a wave at the wave's speed; surfing down the face or overtaking the wave risks burying the bow or broaching. Displacement boats must come in very slowly, and in extreme conditions the safest choice is to stand off in deep water or divert.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: crossing coastal bars",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Returning across the bar",
+   "layout": {
+    "kind": "card",
+    "icon": "bar",
+    "label": "Ride the back of the wave coming in"
+   },
+   "vessels": [],
+   "id": "sea-bar-coming-in"
+  },
+  "correctIndex": 0
+ }
+]

@@ -1,0 +1,2119 @@
+[
+ {
+  "id": "gw-head-on-alter-starboard",
+  "topicId": "give-way-power",
+  "question": "A powerboat is coming directly toward you, bow on. What should you do?",
+  "options": [
+   "Alter course to starboard early, making the turn big enough to be obvious.",
+   "Alter course to port so you pass starboard to starboard.",
+   "Hold your course and speed - the oncoming boat must move first.",
+   "Stop the boat and sound two short blasts."
+  ],
+  "explanation": "In a head-on meeting between power-driven vessels, both alter course to starboard and pass port side to port side. A small course change can go unnoticed from another moving boat, so make the alteration early and obvious.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 14 (head-on situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 8 (action to avoid collision)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Head-on meeting between two powerboats",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -4,
+     "y": 36,
+     "heading": 0,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 35
+     }
+    },
+    {
+     "id": "B",
+     "x": 2,
+     "y": -36,
+     "heading": 180,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 215
+     }
+    }
+   ],
+   "id": "gw-head-on-alter-starboard"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-head-on-why-not-port",
+  "topicId": "give-way-power",
+  "question": "In a head-on meeting between two powerboats, why is altering course to port dangerous?",
+  "options": [
+   "The other skipper should be turning to starboard, so a turn to port can steer you straight into their new path.",
+   "Turning to port is slower than turning to starboard.",
+   "It is only dangerous at night, when sidelights are showing.",
+   "It is not dangerous - either direction is acceptable if you turn early."
+  ],
+  "explanation": "The head-on rule works because both vessels do the same thing: each alters to starboard and they pass port to port. If one boat turns to port instead, the two turns cancel out and the vessels can swing back into each other's paths.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 14 (head-on situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Head-on: both vessels must turn to starboard",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 0,
+     "y": 38,
+     "heading": 355,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 30
+     }
+    },
+    {
+     "id": "B",
+     "x": -4,
+     "y": -38,
+     "heading": 175,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 210
+     }
+    }
+   ],
+   "id": "gw-head-on-why-not-port"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-crossing-give-way-starboard",
+  "topicId": "give-way-power",
+  "question": "You are skipper of powerboat A. Powerboat B is crossing from your starboard side on a steady bearing. What should you do?",
+  "options": [
+   "Give way early: alter course or slow down and pass astern of B.",
+   "Hold course and speed - the faster vessel is always the give-way vessel.",
+   "Speed up and cross ahead of B while you have room.",
+   "Sound one long blast and carry on - signalling first gives you right of way."
+  ],
+  "explanation": "When power-driven vessels cross, the one that has the other on its starboard side gives way, and should avoid crossing ahead of the other vessel. Passing astern of B makes your intention unmistakable.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 15 (crossing situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 16 (action by give-way vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Crossing: B approaches from A's starboard side",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -34,
+     "y": 10,
+     "heading": 90,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "B"
+     }
+    },
+    {
+     "id": "B",
+     "x": 16,
+     "y": 40,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "gw-crossing-give-way-starboard"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-crossing-stand-on-port",
+  "topicId": "give-way-power",
+  "question": "A powerboat is approaching from your port side in a crossing situation. Who gives way?",
+  "options": [
+   "The other boat gives way; you hold your course and speed but keep watching it.",
+   "You give way, because the vessel that sees the other on its port side must keep clear.",
+   "Both boats must alter course to starboard immediately.",
+   "Whichever boat is slower gives way."
+  ],
+  "explanation": "In a crossing, the vessel that has the other on its starboard side is the give-way vessel; the other boat sees you to starboard, so it must keep clear. As the stand-on vessel you hold course and speed so your movements are predictable, but stay ready to act if it does not give way.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 15 (crossing situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 17 (action by stand-on vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Crossing: B approaches from A's port side",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 14,
+     "y": 36,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    },
+    {
+     "id": "B",
+     "x": -34,
+     "y": 4,
+     "heading": 90,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "A"
+     }
+    }
+   ],
+   "id": "gw-crossing-stand-on-port"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-overtaking-keeps-clear",
+  "topicId": "give-way-power",
+  "question": "You are catching up to a slower boat from astern and will pass it. Who must keep clear?",
+  "options": [
+   "You must, until you are finally past and clear.",
+   "The slower boat must move aside to let you through.",
+   "The boat nearer the shore must keep clear.",
+   "Neither - overtaking is not covered by the give-way rules."
+  ],
+  "explanation": "Any vessel overtaking another must keep out of the way of the vessel being overtaken, and the duty lasts until you are finally past and clear. Do not cut back across the other boat's bow as soon as you draw ahead.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 13 (overtaking)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Overtaking a slower vessel from astern",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 12,
+     "y": 44,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 75
+     }
+    },
+    {
+     "id": "B",
+     "x": -6,
+     "y": -14,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 25
+     }
+    }
+   ],
+   "id": "gw-overtaking-keeps-clear"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-overtaking-which-side",
+  "topicId": "give-way-power",
+  "question": "When overtaking another boat in open water, which side may you pass on?",
+  "options": [
+   "Either side, as long as you keep well clear and do not cut in front after passing.",
+   "Only the other boat's port side, like overtaking on a road.",
+   "Only the other boat's starboard side.",
+   "Only the downwind side."
+  ],
+  "explanation": "Unlike road traffic, an overtaking vessel may pass on either side. What matters is keeping well clear throughout and staying clear until finally past - cutting back in early is a classic cause of collisions.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 13 (overtaking)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Overtaking vessel swinging out to pass",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 2,
+     "y": 45,
+     "heading": 0,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 20
+     }
+    },
+    {
+     "id": "B",
+     "x": -4,
+     "y": -12,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 25
+     }
+    }
+   ],
+   "id": "gw-overtaking-which-side"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-overtaken-hold-course",
+  "topicId": "give-way-power",
+  "question": "Another powerboat is overtaking you. What should you do?",
+  "options": [
+   "Maintain your course and speed so the overtaking boat can pass predictably.",
+   "Speed up to stay ahead - being overtaken is unsafe.",
+   "Stop your boat until it has passed.",
+   "Alter course to starboard, as in a head-on meeting."
+  ],
+  "explanation": "The overtaken vessel is the stand-on vessel: hold your course and speed so the overtaking skipper can plan a safe pass. Sudden changes of course or speed under an overtaking boat's bow create the very collision the rule prevents.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 13 (overtaking)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 17 (action by stand-on vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Being overtaken: hold course and speed",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -6,
+     "y": -14,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 25
+     }
+    },
+    {
+     "id": "B",
+     "x": 12,
+     "y": 42,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 72
+     }
+    }
+   ],
+   "id": "gw-overtaken-hold-course"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-stand-on-duties",
+  "topicId": "give-way-power",
+  "question": "You are the stand-on vessel in a crossing with another powerboat. What does standing on actually require?",
+  "options": [
+   "Hold your course and speed so the give-way boat can predict your movements.",
+   "Stop and drift until the other boat has passed.",
+   "Accelerate to clear the crossing point faster.",
+   "Alter course toward the other boat to signal you have seen it."
+  ],
+  "explanation": "Standing on is an active duty: keep a steady, predictable course and speed while watching the other vessel. If the give-way boat clearly fails to act, you must then take your own action to avoid collision.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 17 (action by stand-on vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Stand-on vessel holds course while B gives way",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 16,
+     "y": 34,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    },
+    {
+     "id": "B",
+     "x": -30,
+     "y": 2,
+     "heading": 90,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "A"
+     }
+    }
+   ],
+   "id": "gw-stand-on-duties"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-stand-on-must-act",
+  "topicId": "give-way-power",
+  "question": "You are standing on, but the give-way powerboat keeps coming and collision is getting close. May you keep holding course because you have right of way?",
+  "options": [
+   "No - once it is clear the give-way boat is not acting, you must take whatever action avoids the collision.",
+   "Yes - the stand-on vessel must never change course or speed.",
+   "Yes - responsibility rests entirely with the give-way vessel.",
+   "No - but the only action allowed is sounding five short blasts."
+  ],
+  "explanation": "Holding course and speed only applies while it still works. When the give-way vessel fails to act, the stand-on vessel is required to take avoiding action itself, and doing so does not excuse the other boat's breach. Five short blasts is the doubt signal, but a sound signal alone does not avoid a collision.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 17 (action by stand-on vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 8 (action to avoid collision)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Give-way vessel fails to act; stand-on vessel avoids",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 14,
+     "y": 34,
+     "heading": 0,
+     "movement": {
+      "kind": "turnTo",
+      "heading": 45
+     }
+    },
+    {
+     "id": "B",
+     "x": -30,
+     "y": 2,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "gw-stand-on-must-act"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-give-way-action-style",
+  "topicId": "give-way-power",
+  "question": "As the give-way vessel, what kind of action should you take?",
+  "options": [
+   "Early, substantial and obvious - a large alteration made in good time.",
+   "A series of small course changes so you lose as little time as possible.",
+   "Wait until the boats are close so you can judge the gap precisely.",
+   "Flash your navigation lights and hold your course."
+  ],
+  "explanation": "Give-way action must be taken early and be large enough for the other skipper to see it immediately. Small, gradual adjustments are hard to detect from another moving boat and leave the stand-on vessel guessing.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 16 (action by give-way vessel)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 8 (action to avoid collision)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Give-way vessel makes a clear turn astern of B",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -30,
+     "y": 6,
+     "heading": 90,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "B"
+     }
+    },
+    {
+     "id": "B",
+     "x": 20,
+     "y": 36,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    }
+   ],
+   "id": "gw-give-way-action-style"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-steady-bearing-risk",
+  "topicId": "give-way-power",
+  "question": "Watching an approaching boat, you notice its compass bearing from you barely changes. What does that mean?",
+  "options": [
+   "Risk of collision exists - take early, positive avoiding action.",
+   "The boats will pass clear of each other.",
+   "The other boat must be slower than you.",
+   "Nothing can be judged from a compass bearing on the water."
+  ],
+  "explanation": "A steady compass bearing with decreasing range is the classic sign that two vessels are on a collision course. Do not wait to be certain: change course and/or speed early and make the change obvious.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 7 (risk of collision)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Converging boats on a steady bearing",
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 120
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -36,
+     "y": 24,
+     "heading": 60,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    },
+    {
+     "id": "B",
+     "x": 30,
+     "y": 30,
+     "heading": 315,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    }
+   ],
+   "id": "gw-steady-bearing-risk"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-astern-approach-overtaking",
+  "topicId": "give-way-power",
+  "question": "You are coming up on another powerboat from well behind, off its starboard quarter. Which rule applies as you close in?",
+  "options": [
+   "The overtaking rule - you must keep clear, no matter what type of vessel you are.",
+   "The crossing rule - the boat that has the other to starboard gives way.",
+   "The head-on rule - both boats alter course to starboard.",
+   "No rule applies until the boats are side by side."
+  ],
+  "explanation": "A vessel approaching another from well abaft its beam is overtaking, and the overtaking vessel keeps clear until finally past and clear. Overtaking overrides the crossing rule, and it even overrides sail over power.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 13 (overtaking)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Approaching from the starboard quarter: overtaking",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 26,
+     "y": 40,
+     "heading": 345,
+     "movement": {
+      "kind": "straight",
+      "distance": 70
+     }
+    },
+    {
+     "id": "B",
+     "x": -2,
+     "y": -18,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 30
+     }
+    }
+   ],
+   "id": "gw-astern-approach-overtaking"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-power-gives-way-to-sail",
+  "topicId": "give-way-sail",
+  "question": "Your powerboat is converging with a yacht under sail alone. Who must keep clear?",
+  "options": [
+   "Your powerboat - power-driven vessels keep out of the way of sailing vessels.",
+   "The yacht - sail gives way to power in Queensland waters.",
+   "Whichever vessel has the other on its port side.",
+   "Whichever vessel is smaller."
+  ],
+  "explanation": "A power-driven vessel underway keeps out of the way of a vessel under sail. The main exceptions: a sailing vessel overtaking a power vessel keeps clear, and small craft of any type must not impede large ships confined to a channel.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Powerboat gives way to a yacht under sail",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "sailboat",
+     "sails": "up",
+     "x": -30,
+     "y": -10,
+     "heading": 125,
+     "movement": {
+      "kind": "straight",
+      "distance": 44
+     }
+    },
+    {
+     "id": "B",
+     "x": 28,
+     "y": 26,
+     "heading": 310,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "A"
+     }
+    }
+   ],
+   "id": "gw-power-gives-way-to-sail"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-sail-overtaking-power-gives-way",
+  "topicId": "give-way-sail",
+  "question": "A yacht under full sail is overtaking your slower powerboat. Who keeps clear?",
+  "options": [
+   "The yacht - an overtaking vessel always keeps clear, even sail overtaking power.",
+   "Your powerboat - power always gives way to sail.",
+   "Both must alter course to starboard.",
+   "The yacht, but only if it is using its engine as well."
+  ],
+  "explanation": "Overtaking trumps the sail-over-power rule: any vessel overtaking another keeps out of the way until finally past and clear. Hold your course and speed so the yacht can pass predictably.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 13 (overtaking)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Sailing vessel overtaking a powerboat",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -4,
+     "y": -16,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 26
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "sailboat",
+     "sails": "up",
+     "x": 14,
+     "y": 42,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 75
+     }
+    }
+   ],
+   "id": "gw-sail-overtaking-power-gives-way"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-motoring-sailboat-is-power",
+  "topicId": "give-way-sail",
+  "question": "A yacht has its sails down and is moving under engine. How do the give-way rules treat it?",
+  "options": [
+   "As a power-driven vessel - normal power give-way rules apply.",
+   "As a sailing vessel, because it is still a yacht.",
+   "As a vessel restricted in its ability to manoeuvre.",
+   "It has no status until it hoists sail or anchors."
+  ],
+  "explanation": "The rules look at propulsion, not hull type: any vessel being propelled by machinery is power-driven. That includes a yacht motoring with sails down, and even motor-sailing with sails up, if the engine is driving it.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 3 (general definitions)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Motoring yacht gives way like a powerboat",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 16,
+     "y": 34,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "sailboat",
+     "sails": "down",
+     "x": -32,
+     "y": 6,
+     "heading": 90,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "A"
+     }
+    }
+   ],
+   "id": "gw-motoring-sailboat-is-power"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-keep-clear-trawler",
+  "topicId": "give-way-sail",
+  "question": "Ahead of you, a fishing vessel is towing a trawl net. You are in a powerboat. Who gives way?",
+  "options": [
+   "You do - vessels engaged in fishing or trawling have priority over power-driven vessels.",
+   "The trawler - working vessels must keep clear of recreational traffic.",
+   "Whichever vessel has the other on its starboard side.",
+   "Nobody - trawlers are only privileged inside harbour limits."
+  ],
+  "explanation": "A vessel whose fishing gear restricts its ability to manoeuvre has priority: ordinary power-driven and sailing vessels both keep out of its way. Here the trawler is on your port side, so between two ordinary powerboats you would stand on - fishing priority overrides that, and the gear can extend a long way astern, so pass well clear.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Powerboat keeps clear of a vessel trawling",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 16,
+     "y": 36,
+     "heading": 0,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "B"
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "fishingVessel",
+     "trawling": true,
+     "x": -28,
+     "y": 2,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 48
+     }
+    }
+   ],
+   "id": "gw-keep-clear-trawler"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-sail-gives-way-trawler",
+  "topicId": "give-way-sail",
+  "question": "A yacht under sail converges with a fishing vessel that is trawling. Who keeps clear?",
+  "options": [
+   "The yacht - even sailing vessels keep out of the way of a vessel engaged in trawling.",
+   "The trawler - sail has priority over all working vessels.",
+   "The vessel that has the other on its starboard side.",
+   "Both must stop until their paths are clear."
+  ],
+  "explanation": "Sail sits above ordinary power in the pecking order but below vessels engaged in fishing or trawling, which are hampered by their gear. The yacht keeps clear.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Yacht keeps clear of a vessel trawling",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "sailboat",
+     "sails": "up",
+     "x": -28,
+     "y": 0,
+     "heading": 110,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "B"
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "fishingVessel",
+     "trawling": true,
+     "x": 24,
+     "y": 32,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 48
+     }
+    }
+   ],
+   "id": "gw-sail-gives-way-trawler"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-paddlecraft-wide-berth",
+  "topicId": "give-way-sail",
+  "question": "You are running your powerboat across the bay and spot a kayaker paddling across ahead. What is the safe response?",
+  "options": [
+   "Slow down early and pass well clear, watching the effect of your wash.",
+   "Hold course and speed - paddle craft must keep clear of powered boats.",
+   "Sound five short blasts and continue at speed.",
+   "Speed up to minimise the time you spend near the kayak."
+  ],
+  "explanation": "Paddle craft are slow, sit low in the water, are easily missed and are easily swamped by wash, and nothing in the rules lets you press on into them: every skipper must travel at a safe speed and do whatever is needed to avoid collision. Slow down, give the kayak a wide berth and pass behind it where practical.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 2 (responsibility)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 6 (safe speed)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Powerboat slows and passes astern of a kayak",
+   "layout": {
+    "kind": "openWater",
+    "width": 130,
+    "height": 110
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -34,
+     "y": 22,
+     "heading": 75,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "B"
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "paddlecraft",
+     "x": 18,
+     "y": -8,
+     "heading": 350,
+     "movement": {
+      "kind": "straight",
+      "distance": 18
+     }
+    }
+   ],
+   "id": "gw-paddlecraft-wide-berth"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-power-lowest-priority",
+  "topicId": "give-way-sail",
+  "question": "Of these vessels underway in open water, which must keep out of the way of all the others?",
+  "options": [
+   "An ordinary power-driven vessel.",
+   "A vessel under sail alone.",
+   "A vessel trawling.",
+   "A vessel not under command."
+  ],
+  "explanation": "An ordinary power-driven vessel sits at the bottom of the pecking order: it keeps clear of sailing vessels, vessels fishing or trawling, vessels restricted in their ability to manoeuvre, and vessels not under command. The less manoeuvrable a vessel is, the higher its priority.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Powerboat, yacht and trawler sharing open water",
+   "animate": false,
+   "layout": {
+    "kind": "openWater",
+    "width": 150,
+    "height": 130
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": -35,
+     "y": 30,
+     "heading": 45,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 30
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "sailboat",
+     "sails": "up",
+     "x": 30,
+     "y": 25,
+     "heading": 315,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 30
+     }
+    },
+    {
+     "id": "C",
+     "vesselKind": "fishingVessel",
+     "trawling": true,
+     "x": 0,
+     "y": -30,
+     "heading": 180,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 30
+     }
+    }
+   ],
+   "id": "gw-power-lowest-priority"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-power-keeps-clear-list",
+  "topicId": "give-way-sail",
+  "question": "You are underway in a powerboat. Which of these must you keep out of the way of?",
+  "options": [
+   "A yacht sailing, a trawler working its gear, and a broken-down vessel not under command.",
+   "Only vessels bigger than your own.",
+   "Only commercial vessels showing day shapes.",
+   "No other vessels - all vessels must equally keep clear of each other."
+  ],
+  "explanation": "Power-driven vessels keep out of the way of vessels not under command, vessels restricted in their ability to manoeuvre, vessels engaged in fishing, and sailing vessels. These vessels show day shapes by day and special lights at night; a good small-boat rule of thumb is to keep clear of anything showing extra lights.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Vessels a powerboat must keep clear of",
+   "layout": {
+    "kind": "card",
+    "icon": "checklist",
+    "label": "Power gives way to special vessels"
+   },
+   "vessels": [],
+   "id": "gw-power-keeps-clear-list"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-sail-vs-constrained-ship",
+  "topicId": "give-way-sail",
+  "question": "You are sailing across a dredged channel as a big ship constrained by its draught comes through. Who keeps clear?",
+  "options": [
+   "Your yacht - even a sailing vessel must not impede a ship that can only navigate inside the channel.",
+   "The ship - power gives way to sail in every situation.",
+   "The ship - larger vessels always give way to smaller ones.",
+   "Neither - channels are shared equally on a first-come basis."
+  ],
+  "explanation": "Sail's priority over power stops at vessels constrained by their draught and vessels confined to a channel. A deep-draught ship cannot leave the dredged water and cannot stop quickly; small craft, sail or power, keep clear and cross behind it.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 9 (narrow channels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Yacht keeps clear of a ship confined to the channel",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 56,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": 0,
+     "y": 38,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 62
+     }
+    },
+    {
+     "id": "B",
+     "vesselKind": "sailboat",
+     "sails": "up",
+     "x": -20,
+     "y": -8,
+     "heading": 90,
+     "movement": {
+      "kind": "asternOf",
+      "vessel": "A"
+     }
+    }
+   ],
+   "id": "gw-sail-vs-constrained-ship"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-trawler-lights-night",
+  "topicId": "give-way-sail",
+  "question": "At night you make out a green light above a white light, with red and green sidelights below, ahead of you. What are you looking at?",
+  "options": [
+   "A vessel trawling, heading toward you - keep well clear of it and its gear.",
+   "A vessel fishing, but not trawling.",
+   "A pilot vessel on duty.",
+   "An ordinary power-driven vessel under 50 metres."
+  ],
+  "explanation": "Green over white identifies a vessel trawling; red over white is a vessel fishing other than trawling. Seeing both sidelights means it is pointing at you. Trawlers rank above both power and sail in the give-way order, so alter early and pass well clear.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 26 (fishing vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 18 (responsibilities between vessels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Green over white above sidelights, dead ahead",
+   "layout": {
+    "kind": "lightsView",
+    "silhouette": "ship",
+    "lights": [
+     {
+      "color": "green",
+      "x": 50,
+      "y": 18,
+      "size": "small"
+     },
+     {
+      "color": "white",
+      "x": 50,
+      "y": 24,
+      "size": "small"
+     },
+     {
+      "color": "green",
+      "x": 44,
+      "y": 31
+     },
+     {
+      "color": "red",
+      "x": 56,
+      "y": 31
+     }
+    ]
+   },
+   "vessels": [],
+   "id": "gw-trawler-lights-night"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-channel-pass-port-to-port",
+  "topicId": "channels-traffic",
+  "question": "Two powerboats approach each other from opposite ends of a narrow channel. How should they pass?",
+  "options": [
+   "Port to port, with each boat keeping to the starboard side of the channel.",
+   "Starboard to starboard, with each boat keeping to the port side.",
+   "The boat travelling with the tide must back out of the channel.",
+   "Whichever boat is closer to the middle has right of way."
+  ],
+  "explanation": "Keep as near to the starboard (right hand) side of a narrow channel as is safe and practicable; oncoming vessels then meet port side to port side. On the water you keep right - the opposite of driving on Queensland roads.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 9 (narrow channels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Oncoming boats passing port to port in a channel",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 40,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -20,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 20,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 11,
+     "y": 34,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 62
+     }
+    },
+    {
+     "id": "B",
+     "x": -11,
+     "y": -36,
+     "heading": 180,
+     "movement": {
+      "kind": "straight",
+      "distance": 62
+     }
+    }
+   ],
+   "id": "gw-channel-pass-port-to-port"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-channel-not-impede-ship",
+  "topicId": "channels-traffic",
+  "question": "You are heading up a channel in your 5 metre runabout as a loaded container ship comes down it. What must you do?",
+  "options": [
+   "Keep well out of the ship's way - a small boat must not impede a vessel that can only navigate inside the channel.",
+   "Hold your course - you are on your correct side, so the ship must adjust.",
+   "Stop in the middle of the channel and let the ship pick a side.",
+   "Sound one short blast and take the centre of the channel."
+  ],
+  "explanation": "Vessels under 20 metres, and sailing vessels, must not impede a vessel that can only navigate safely within a narrow channel. The ship cannot leave the dredged water and cannot stop quickly; you can - stay near the edge, well out of its path.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 9 (narrow channels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Small boat keeps clear of a ship in the channel",
+   "layout": {
+    "kind": "channel",
+    "length": 160,
+    "channelWidth": 56,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": -58
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": -58
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 58
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 58
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": -12,
+     "y": -32,
+     "heading": 180,
+     "movement": {
+      "kind": "straight",
+      "distance": 62
+     }
+    },
+    {
+     "id": "B",
+     "x": 20,
+     "y": 34,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 58
+     }
+    }
+   ],
+   "id": "gw-channel-not-impede-ship"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-channel-crossing-right-angles",
+  "topicId": "channels-traffic",
+  "question": "You need to cross a busy shipping channel. What is the correct way to do it?",
+  "options": [
+   "Cross at right angles, behind any large ship, when the channel is clear.",
+   "Cross at a shallow angle so you spend less time beam-on to traffic.",
+   "Cross ahead of an approaching ship so its crew can see you the whole way.",
+   "Never cross - small boats are prohibited from entering shipping channels."
+  ],
+  "explanation": "Crossing at right angles gets you across in the least time, and going behind a ship keeps you out of its blind spot and its path. Small craft may cross channels; the duty is simply to not impede the ships that must stay in them.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 9 (narrow channels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Crossing the channel at right angles, astern of the ship",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 56,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": 0,
+     "y": -22,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 50
+     }
+    },
+    {
+     "id": "B",
+     "x": -24,
+     "y": 30,
+     "heading": 90,
+     "movement": {
+      "kind": "straight",
+      "distance": 48
+     }
+    }
+   ],
+   "id": "gw-channel-crossing-right-angles"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-ship-stopping-distance",
+  "topicId": "channels-traffic",
+  "question": "A large ship at speed needs roughly how much distance to come to a complete stop?",
+  "options": [
+   "Up to 2 nautical miles - about 37 football fields.",
+   "About 100 metres.",
+   "Two or three of its own ship lengths.",
+   "Almost none - engines full astern stop a ship within seconds."
+  ],
+  "explanation": "Ships have no brakes: a loaded ship can take up to 2 nautical miles to stop, and inside a channel it cannot swerve either. Never rely on a ship being able to avoid you - stay out of its water.",
+  "citations": [
+   {
+    "reference": "BoatSafe Workbook section 4.9 (navigating near shipping channels); Maritime Safety Queensland shipping safety guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Loaded ship running up a shipping channel",
+   "layout": {
+    "kind": "channel",
+    "length": 170,
+    "channelWidth": 60,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -30,
+      "y": -63
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 30,
+      "y": -63
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -30,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 30,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -30,
+      "y": 63
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 30,
+      "y": 63
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": 0,
+     "y": 30,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 70
+     }
+    }
+   ],
+   "id": "gw-ship-stopping-distance"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-ship-horizon-time",
+  "topicId": "channels-traffic",
+  "question": "You spot a container ship just coming over the horizon. About how long could it take to reach your position?",
+  "options": [
+   "About 15 minutes.",
+   "At least an hour.",
+   "Two to three hours.",
+   "Under one minute."
+  ],
+  "explanation": "From first appearing on the horizon to reaching a small boat can take as little as 15 minutes - ships approach quickly and quietly. Start planning your clearance as soon as you sight one, especially near a shipping channel.",
+  "citations": [
+   {
+    "reference": "BoatSafe Workbook section 4.9 (navigating near shipping channels); Maritime Safety Queensland shipping safety guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Distant ship approaching a small boat",
+   "layout": {
+    "kind": "openWater",
+    "width": 170,
+    "height": 170
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": 10,
+     "y": -62,
+     "heading": 185,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    },
+    {
+     "id": "B",
+     "x": -20,
+     "y": 55,
+     "heading": 15,
+     "movement": {
+      "kind": "straight",
+      "distance": 30
+     }
+    }
+   ],
+   "id": "gw-ship-horizon-time"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-ship-bow-blind-spot",
+  "topicId": "channels-traffic",
+  "question": "Why must you never linger close ahead of a moving ship's bow?",
+  "options": [
+   "The bow blind spot can hide you for several hundred metres - the crew simply cannot see you.",
+   "It is only a problem for ships carrying deck cargo.",
+   "The danger is only the ship's wash; visibility is not an issue.",
+   "There is no danger if the ship is travelling slowly."
+  ],
+  "explanation": "A ship with its bridge aft has a blind spot stretching several hundred metres ahead of its bow, and further still with deck containers. If you cannot see the ship's bridge, its crew cannot see you, and the ship could run you down without ever knowing you were there.",
+  "citations": [
+   {
+    "reference": "BoatSafe Workbook section 4.9 (navigating near shipping channels); Maritime Safety Queensland shipping safety guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Small boat in the blind spot ahead of a ship's bow",
+   "layout": {
+    "kind": "channel",
+    "length": 160,
+    "channelWidth": 56,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": -58
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": -58
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 58
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 58
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": 0,
+     "y": 34,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 55
+     }
+    },
+    {
+     "id": "B",
+     "x": 6,
+     "y": -30,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 15
+     }
+    }
+   ],
+   "id": "gw-ship-bow-blind-spot"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-500-metre-clearance",
+  "topicId": "channels-traffic",
+  "question": "If you must cross ahead of a moving ship, what is a sensible minimum clearance to allow?",
+  "options": [
+   "About 500 metres - any closer and the ship may not see you or be able to react.",
+   "About 30 metres.",
+   "About 100 metres.",
+   "One ship length is always enough."
+  ],
+  "explanation": "Give a moving ship around 500 metres of clear water if you have to cross its path: it can be covering hundreds of metres a minute, its bow blind spot can swallow a small boat, and it cannot stop or swerve. When in doubt, cross astern instead.",
+  "citations": [
+   {
+    "reference": "Maritime Safety Queensland: boating safely near ships",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Crossing well ahead of a ship in the channel",
+   "animate": false,
+   "layout": {
+    "kind": "channel",
+    "length": 170,
+    "channelWidth": 60,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -30,
+      "y": -63
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 30,
+      "y": -63
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -30,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 30,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -30,
+      "y": 63
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 30,
+      "y": 63
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": -10,
+     "y": 40,
+     "heading": 0,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 62
+     }
+    },
+    {
+     "id": "B",
+     "x": -26,
+     "y": -35,
+     "heading": 90,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 50
+     }
+    }
+   ],
+   "id": "gw-500-metre-clearance"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-no-anchoring-fairway",
+  "topicId": "channels-traffic",
+  "question": "The fish always seem to bite beside a beacon in the shipping fairway. May you anchor there?",
+  "options": [
+   "No - avoid anchoring in a channel or fairway, and especially near navigation marks.",
+   "Yes, if you display an anchor light and keep watch.",
+   "Yes, provided you stay for less than 30 minutes.",
+   "Yes, on weekends when commercial traffic is lighter."
+  ],
+  "explanation": "Anchoring in a fairway parks you exactly where ships must travel, and anchoring near a beacon can obscure the mark or foul your gear on it. The rules tell every vessel to avoid anchoring in a narrow channel - anchor well outside the fairway instead.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 9 (narrow channels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Boat anchored in the fairway as a ship approaches",
+   "animate": false,
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 50,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -25,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 25,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -25,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 25,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -25,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 25,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 8,
+     "y": 2,
+     "heading": 30,
+     "anchored": true
+    },
+    {
+     "id": "B",
+     "vesselKind": "ship",
+     "x": -12,
+     "y": -48,
+     "heading": 180,
+     "holding": true,
+     "movement": {
+      "kind": "straight",
+      "distance": 40
+     }
+    }
+   ],
+   "id": "gw-no-anchoring-fairway"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-travel-along-channel-edge",
+  "topicId": "channels-traffic",
+  "question": "You cannot avoid running along a shipping channel for a stretch. How should you do it?",
+  "options": [
+   "Keep to the outer edge of the channel and monitor VHF channels 12 and 16 for traffic.",
+   "Use the centre of the channel, where the water is deepest.",
+   "Run down the middle at full speed to spend less time in it.",
+   "Follow close under the stern of the first ship you meet."
+  ],
+  "explanation": "If you must use a shipping channel, hug its outer edge, keep an all-round lookout and monitor VHF channels 12 and 16 so you hear about ship movements before you see them. The centre of the channel belongs to the ships that cannot leave it.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 9 (narrow channels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "BoatSafe Workbook section 4.9 (navigating near shipping channels); Maritime Safety Queensland shipping safety guidance",
+    "url": "https://www.msq.qld.gov.au/safety"
+   }
+  ],
+  "scene": {
+   "title": "Small boat hugging the channel edge as a ship passes",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 56,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -28,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 28,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "vesselKind": "ship",
+     "x": -4,
+     "y": -20,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 50
+     }
+    },
+    {
+     "id": "B",
+     "x": 22,
+     "y": 35,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 60
+     }
+    }
+   ],
+   "id": "gw-travel-along-channel-edge"
+  },
+  "correctIndex": 0
+ },
+ {
+  "id": "gw-already-passing-wide",
+  "topicId": "channels-traffic",
+  "question": "An oncoming boat in a wide channel will already pass 50 metres clear down your port side. Must you still swing to starboard?",
+  "options": [
+   "No - if you are already passing well apart, hold your course; the keep-right rule removes doubt in close situations.",
+   "Yes - every oncoming vessel requires an obvious turn to starboard.",
+   "Yes - and you must also sound one short blast as you turn.",
+   "No - you should ease to port to widen the gap even further."
+  ],
+  "explanation": "The keep-starboard and head-on rules exist to remove doubt when vessels meet close. If two boats are already passing port to port at a comfortable distance, an extra swerve adds confusion, not safety - hold your course and let the pass happen.",
+  "citations": [
+   {
+    "reference": "COLREGS, rule 9 (narrow channels)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   },
+   {
+    "reference": "COLREGS, rule 14 (head-on situation)",
+    "url": "https://www.amsa.gov.au/safety-navigation/navigating-coastal-waters/international-regulations-preventing-collisions-sea"
+   }
+  ],
+  "scene": {
+   "title": "Oncoming boats already passing at a wide distance",
+   "layout": {
+    "kind": "channel",
+    "length": 150,
+    "channelWidth": 80,
+    "upstream": "north",
+    "features": [
+     {
+      "kind": "mark",
+      "id": "p0",
+      "markType": "lateralPort",
+      "x": -40,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "s0",
+      "markType": "lateralStarboard",
+      "x": 40,
+      "y": -53
+     },
+     {
+      "kind": "mark",
+      "id": "p1",
+      "markType": "lateralPort",
+      "x": -40,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "s1",
+      "markType": "lateralStarboard",
+      "x": 40,
+      "y": 0
+     },
+     {
+      "kind": "mark",
+      "id": "p2",
+      "markType": "lateralPort",
+      "x": -40,
+      "y": 53
+     },
+     {
+      "kind": "mark",
+      "id": "s2",
+      "markType": "lateralStarboard",
+      "x": 40,
+      "y": 53
+     }
+    ]
+   },
+   "vessels": [
+    {
+     "id": "A",
+     "x": 26,
+     "y": 36,
+     "heading": 0,
+     "movement": {
+      "kind": "straight",
+      "distance": 62
+     }
+    },
+    {
+     "id": "B",
+     "x": -26,
+     "y": -36,
+     "heading": 180,
+     "movement": {
+      "kind": "straight",
+      "distance": 62
+     }
+    }
+   ],
+   "id": "gw-already-passing-wide"
+  },
+  "correctIndex": 0
+ }
+]

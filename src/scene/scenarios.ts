@@ -150,10 +150,12 @@ export const lightsAhead: Scene = {
   layout: {
     kind: 'lightsView',
     silhouette: 'powerboat',
+    // Mirror rule: a bow-on vessel shows its red (port) light on the
+    // viewer's right and green on the viewer's left.
     lights: [
       { color: 'white', x: 50, y: 22, size: 'small' },
-      { color: 'red', x: 44, y: 31 },
-      { color: 'green', x: 56, y: 31 },
+      { color: 'green', x: 44, y: 31 },
+      { color: 'red', x: 56, y: 31 },
     ],
   },
   vessels: [],
