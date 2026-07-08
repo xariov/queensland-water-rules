@@ -3,3 +3,11 @@ dist/
 source-material/
 *.local
 /screenshots/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+.env
+.env.local
